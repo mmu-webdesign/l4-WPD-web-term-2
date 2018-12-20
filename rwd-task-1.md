@@ -2,7 +2,7 @@
 
 ## Starting your portfolio page
 
-You are going to develop a single page portfolio. This one page introduces you to the basics of RWD (responsive web design) and further elements of page layout, typography, web design and coding.
+You are going to develop a single page portfolio. This one page introduces you to the basics of RWD (responsive web design), mobile first web development and further elements of page layout, typography, web design and coding.
 
 ## Getting started
 
