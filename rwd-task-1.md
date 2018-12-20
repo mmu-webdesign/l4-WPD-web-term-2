@@ -11,12 +11,12 @@ You are going to develop a single page portfolio. This one page introduces you t
 
 INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. COPY & PASTE INTO EDITOR AND SAVING AS INDEX.HTML)
 
-- Create a blank css file called `layout.css` and add it to the root of your site. The html template already contains a link in the `&lt;head&gt;`.
+- Create a blank css file called `layout.css` and add it to the root of your site. The html template already contains a link in the `<head>`.
 
-- Keep your browser window small - don't use it at full screen - we are developing *mobile first*.
+- Keep your browser window small (no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.
 
 - Test `index.html` in a browser. 
-- Check `layout.css` is working by adding the line: <br> `* { border:1px solid red; }`
+- Check `layout.css` is working by adding the line: `* { border:1px solid red; }`
 - Everything should get a red border. Yes? Then you can delete this line.
 
 
