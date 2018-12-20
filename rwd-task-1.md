@@ -1,6 +1,6 @@
-## RWD Task List One
+# RWD Task List One
 
-# Starting your portfolio page
+## Starting your portfolio page
 
 You are going to develop a single page portfolio. This one page introduces you to the basics of RWD (responsive web design) and further elements of page layout, typography, web design and coding.
 
@@ -11,7 +11,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 
 INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. COPY & PASTE INTO EDITOR AND SAVING AS INDEX.HTML)
 
-- Create a blank css file called `layout.css` and add it to the root of your site. The html template already contains a link in the &lt;head&gt;.
+- Create a blank css file called `layout.css` and add it to the root of your site. The html template already contains a link in the `&lt;head&gt;`.
 
 - Keep your browser window small - don't use it at full screen - we are developing *mobile first*.
 
