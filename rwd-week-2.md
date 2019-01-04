@@ -1,4 +1,4 @@
-# RWD Task List One
+# RWD Week Two
 
 ## Starting your portfolio page
 
@@ -18,34 +18,23 @@ INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. DOWNLOADING ZIP AND OPENING IN
 - Check `layout.css` is working by adding the line: `* { border:1px solid red; }`
 - Everything should get a red border. Yes? Then you can delete this line.
 
+### Working *mobile first*
 Keep your browser window small (mobile size - no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.
 
 
 ## Task 2 - Adding your content
 
-Add your content (created over the last week) to the HTML file in the About and Work sections. Tag up your content, remembering to use headings, paragraphs, links, and lists as appropriate. Note that we are not adding your original images yet.
+**Add your content** (created over the last week) to the HTML file in the About and Work sections. 
 
-- **About me** – engaging text to attract and inform the user. Mindful of Search Engine Optimisation (SEO), using relevant keywords and such. Tell the reader something about yourself. 150 words maximum. You may want to include links to your social media feeds in this section if you have them.
-- **Work experience** – details of your current and previous work experience. Include relevant links and media. 200 words maximum. **NOTE** - If you have no work experience change this section to **Interests** in relation to your course.
+**Tag up your content**, remembering to use headings, paragraphs, links, and lists as appropriate. 
+
+- **About me** – engaging text to attract and inform the user. 150 words maximum plus relevant links.
+- **Work experience** – details of your current and previous work experience or change this section to **Interests** in relation to your course. 200 words maximum.
 
 
 ## Before you go further
 
 - [Validate your HTML additions](https://validator.w3.org/#validate_by_upload). Fix any problems.
-
-## Your images
-
-- Take or create three original images to illustrate things important to you.
-- Usually these are photographs (jpeg format). 
-- If they are illustrations either gif, svg or png formats may be more relevant.
-- If they can all be the same orientation (landscape or portrait) it does make things simpler, but is not essential. 
-- **You will require a 4th original image for your 'big banner', often known as the 'hero' image**. This is going to be used at a much larger size. It needs to be high quality. It should be landscape. 
-- If you are struggling to create a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). 
-- Remember to keep the full size original image.
-
-**NOTE:** We are not using your images yet - we have inserted the code for dummy images - you will replace these with your own, optimized images next week.
-
-
 
 ## Making your CSS 'sensible'
 
