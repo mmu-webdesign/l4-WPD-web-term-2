@@ -6,10 +6,14 @@ You are going to develop a single page portfolio. This one page introduces you t
 
 ## Getting started
 
-- Create a folder called `portfolio` to contain this project. Add a sub-folder called `media` for your images.
-- [Get the HTML from github](https://raw.githubusercontent.com/wilsonderren/responsive-website-template/master/index.html) - copy &amp; paste into your editor and save to the root folder as `index.html`
+### Task 1
 
-INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. COPY & PASTE INTO EDITOR AND SAVING AS INDEX.HTML)
+- Create a folder called `portfolio` to contain this project. Add a sub-folder called `media` for your images.
+- [Get the HTML from github](https://github.com/mmu-webdesign/l4-rwd-template) - Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.
+- Using _Visual Studio Code_ - open folder to define on the new folder (just download). Open index.html.
+
+
+INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. DOWNLOADING ZIP AND OPENING IN VSC)
 
 - Create a blank css file called `layout.css` and add it to the root of your site. The html template already contains a link in the `<head>`.
 
