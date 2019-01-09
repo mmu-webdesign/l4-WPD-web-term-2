@@ -132,8 +132,8 @@ Looking at `index.html` in your browser you will have noticed that the images we
 
 To fix this problem add this [flexible image CSS code from Derren's CodePen](https://codepen.io/wilsondmmu/pen/ZvPBgv) to `layout.css`. 
 
-<p data-height="265" data-theme-id="0" data-slug-hash="ZvPBgv" data-default-tab="css,result" data-user="wilsondmmu" data-pen-title="Responsive images" class="codepen">See the Pen <a href="https://codepen.io/wilsondmmu/pen/ZvPBgv/">Responsive images</a> by Derren Wilson (<a href="https://codepen.io/wilsondmmu">@wilsondmmu</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe height='262' scrolling='no' title='Responsive images' src='//codepen.io/wilsondmmu/embed/ZvPBgv/?height=262&theme-id=light&default-tab=css,result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/wilsondmmu/pen/ZvPBgv/'>Responsive images</a> by Derren Wilson (<a href='https://codepen.io/wilsondmmu'>@wilsondmmu</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 Save the changes to `layout.css` and reload `index.html` in your browser. You will now see that the dummy images we have provided size themselves to the browser window. Whilst this is not true *responsive images* - that would serve differnt size images to different size screens, it does provide a simple solution.
 
