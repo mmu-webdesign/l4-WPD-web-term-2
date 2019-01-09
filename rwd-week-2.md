@@ -35,8 +35,6 @@ We will provide an overview of the semantic structure and how this relates to th
 
 - Page Layout & code structure explained - for Digital Media & Communications students.
 
-VIDEO OF SAME.
-
 ---
 
 ## Task 3 - Adding your content
@@ -150,7 +148,7 @@ Remember as you further develop your CSS to add comments as you go to your code 
 
 Web Fonts offers a much wider array of options beyond the basic web safe font families. It is now possible create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
 
-There are some drawbacks. Adding Web Fonts to your page increases the overall download time and *weight* of the page. Fonts be costly. Free does always mean good. 
+There are some drawbacks. Adding Web Fonts to your page increases the overall download time and *weight* of the page. Fonts can be costly. Free doesn't always mean good. 
 
 We would you to select either a single Google Font for both your headings and text, or a pair of complimentary fonts (one for headings, one for the text). 
 
@@ -158,20 +156,62 @@ Read the [MDN Web Fonts article](https://developer.mozilla.org/en-US/docs/Learn/
 
 ### Selecting and adding your Google Font(s)
 
-- Identify a single font (or font pairing) on [google fonts](https://fonts.google.com/): it could be for your headings, for your 'body copy', or for both.
-- Add the google font code to the `<head>` of your `index.html` file, before the link to your layout.css file (repeat this if you have a second font).
-- Add the font-family CSS rule from google fonts to your layout.css file.
-- Base font (body) - Google font, web safe font, fallback.
-- Add a font-size in pixels, maybe 1.2rems? Heading and paragraphs.
-- Add line-height as a 'multiplier', e.g. 2.4?
-- Check it's working. Does it look right? **Adjust it until it does**.
-- Style your section headings `<h2>` by changing one or two things about them: font-weight, font-size, color, text-transform: uppercase, letter-spacing?
-
-INSERT - VIDEO DEMONSTRATION - SELECTING A FONT PAIRING, ADDING LINKS, ADDING CSS, SIZING, TESTING.
+- Identify a single font (or font pairing) on [Google Fonts](https://fonts.google.com/): it could be for your headings, for your *body copy*, or for both.
 
 ### Help in selecting your fonts
 - [Layouts designed with google fonts](https://femmebot.github.io/google-type/) 
 - [The best google fonts according to Typewolf](https://www.typewolf.com/google-fonts)
+
+### Apply your selected Google Font(s)
+
+Once you have chosen your font(s), they need to be added to your HTML and CSS.
+
+- Add the Google Font code for your *body copy* to the `<head>` of your `index.html` file, **before the link to** `layout.css`. Repeat this if you have selected a second font.
+- Add the font-family CSS rule from Google Fonts to your body rule in `layout.css`.
+- By default Google provides a family of the font you have selected and a generic fallback. Insert between these [a suitable web safe font](https://codepen.io/wilsondmmu/pen/ZaJwOy).
+- Base font (body) should read - Google font, web safe font, fallback.
+
+Save `layout.css` and view the changes to `index.html` in a browser.
+
+INSERT - VIDEO DEMONSTRATION - SELECTING A FONT PAIRING, ADDING LINKS, ADDING CSS, SIZING, TESTING.
+
+```
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+```
+Find the above comment in `layout.css` and add styles to headings and paragraphs.
+
+- If you have selected a second Google Font for headings you will need to apply this (usually to all headings).
+
+```
+h1, h2, h3 {
+font-family: Google font, web safe font, generic fallback;
+}
+```
+- Add a font-size in rems. 1 rem will be 16px.
+
+```
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+```
+Experiment to see what works best for your chosen fonts. Are the paragraphs legible? Are the headings suitably big enough?
+
+
+- Next adjust the line-height in your body rule. Adjust to improve the legibility of your text.
+
+- Save `layout.css` and check it's working by viewing `index.html` in your browser. Does it look right? **Adjust it until it does**.
+- Style your section headings `<h2>` by changing one or two things about them: font-weight, font-size, color, text-transform: uppercase, letter-spacing?
+
+
 
 ## Adding colour
 
