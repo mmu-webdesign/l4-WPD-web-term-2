@@ -31,9 +31,9 @@ We will provide an overview of the semantic structure and how this relates to th
 
 ### Download full PDF
 
-- [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf) - for Technical Solutions Apprentice students.
+- [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf) - for **Technical Solutions Apprentice students**.
 
-- Page Layout & code structure explained - for Digital Media & Communications students.
+- [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/dmc-website-structure.pdf) - for **Digital Media & Communications students**.
 
 ---
 
@@ -144,7 +144,7 @@ Remember as you further develop your CSS to add comments as you go to your code 
  ```
 ---
 
-## Task 6 - Selecting & adding Google fonts
+## Task 6 - Selecting & adding Google Fonts
 
 Web Fonts offers a much wider array of options beyond the basic web safe font families. It is now possible create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
 
@@ -209,15 +209,82 @@ Experiment to see what works best for your chosen fonts. Are the paragraphs legi
 - Next adjust the line-height in your body rule. Adjust to improve the legibility of your text.
 
 - Save `layout.css` and check it's working by viewing `index.html` in your browser. Does it look right? **Adjust it until it does**.
-- Style your section headings `<h2>` by changing one or two things about them: font-weight, font-size, color, text-transform: uppercase, letter-spacing?
+- Style your header `<h1>` and section `<h2>` headings by changing one or two things about them: font-weight, font-size, color, text-transform: uppercase, letter-spacing etc.
+
+As the project develops you will adjust and enhance these settings. You may spot a *better* font. You will improve your writing and you will undoubtedly add more sophisticated styles. 
+
+---
+
+## Task 7 - Selecting a colour scheme
+
+On our illustration of the layout we have alternate grey and white background colours for each section, plus a black background for both the navigation and footer. We would like you to select an appropriate colour scheme. This would include colours for:
+
+- Body text
+- Headings
+- Navigation (background)
+- Sections (background) - two complimentary/contrasting colours
+- Footer (background)
+- Link colours (all states)
+
+**Research a colour scheme** - try [coolors.co](https://coolors.co/). 
+
+**Choose one primary colour and use tints and shades of that colour for the backgrounds. You may also want to select an accent colour.**
+
+**Colour contrast** - check that that each colour/tint has a strong contrast with your text colour. Test each section colour by using [Lea Verou's Contrast ratio checker](http://contrast-ratio.com/). You are looking for a AAA (green) pass for each section. 
+
+We will apply the colours next week.
+
+If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your pallete, including selecting primary and accent colours.
+
+## Colour resources
+
+- [Coolors.co](https://coolors.co/) - a really good colour palette chooser.
+- [Adobe colour wheel](https://color.adobe.com/create/color-wheel/) - you may also want to try out this colour tool which helps you come up with colour palettes for your site.
+- [CSS for Backgrounds](http://cssreference.io/backgrounds/) - a reference site for all the ways we can control backgrounds in CSS.
+- [WebAIM Colour Contrast Checker](https://webaim.org/resources/contrastchecker/) and [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/).
+
+---
+
+## Task 8 - The Style Guide
+
+In your pages folder you will find `style-guide.html`. This is a standalone style guide for your site. 
+
+Edd Sowden writing for [GOV.UK](https://gdstechnology.blog.gov.uk/2014/12/11/govuk-living-style-guide/) says...
+
+>When trying to develop a site with a consistent look and feel it’s common to [develop a style guide](https://24ways.org/2011/front-end-style-guides/) with patterns which can be reused across the site. This lets designers easily reuse standard patterns and lets developers know how to make things look.
+
+Edit `style-guide.html` to:
+
+- Add your chosen colours to the swatches. Add more swatches if needed.
+- Add
 
 
 
-## Adding colour
+---
 
-- Research a colour scheme - try [coolors.co](https://coolors.co/). Save your colour scheme as a pdf or png for later. Choose one main colour and use tints and shades of that colour for the backgrounds of your 4 `<section>`'s.
+## Testing
 
-INSERT - VIDEO ILLUSTRATING SELECTION OF A COLOUR SCHEME AND GETTING HEX CODES/PDF 
+At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). **Fix any problems**.
+
+---
+
+## Week 1 Checklist
+
+-
+
+
+
+
+
+
+## Are you up to date?
+Before you start Task 2 [use the Task 1 check list](rwd-task1-checklist.html). Have you completed everything?
+
+- Fix any problems before you continue.
+- Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
+
+
+For next week?
 
 - Apply these different background colours to the *About Me, Work Experience, Image Gallery and Contact Me* sections .
 
@@ -228,25 +295,7 @@ INSERT - CODEPEN ILLUSTRATING BACKGROUND COLOURS VIA SECTION CLASSES. PERHAPS IL
 - Your original images, especially the 'big header' image may influence the colour scheme you want to use. 
 - always keep in mind the contrast between your text and any background colour (see below).
 
-## Testing
-- [Validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). Fix any problems.
-- Colour contrast - check that that each colour/tint has a strong contrast with your text colour. Test each section colour by using [Lea Verou's Contrast ratio checker](http://contrast-ratio.com/). You are looking for a AAA (green) pass for each section. 
 
-
-## Colour resources
-
-- [Coolors.co](https://coolors.co/) - a really good colour palette chooser.
-- [Adobe colour wheel](https://color.adobe.com/create/color-wheel/) - you may also want to try out this colour tool which helps you come up with colour palettes for your site.
-- [CSS for Backgrounds](http://cssreference.io/backgrounds/) - a reference site for all the ways we can control backgrounds in CSS.
-
-## Are you up to date?
-Before you start Task 2 [use the Task 1 check list](rwd-task1-checklist.html). Have you completed everything?
-
-- Fix any problems before you continue.
-- Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
-
-
-For next week?
 ## Adding a responsive column
 
 - [Add the responsive column of content CSS](https://codepen.io/wilsondmmu/pen/PJQYZG)  illustrated in the lecture, creating the class `.container-content`
