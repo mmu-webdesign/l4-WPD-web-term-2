@@ -21,8 +21,13 @@ INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. DOWNLOADING ZIP AND OPENING IN
 ### Working *mobile first*
 Keep your browser window small (mobile size - no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.
 
+## Task 2 - The structure - review of HTML template
 
-## Task 2 - Adding your content
+Overview of the semantic structure of the template in class.
+
+VIDEO OF SAME.
+
+## Task 3 - Adding your content
 
 **Add your content** (created over the last week) to the HTML file in the About and Work sections. 
 
@@ -36,10 +41,43 @@ Keep your browser window small (mobile size - no more than half) - don't develo
 
 - [Validate your HTML additions](https://validator.w3.org/#validate_by_upload). Fix any problems.
 
-## Making your CSS 'sensible'
+## Task 4 - Making your CSS 'sensible' - The CSS re-set
+
+Our template includes `layout.css`. We have included a basic re-set (to remove some of the browsers default settings) and comments to guide your initial styling.
+
+
+```
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+```
+
+Update the font-family with Google Font, web safe font and generic fall back.
+
+```
+    font-size: 100%; 
+```
+Remember that the default browser font size is 16px.
+```
+    line-height: 1 ; 
+```
+
+update to suit your type choices
+
+```
+    color: #000;  
+```
+    /* base text colour - update to suit your design */
+```
+}
+```
 
 - [Add the border box model CSS](https://www.paulirish.com/2012/box-sizing-border-box-ftw/) - copy &amp; paste the code from this article.
 - **Add a basic reset** - Reset your margins and padding to zero for h1, h2 and p tags.
+
+This may include..
+
 - Add [the flexible image CSS](https://codepen.io/wilsondmmu/pen/ZvPBgv) to your CSS file.
 
 Add comments as you go to your code *about* what you've added. The syntax for CSS comments: <br> `/* your comment */`
@@ -49,7 +87,8 @@ Add comments as you go to your code *about* what you've added. The syntax for CS
 - Identify a single font (or font pairing) on [google fonts](https://fonts.google.com/): it could be for your headings, for your 'body copy', or for both.
 - Add the google font code to the `<head>` of your `index.html` file, before the link to your layout.css file (repeat this if you have a second font).
 - Add the font-family CSS rule from google fonts to your layout.css file.
-- Add a font-size in pixels, maybe 26px?
+- Base font (body) - Google font, web safe font, fallback.
+- Add a font-size in pixels, maybe 1.2rems? Heading and paragraphs.
 - Add line-height as a 'multiplier', e.g. 2.4?
 - Check it's working. Does it look right? **Adjust it until it does**.
 - Style your section headings `<h2>` by changing one or two things about them: font-weight, font-size, color, text-transform: uppercase, letter-spacing?
@@ -59,13 +98,6 @@ INSERT - VIDEO DEMONSTRATION - SELECTING A FONT PAIRING, ADDING LINKS, ADDING CS
 ### Help in selecting your fonts
 - [Layouts designed with google fonts](https://femmebot.github.io/google-type/) 
 - [The best google fonts according to Typewolf](https://www.typewolf.com/google-fonts)
-
-## Adding a responsive column
-
-- [Add the responsive column of content CSS](https://codepen.io/wilsondmmu/pen/PJQYZG)  illustrated in the lecture, creating the class `.container-content`
-- 'tune' the `max-width` with a 65 character line for your typeface using this paragraph:  
-`<p>01234567890123456789012345678901234567890123456789012345678912345</p>`
-- There's more information about why we do this and how it works [at this codepen on font sizing and column widths](https://codepen.io/wilsondmmu/pen/PJdGyE).
 
 ## Adding colour
 
@@ -98,3 +130,15 @@ Before you start Task 2 [use the Task 1 check list](rwd-task1-checklist.html). H
 
 - Fix any problems before you continue.
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
+
+
+For next week?
+## Adding a responsive column
+
+- [Add the responsive column of content CSS](https://codepen.io/wilsondmmu/pen/PJQYZG)  illustrated in the lecture, creating the class `.container-content`
+- 'tune' the `max-width` with a 65 character line for your typeface using this paragraph:  
+`<p>01234567890123456789012345678901234567890123456789012345678912345</p>`
+- There's more information about why we do this and how it works [at this codepen on font sizing and column widths](https://codepen.io/wilsondmmu/pen/PJdGyE).
+
+Padding and margins mobile/desktop
+
