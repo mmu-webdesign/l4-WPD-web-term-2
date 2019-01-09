@@ -132,14 +132,26 @@ Looking at `index.html` in your browser you will have noticed that the images we
 
 To fix this problem add this [flexible image CSS code from Derren's CodePen](https://codepen.io/wilsondmmu/pen/ZvPBgv) to `layout.css`. 
 
-<p data-height="262" data-theme-id="light" data-slug-hash="ZvPBgv" data-default-tab="css,result" data-user="wilsondmmu" data-pen-title="Responsive images" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/wilsondmmu/pen/ZvPBgv/">Responsive images</a> by Derren Wilson (<a href="https://codepen.io/wilsondmmu">@wilsondmmu</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
 Save the changes to `layout.css` and reload `index.html` in your browser. You will now see that the dummy images we have provided size themselves to the browser window. Whilst this is not true *responsive images* - that would serve differnt size images to different size screens, it does provide a simple solution.
 
-Add comments as you go to your code *about* what you've added. The syntax for CSS comments: <br> `/* your comment */`
+Remember as you further develop your CSS to add comments as you go to your code *about* what you've added. The syntax for CSS comments: 
 
-## Add one or two Google fonts
+ ```
+ /* your comment */
+ ```
+---
+
+## Task 6 - Selecting & adding Google fonts
+
+Web Fonts offers a much wider array of options beyond the basic web safe font families. It is now possible create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
+
+There are some drawbacks. Adding Web Fonts to your page increases the overall download time and *weight* of the page. Fonts be costly. Free does always mean good. 
+
+We would you to select either a single Google Font for both your headings and text, or a pair of complimentary fonts (one for headings, one for the text). 
+
+Read the [MDN Web Fonts article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) for much more detail if you would like a deeper understanding.
+
+### Selecting and adding your Google Font(s)
 
 - Identify a single font (or font pairing) on [google fonts](https://fonts.google.com/): it could be for your headings, for your 'body copy', or for both.
 - Add the google font code to the `<head>` of your `index.html` file, before the link to your layout.css file (repeat this if you have a second font).
