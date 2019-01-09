@@ -25,10 +25,15 @@ Keep your browser window small (mobile size - no more than half) - don't develo
 
 ## Task 2 - The structure - review of HTML template
 
-Overview of the semantic structure of the template in class.
+We will provide an overview of the semantic structure and how this relates to the visual design of the template in class.
 
-![alt text](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website.jpg "Illustration of full page layout")
-  
+![alt text](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.jpg "Illustration of example full page layout")
+
+### Download full PDF
+
+- [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf) - for Technical Solutions Apprentice students.
+
+- Page Layout & code structure explained - for Digital Media & Communications students.
 
 VIDEO OF SAME.
 
