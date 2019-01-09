@@ -25,6 +25,9 @@ Keep your browser window small (mobile size - no more than half) - don't develo
 
 Overview of the semantic structure of the template in class.
 
+![alt text](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website.jpg "Illustration of full page layout")
+  
+
 VIDEO OF SAME.
 
 ## Task 3 - Adding your content
