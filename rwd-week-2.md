@@ -37,9 +37,9 @@ We will provide an overview of the semantic structure and how this relates to th
 
 ### Download full PDF
 
-- [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf) - for **Technical Solutions Apprentice students**.
+-  **Technical Solutions Apprentice students** - [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf).
 
-- [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/dmc-website-structure.pdf) - for **Digital Media & Communications students**.
+ - **Digital Media & Communications students** - [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/dmc-website-structure.pdf).
 
 ---
 
