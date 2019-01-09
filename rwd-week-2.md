@@ -255,10 +255,12 @@ Edd Sowden writing for [GOV.UK](https://gdstechnology.blog.gov.uk/2014/12/11/gov
 
 Edit `style-guide.html` to:
 
-- Add your chosen colours to the swatches. Add more swatches if needed.
-- Add
+- Add the hex codes for your chosen colours to the swatches.
+- Add your Google Font(s) to the page.
 
+See prompts and comments on the page to guide you.
 
+Save `style-guide.html` and view in the browser. Test and review your font and colour choices.
 
 ---
 
@@ -269,39 +271,13 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 ---
 
 ## Week 1 Checklist
+### Are you up to date?
 
--
+Before you start Week 2 - Have you completed everything?
 
-
-
-
-
-
-## Are you up to date?
-Before you start Task 2 [use the Task 1 check list](rwd-task1-checklist.html). Have you completed everything?
+- 
 
 - Fix any problems before you continue.
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
 
-
-For next week?
-
-- Apply these different background colours to the *About Me, Work Experience, Image Gallery and Contact Me* sections .
-
-INSERT - CODEPEN ILLUSTRATING BACKGROUND COLOURS VIA SECTION CLASSES. PERHAPS ILLUSTRATE 2, ASKING THEM TO ADD OTHERS. THEY CAN 'TAKE AWAY' THE CSS.
-
-### Things to note
-
-- Your original images, especially the 'big header' image may influence the colour scheme you want to use. 
-- always keep in mind the contrast between your text and any background colour (see below).
-
-
-## Adding a responsive column
-
-- [Add the responsive column of content CSS](https://codepen.io/wilsondmmu/pen/PJQYZG)  illustrated in the lecture, creating the class `.container-content`
-- 'tune' the `max-width` with a 65 character line for your typeface using this paragraph:  
-`<p>01234567890123456789012345678901234567890123456789012345678912345</p>`
-- There's more information about why we do this and how it works [at this codepen on font sizing and column widths](https://codepen.io/wilsondmmu/pen/PJdGyE).
-
-Padding and margins mobile/desktop
-
+**End**
