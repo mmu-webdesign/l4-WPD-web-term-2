@@ -18,7 +18,7 @@ INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. DOWNLOADING ZIP AND OPENING IN
 - Check `layout.css` is working by adding the line: 
 
 ```
-* border:1px solid red; } 
+* { border:1px solid red; } 
  ```
 
 
