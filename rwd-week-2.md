@@ -275,7 +275,20 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 Before you start Week 2 - Have you completed everything?
 
-- 
+- Download the template files from GitHub
+- Define the site in Visual Studio Code and view the files (`index.html`, `layout.css` and `style-guide.html`)
+- Working mobile first - resize your browser
+- Review the structure - understand how the design is reflected in the semantic markup.
+- View the full (relevant) layout PDF.
+- Add your content (tag it up).
+- Validate to check for errors.
+- Review the CSS re-sets we have provided - ask if you don't understand.
+- Add the box sizing and flexible image re-sets.
+- Select and add your Google fonts.
+- Select a colour scheme ready for implementing next week.
+- Edit `style-guide.html` to add your colours and font(s).
+
+And finally:
 
 - Fix any problems before you continue.
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
