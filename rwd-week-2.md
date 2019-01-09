@@ -15,7 +15,13 @@ You are going to develop a single page portfolio. This one page introduces you t
 INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. DOWNLOADING ZIP AND OPENING IN VSC AND TESTING AS BELOW)
 
 - Test `index.html` in a browser. 
-- Check `layout.css` is working by adding the line: ` * { border:1px solid red; } `
+- Check `layout.css` is working by adding the line: 
+
+```
+ * { border:1px solid red; } 
+ ```
+ 
+
 - Everything should get a red border. Yes? Then you can delete this line.
 
 ### Working *mobile first*
