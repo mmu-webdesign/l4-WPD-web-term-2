@@ -11,8 +11,11 @@ You are going to develop a single page portfolio. This one page introduces you t
 - You only need the `portfolio` folder - move this into your `term_two_project` folder.
 - Using _Visual Studio Code_ - open folder to define on the `portfolio` folder. Open `index.html` and `layout.css`.
 
+---
 
-INSERT - VIDEO WALK-THROUGH OF THE TEMPLATE (INC. DOWNLOADING ZIP AND OPENING IN VSC AND TESTING AS BELOW)
+[VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewoing.](https://youtu.be/h5Tvh7dPPxs) 
+
+---
 
 - Test `index.html` in a browser. 
 - Check `layout.css` is working by adding the line: 
@@ -32,8 +35,6 @@ Keep your browser window small (mobile size - no more than half) - don't develo
 ## Task 2 - The structure - review of HTML template
 
 We will provide an overview of the semantic structure and how this relates to the visual design of the template in class.
-
-![alt text](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.jpg "Illustration of example full page layout")
 
 ### Download full PDF
 
@@ -179,7 +180,12 @@ Once you have chosen your font(s), they need to be added to your HTML and CSS.
 
 Save `layout.css` and view the changes to `index.html` in a browser.
 
-INSERT - VIDEO DEMONSTRATION - SELECTING A FONT PAIRING, ADDING LINKS, ADDING CSS, SIZING, TESTING.
+---
+
+[VIDEO - Demonstration of selecting and implementing Google Fonts. ](https://www.youtube.com/embed/0M1HcLQcces)
+
+---
+
 
 ```
 /* element styling (e.g. standard p, h1, h2, a, etc) */

@@ -1,5 +1,7 @@
 # RWD Week Three
 
+# Warning - these materials will not be complete until Monday 21st January 2019
+
 # Working with layout
 
 **Remember**: don’t just copy all the code in the codepens. Read it first before you copy what is required for the project.
