@@ -44,7 +44,7 @@ We will provide an overview of the semantic structure and how this relates to th
 
 ---
 
-## Task 3 - Adding your content
+## Task 3 - Adding your content and metadata
 
 
 **Add your content** (created over the last week) to the HTML file in the About and Work sections. 
