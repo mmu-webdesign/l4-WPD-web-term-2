@@ -54,6 +54,34 @@ We will provide an overview of the semantic structure and how this relates to th
 - **About me** – engaging text to attract and inform the user. 150 words maximum plus relevant links.
 - **Work experience** – details of your current and previous work experience or change this section to **Interests** in relation to your course. 200 words maximum.
 
+### Metadata
+
+In the `<head>` of your page you have the three important elements of metadata:
+
+#### Meta viewport
+```
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+```
+For a deeper understanding of the meta viewport tag read - [Using the viewport meta tag to control layout on mobile browsers(https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)].
+
+#### The `<title>` element
+
+`<title>` is not strictly a meta tag, but this is valuable metadata about your page/site. 
+```
+<title>NEVER forget to write a good page title</title>
+```
+For advice on writing a good page title read [the Title Tag article on MDN](https://moz.com/learn/seo/title-tag).
+
+#### The Meta Description
+
+As we have previously explained the meta description is usually displayed on the Google results page along with the URL of your site.
+```
+<meta name="description" content="Add your meta description here">
+```
+Again, there is a good MDN article on the [Meta Description element and SEO good practices](https://moz.com/learn/seo/meta-description).
+
 
 ## Before you go further
 
