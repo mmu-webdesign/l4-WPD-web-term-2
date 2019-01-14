@@ -156,6 +156,13 @@ As with the body you will need to update the font-family with a Google Font, web
 Save any changes to `layout.css`.
 
 ---
+## Note
+
+We have found that the CSS re-set can be distracting at this stage. You may prefer to comment out (wrap a comment around all of this code) all of the above re-sets. They can be re-implemented next week when we start work on the responsive column.
+
+Either way, don't re-apply margins etc with your own CSS.
+
+---
 
 ## Task 5 - Two further CSS  re-sets
 
