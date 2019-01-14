@@ -72,15 +72,22 @@ For a deeper understanding of the meta viewport tag read - [Using the viewport m
 ```
 <title>NEVER forget to write a good page title</title>
 ```
+Write a title that clearly describes your page/site. As this is a personal portfolio it should probably contain your name. 
+
 For advice on writing a good page title read [the Title Tag article on MDN](https://moz.com/learn/seo/title-tag).
 
 #### The Meta Description
 
 As we have previously explained the meta description is usually displayed on the Google results page along with the URL of your site.
+
+Write a good description that compliments and expands on your title.
 ```
 <meta name="description" content="Add your meta description here">
 ```
 Again, there is a good MDN article on the [Meta Description element and SEO good practices](https://moz.com/learn/seo/meta-description).
+
+#### Tip
+Neither your title, meta description or your main heading should contain the words *hello* or *welcome*. Please!
 
 
 ## Before you go further
