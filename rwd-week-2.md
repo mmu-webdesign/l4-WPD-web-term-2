@@ -158,9 +158,9 @@ Save any changes to `layout.css`.
 ---
 ## Note
 
-We have found that the CSS re-set can be distracting at this stage. You may prefer to comment out (wrap a comment around all of this code) all of the above re-sets. They can be re-implemented next week when we start work on the responsive column.
+We have found that the CSS re-set can be distracting at this stage. You may prefer to comment out all of the above re-sets (but this isn't easy). 
 
-Either way, don't re-apply margins etc with your own CSS.
+Either way, don't re-apply margins etc with your own CSS. You page will look bad, but we will address this next week.
 
 ---
 
