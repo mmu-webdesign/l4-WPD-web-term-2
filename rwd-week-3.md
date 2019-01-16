@@ -198,7 +198,7 @@ Copying and amending previously used `<header>` styles is a great starting point
   justify-content: center;
 }
 ```
-If we use a background colour (especially a dark one) then we need to adjust the text colour to ensure a good contrast. 
+If we use a background colour (especially a dark one) then we need to adjust the text colour to ensure good contrast. 
 
 In the footer this also includes link text. When you adjust link colours, remember there are pseudo classes for the four states.
 
