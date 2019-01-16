@@ -188,7 +188,7 @@ You are free to style the `<footer>` as you wish. Apply your styles to `layout.c
 ```
 A few notes:
 
-Copying and amending previously used `<header>` styles is a great starting point. It centres our footer content, we can add some height for effect (**NOT `90vh`!**), and we can apply a background colour.
+Copying and amending previously used `<header>` styles is a great starting point. It centres our footer content, we can add some height for effect (**NOT `90vh`!**), and we can apply a background colour. Just remember to apply it to the **footer element** not the `.page-header` class.
 ```
 .page-header {
   background: green;
