@@ -20,7 +20,7 @@ Add the class and styles to `layout.css` under the comment:
 ```
 ### Adjustments
 
-**Tip** you might find it useful to re-apply the red border to everything. This will help you see what is happening as you make adjustments. The code is:
+You might find it useful to **re-apply the red border to everything**. This will help you see what is happening as you make adjustments. The code is:
 
 ```
 * { border:1px solid red; } 
@@ -43,13 +43,13 @@ Adjust the **width** with your browser window at a normal desktop size.
 max-width: 600px;
 ```
 
-*Tune* the `max-width` by using a 65 character line for your typeface using this paragraph:  
+*Tune* your `max-width` by using a 65 character line for your typeface. Use this paragraph:  
 ```
 <p>01234567890123456789012345678901234567890123456789012345678912345</p>
 ```
-Drop this paragraph at the top of your *About me* section. Does it fit? Adjust the `max-width` value until the paragraph of 65 characters fits across your page.
+Drop this paragraph at the top of your *About me* section. *Does it fit or does it wrap?* Adjust the `max-width` value until the paragraph of 65 characters fits across your page without wrapping.
 
-There's more information about why we do this and how it works [at this codepen on font sizing and column widths](https://codepen.io/wilsondmmu/pen/PJdGyE).
+There's more information about why we do this and how it works at this [codepen on font sizing and column widths](https://codepen.io/wilsondmmu/pen/PJdGyE).
 
 Finally, check your page at mobile size. Is your font size for text and headings, or your line height causing any issues? Does your content work in this narrow column? **Note** that we will sort out the header and footer soon.
 
