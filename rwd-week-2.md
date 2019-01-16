@@ -324,10 +324,10 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ---
 
-## Week 1 Checklist
+## Week 2 Checklist
 ### Are you up to date?
 
-Before you start Week 2 - Have you completed everything?
+Before you start Week 3 - Have you completed everything?
 
 - Download the template files from GitHub
 - Define the site in Visual Studio Code and view the files (`index.html`, `layout.css` and `style-guide.html`)

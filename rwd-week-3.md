@@ -138,37 +138,116 @@ The final section of code provides a very neat solution for creating a button ou
 ```
 If you chose to add a *call to action* this way, edit the above as required.
 
+- You should have a suitable 'hero' image to add using the CSS background declaration next week.
 
-
-
-- You should have a suitable 'hero' image to add using the CSS background declaration.
-
-INSERT - VIDEO DEMO OF APPLYING ABOVE, ADDING IMAGE, A FEW VARIATIONS ON WHAT THEY COULD DO WITH TEXT/BUTTONS.
-
-### Reminder 
-
-- If you are struggling to create a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). 
-- You can [resize the big header image](http://www.simpleimageresizer.com/) and [compress the image](https://tinyjpg.com/) without necessarily needing Photoshop.
-- Remember to keep the full size original image.
-- *Alt text* - background images do not have (or need) alt text. However, that means you should not *hide* anything in the image you need your user to read.
-- You might want to modify the image so that there is enough contrast between the foreground and background. One way of doing this is by using photoshop, or you could [try using a 'background-blend-mode' in CSS](https://codepen.io/wilsondmmu/pen/XZrBzd).
-
-INSERT - DEMO VIDEO OF ABOVE.
-
-INSERT - WE NEED VIDEOS OF BOTH OF THESE PROCESSES FOR THE FIRST TERM ANYWAY. ALSO NEED A VIDEO OF SAVE FOR THE WEB PROCESS IN PHOTOSHOP.
-
-- Style the text of your header. Think about font size, spacing, font weight.
-
-SHOULD WE ADD TEXT SHADOW OR SUCH AS AN OPTION? OR DO WE HAVE A LINK OR TWO OF DIFFERENT TECHNIQUES?
-
-- Test your header by changing the size of the browser window.
-
-ARE WE GOING TO SUGGEST A DIFFERENT SIZE FOR LARGER SCREENS? OR DO WE ADD THIS LATER?
+VIDEO DEMO OF APPLYING ABOVE, ADDING IMAGE, A FEW VARIATIONS ON WHAT THEY COULD DO WITH TEXT/BUTTONS?
 
 ---
 
-## Task 2 - Background colours
+## Task 3 - Background colours
 
-- Nav
-- sections
-- footer
+Our portfolio design uses a single page to deliver a variety of content. Whereas in the past this may have done with a number of separate pages, this technique gives us slick *all in one* design solution.
+
+Commonly colour or images are used to define each section. This ensures that the user (as they travel down the page) feel and notice they are moving from one section to the next.
+
+[See how Apple use backgrounds to define sections on the current Mac page](https://www.apple.com/uk/mac/)  using subtle colours and (often) strong media.
+
+Use your colour scheme to provide contrast bewteen your `<section>`s.
+
+```
+/* background colours for sections */
+```
+Target the specific section classes. 
+```
+.about-me {
+    background-color: #;
+}
+
+.work-experience {
+    background-color: #;
+}
+
+.image-gallery {
+    background-color: #;
+}
+
+.contact-me {
+    background-color: #;
+}
+```
+Test the colour contrast of your foreground (text) and background colours using [Lea Verou's Contrast Ratio checker](https://contrast-ratio.com). 
+
+---
+
+## Task 4 - Styling the footer
+
+You are free to style the `<footer>` as you wish. Apply your styles to `layout.css` under the comment:
+
+```
+/* footer */
+```
+A few notes:
+
+Copying and amending previously used `<header>` styles is a great starting point. It centres our footer content, we can add some height for effect (**NOT `90vh`!**), and we can apply a background colour.
+```
+.page-header {
+  background: green;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+```
+If we use a background colour (especially a dark one) then we need to adjust the text to ensure a good colour contrast. 
+
+In the footer this also includes link text. When you adjust link colours, remember there are pseudo classes for the four states.
+
+```
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+```
+If these styles are going to be specific to the footer you will need to add the *element selector* to each rule. For example:
+
+```
+footer a:link {
+
+}
+```
+[Further detail on styling links at MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links).
+
+>"When styling links, it is important to understand how to make use of pseudo-classes to style link states effectively, and how to style links for use in common varied interface features such as navigation menus and tabs." 
+
+---
+
+## Testing
+
+At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). **Fix any problems**.
+
+---
+
+## Week 3 Checklist
+### Are you up to date?
+
+Before you start Week 4 - Have you completed everything?
+
+- Task 1 created a flexible column for the content of your `<section>`s. You have adjusted the `padding`, ``max-width`` and other elements to ensure your content looks good in a mobile viewport, but does not let the line length of your text fo beyond 65 characters.
+- In Task 2 you have styled *the big header* by apply the supplied styles, making adjustments as directed.
+- Task 3 asked you to apply background colours. Undertake careful research to find the right palette that reflects the mood and feel you are trying to reflect in your portfolio site.
+- Task four asked you to style the footer, proving tips on approaches.
