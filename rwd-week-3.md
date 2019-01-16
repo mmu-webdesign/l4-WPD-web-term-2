@@ -250,4 +250,4 @@ Before you start Week 4 - Have you completed everything?
 - Task 1 created a flexible column for the content of your `<section>`s. You have adjusted the `padding`, ``max-width`` and other elements to ensure your content looks good in a mobile viewport, but does not let the line length of your text fo beyond 65 characters.
 - In Task 2 you have styled *the big header* by apply the supplied styles, making adjustments as directed.
 - Task 3 asked you to apply background colours. Undertake careful research to find the right palette that reflects the mood and feel you are trying to reflect in your portfolio site.
-- Task four asked you to style the footer, proving tips on approaches.
+- Task four asked you to style the footer, providing advice on approaches.
