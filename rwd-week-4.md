@@ -4,8 +4,6 @@
 
 ## Hero image 
 
-### Reminder 
-
 - If you are struggling to create a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). 
 - You can [resize the big header image](http://www.simpleimageresizer.com/) and [compress the image](https://tinyjpg.com/) without necessarily needing Photoshop.
 - Remember to keep the full size original image.
@@ -27,6 +25,10 @@ ARE WE GOING TO SUGGEST A DIFFERENT SIZE FOR LARGER SCREENS? OR DO WE ADD THIS L
 ## Contrast &amp; Blend mode
 
 ## Gallery using Flexbox
+
+including then adding personal images, optimisation, alt text, figure and fig caption.
+
+un-centre captions.
 
 ## Validate
 
