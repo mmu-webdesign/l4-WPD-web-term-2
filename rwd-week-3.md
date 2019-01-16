@@ -53,7 +53,7 @@ There's more information about why we do this and how it works at this [codepen
 
 Finally, check your page at mobile size. Is your font size for text and headings, or your line height causing any issues? Does your content work in this narrow column? **Note** that we will sort out the header and footer soon.
 
-Comment out `* { border:1px solid red; } ` if applied.
+You can comment out `* { border:1px solid red; } ` if applied (but it is handy for the next section).
 
 ---
 
@@ -63,7 +63,13 @@ Comment out `* { border:1px solid red; } ` if applied.
 
 Copy the relevant code into your stylesheet: the 'class names' should already suit the template. Place under the `/* page header */` comment.
 ```
-.page-header
+.page-header {
+  background: green;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
 ```
 Swap out `background: green;` with a suitable colour from your pallete. This is merely a fallback colour as we will be adding your *hero* image as the background next. Make sure the colour you use has good contrast with your text. **Why?** If your hero image fails to load you want to be sure the text is legible.
 
