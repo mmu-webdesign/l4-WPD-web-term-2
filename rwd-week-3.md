@@ -3,7 +3,7 @@
 ## Working with layout
 
 ### Before you start - Are you up to date?
-Before you proceed use the check list found at the bottom of Week One. Have you completed everything?
+Before you proceed use the check list found at the bottom of Week Two. Have you completed everything?
 
 - Fix any problems before you continue.
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
