@@ -317,6 +317,9 @@ See prompts and comments on the page to guide you.
 Save `style-guide.html` and view in the browser. Test and review your font and colour choices.
 
 ---
+**Video** - [Using coolors.co for your colour scheme and apply colours and Google fonts to your styleguide](https://www.youtube.com/watch?v=c5EGMwk8SR0).
+
+---
 
 ## Testing
 

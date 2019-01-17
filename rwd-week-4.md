@@ -4,6 +4,8 @@
 
 ## Hero image 
 
+We
+
 - If you are struggling to create a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). 
 - You can [resize the big header image](http://www.simpleimageresizer.com/) and [compress the image](https://tinyjpg.com/) without necessarily needing Photoshop.
 - Remember to keep the full size original image.
