@@ -30,7 +30,8 @@ You might find it useful to **re-apply the red border to everything**. This will
 
 Adjust the **padding** whilst your browser window is narrow (mobile size). Padding is going to be important at *mobile* size to keep your content away from the edge of the screen.
 ```
-padding: 10px;
+padding-left: 10px;
+padding-right: 10px;
 ```
 Adjust the padding to best fit your font size and layout. 
 
