@@ -137,11 +137,9 @@ The final section of code provides a very neat solution for creating a button ou
     font-size: 1rem;
 }
 ```
-If you chose to add a *call to action* this way, edit the above as required.
+If you chose to add a *call to action* this way, edit the above as required. If you don't, you can remove this block of code.
 
-- You should have a suitable 'hero' image to add using the CSS background declaration next week.
-
-VIDEO DEMO OF APPLYING ABOVE, ADDING IMAGE, A FEW VARIATIONS ON WHAT THEY COULD DO WITH TEXT/BUTTONS?
+**Note** - You should have a suitable 'hero' image to add using the CSS background declaration next week.
 
 ---
 
