@@ -139,6 +139,12 @@ The final section of code provides a very neat solution for creating a button ou
 ```
 If you chose to add a *call to action* this way, edit the above as required. If you don't, you can remove this block of code.
 
+---
+
+Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM).
+
+---
+
 **Note** - You should have a suitable 'hero' image to add using the CSS background declaration next week.
 
 ---
