@@ -7,7 +7,11 @@ You are going to develop a single page portfolio. This one page introduces you t
 ## Task 1 - Getting started
 
 - Create a folder called `term_two_project` to contain this project. 
-- [Get the template portfolio from github](https://github.com/mmu-webdesign/l4-rwd-template) - Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.
+- Get the template portfolio code from github.
+- **IMPORTANT** If you are doing IWD (Apprentice Intro to web) use the [l4-rwd-template code](https://github.com/mmu-webdesign/l4-rwd-template)
+- **IMPORTANT** If you are doing WPD (Web Page Development) use the [l4-rwd-template-components code](https://github.com/mmu-webdesign/l4-rwd-template-components)
+- Check you have the right template. Using the wrong template will get you out of sync later on in these instructions.
+- Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.
 - You only need the `portfolio` folder - move this into your `term_two_project` folder.
 - Using _Visual Studio Code_ - open folder to define on the `portfolio` folder. Open `index.html` and `layout.css`.
 
