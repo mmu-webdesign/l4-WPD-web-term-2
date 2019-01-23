@@ -119,6 +119,18 @@ background-position:center;
 
 ## Task 3 - Background blend mode
 
+>The background-blend-mode CSS property sets how an element's background images should blend with each other and with the element's background color. [`background-blend-mode` on CSS Tricks](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
+
+We can use a combination of the hero image and the background colour to provide a better platform for your title and tag line.
+
+Add `background-blend-mode` to the class `.page-header`.
+
+```
+background-blend-mode: multiply;
+```
+Now adjust your page header `background-color` to get a blend that works for both your hero image and your design.
+
+You can also try out a number of the *blend modes*. Some work better than others. This [CodePen from CCS Tricks illustrates the differences](https://codepen.io/team/css-tricks/full/GgavOP). Read the full [background-blend-mode article](https://css-tricks.com/almanac/properties/b/background-blend-mode/) for more detail.
 
 ---
 
@@ -192,21 +204,9 @@ You can apply either of these techniques to your tagline paragraph as well. Adju
 
 **Video** - [Derren demonstrates the various properties applied to our page header](https://youtu.be/2W-epxO_Xvs)  including the hero image, `text-shadow` and `background-blend-mode`.
 
+**CodePen** - View Derren's CodePen - [Tuning your background to suit your site](https://codepen.io/wilsondmmu/pen/ZwEvLo) for a demonstration of both `text-shadow` and `background-blend-mode`.
+
 ---
-
-
-INSERT - WE NEED VIDEOS OF BOTH OF THESE PROCESSES FOR THE FIRST TERM ANYWAY. ALSO NEED A VIDEO OF SAVE FOR THE WEB PROCESS IN PHOTOSHOP.
-
-- Style the text of your header. Think about font size, spacing, font weight.
-
-SHOULD WE ADD TEXT SHADOW OR SUCH AS AN OPTION? OR DO WE HAVE A LINK OR TWO OF DIFFERENT TECHNIQUES?
-
-- Test your header by changing the size of the browser window.
-
-ARE WE GOING TO SUGGEST A DIFFERENT SIZE FOR LARGER SCREENS? OR DO WE ADD THIS LATER?
-
-
-
 
 ## Gallery using Flexbox
 
@@ -214,7 +214,14 @@ including then adding personal images, optimisation, alt text, figure and fig ca
 
 un-centre captions.
 
-## Validate
+---
 
-## Checklist
+## Testing
+
+At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). **Fix any problems**.
+
+---
+
+## Week 4 Checklist
+### Are you up to date?
 
