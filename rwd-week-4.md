@@ -59,15 +59,11 @@ If you want to know more about what is going on read the following articles on C
 
 - `align-items`
 
->It defines the default behaviour for how flex items are laid out along the cross axis on the current line. You can think of it as the justify-content version for the cross-axis (perpendicular to the main-axis).
-
-See [https://css-tricks.com/almanac/properties/a/align-items/](https://css-tricks.com/almanac/properties/a/align-items/)
+>It defines the default behaviour for how flex items are laid out along the cross axis on the current line. You can think of it as the justify-content version for the cross-axis (perpendicular to the main-axis). [`align-items` property on CSS Tricks](https://css-tricks.com/almanac/properties/a/align-items/).
 
 - `justify-content`
 
->It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
-
-[https://css-tricks.com/almanac/properties/j/justify-content/](https://css-tricks.com/almanac/properties/j/justify-content/)
+>It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line. [`justify-content` property on CSS Tricks](https://css-tricks.com/almanac/properties/j/justify-content/).
 
 ---
 
@@ -123,6 +119,11 @@ background-position:center;
 
 ## Task 3 - Background blend mode
 
+
+---
+
+## Task 3 - The `header-content`
+
 One problem of adding a background image to our header is that the text (our heading and tagline) often gets lost. 
 There are a number of clever ways to get around this issue. The first is to simply make the text colour white (or black if the image is pale). The other is to adjust the size of your heading and tagline.
 
@@ -140,12 +141,59 @@ You already have the following CSS fo your `.header-content`.
 - Adjust `max-width` as fits your design.
 - `font-size: 1.35rem;` can be removed. It's already being trumped in the cascade as he have `font-size` defined for `<h1>` and `<p>` already in our CSS. We can target these particlar items in a minute.
 - Change `color` if required. You can also remove it and later specify different colours for the heading and paragraph if needed.
-- 
+- `text-align: center;` centres our content. **Note** that if your *tag line* is more than a line or two long that you should consider applying a more specific style (see below) to left align for better readability.
+- Apply `padding` as fits your design. 
+
+**Tip** - adding `border: 1px solid red;` to this class may help you see how both `max-width` and the `padding` is working as you adjust them.
+
+### Getting specific
+
+You can target your heading and tagline with more specific styles.
+
+```
+.header-content h1 {
+    font-size: 3rem;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+}
+
+```
+You could adjust things like `font-size`, `color`, `padding-bottom`, `line-height` (if your heading wraps on mobile and there is a big gap between the words) and others that enhance your design. 
+
+### Adding the `text-shadow` property
+
+The text-shadow property can help enhance the visibility of our headline text.
+
+There are two methods:
+
+```
+.header-content h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 0 #000; 
+}
+```
+>The first two values specify the length of the shadow offset. The first value specifies the horizontal distance and the second specifies the vertical distance of the shadow. The third value specifies the blur radius and the last value describes the color of the shadow - [CSS Text Shadow on CSS Tricks](https://css-tricks.com/snippets/css/css-text-shadow/)
+
+Second - for a more subtle approach you can use rgba colours with our `text-shadow`.
+
+```
+.header-content h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+```
+
+You can apply either of these techniques to your tagline paragraph as well. Adjust `offset`, `blu` and `shadow colour` to best fit you design.
 
 
+---
 
+**Video** - [Derren demonstrates the various properties applied to our page header](https://youtu.be/2W-epxO_Xvs)  including the hero image, `text-shadow` and `background-blend-mode`.
 
-INSERT - DEMO VIDEO OF ABOVE.
+---
+
 
 INSERT - WE NEED VIDEOS OF BOTH OF THESE PROCESSES FOR THE FIRST TERM ANYWAY. ALSO NEED A VIDEO OF SAVE FOR THE WEB PROCESS IN PHOTOSHOP.
 
@@ -157,7 +205,8 @@ SHOULD WE ADD TEXT SHADOW OR SUCH AS AN OPTION? OR DO WE HAVE A LINK OR TWO OF D
 
 ARE WE GOING TO SUGGEST A DIFFERENT SIZE FOR LARGER SCREENS? OR DO WE ADD THIS LATER?
 
-## Contrast &amp; Blend mode
+
+
 
 ## Gallery using Flexbox
 
