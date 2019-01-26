@@ -254,7 +254,7 @@ The code you need for each of your images is as follows:
 
 ### How big should my gallery images be?
 
-You gallery images need to be *as wide as the largest size they need to be*. **What does that mean?** On this project it means the width of your images will be dictated by the largest size you are going to display them at. As we implement our gallery using `flexbox` (see below) you will have three images across the screen (at desktop size). This will be your images at their largest. Once this is implemented, you can adjust the actual size of your images to fit.
+You gallery images need to be *as wide as the largest size they need to be*. **What does that mean?** On this project it means the width of your images will be dictated by the largest size you are going to display them at. As we implement our gallery using `flexbox` (see below) you will have three images across the screen (at desktop size). This will be your images at their largest. Once this is implemented, you can adjust the actual dimensions of your images to fit.
 
 For example, if the image is never displayed wider than 800px, resize the actual image to 800px width.
 
