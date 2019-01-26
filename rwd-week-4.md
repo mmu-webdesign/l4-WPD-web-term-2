@@ -260,6 +260,8 @@ Read MDN articles for more information on the [`<figure>` element](https://devel
 
 ## Task 4 - Introduction to media queries
 
+![media queries in CSS demonstration](https://github.com/mmu-webdesign/responsive-web-tutorial/media/how-media-queries-work-in-your-CSS.png)
+
 Get a basic overview of [How media queries work in your CSS]() from Derren's Video.
 
 ### MDN Resources
