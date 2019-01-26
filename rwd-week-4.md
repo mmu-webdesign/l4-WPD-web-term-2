@@ -208,11 +208,81 @@ You can apply either of these techniques to your tagline paragraph as well. Adju
 
 ---
 
-## Gallery using Flexbox
+## Task 4 - Using `figure` &amp; `figcaption`
 
-including then adding personal images, optimisation, alt text, figure and fig caption.
 
-un-centre captions.
+You already have the following structure for your image gallery.
+
+```
+<section id="images" class="image-gallery container">
+  <div class="container-content">
+    <h2>Image Gallery</h2>
+    <div class="image-container">
+
+    </div>
+  </div>
+</section>
+```
+Inside the `image-container` you currently have  **three** `<div class="an-image">` divs containing the dummy images.
+
+```
+<div class="an-image">
+    <img src="https://unsplash.it/600">
+        <div class="image-caption">
+             <p>A caption for your first image.</p>
+        </div>
+</div>
+```
+
+We would like you to remove these divs and replace them with two semantic elements. The `figure` and `figcaption` elements. Whilst `class="an-image` gives us a hook to style, the actual `div` has no semantic meaning. Using both `figure` and `figcaption` provides some meaning to these elements of the page. 
+
+>The HTML `<figure>` element represents self-contained content, frequently with a caption (`<figcaption>`), and is typically referenced as a single unit.
+
+The code you need for each of your images is as follows:
+
+```
+<figure class="an-image">
+    <img src="images/your-file.jpg" alt="Relevant alt text" />
+        <figcaption class="image-caption">
+          <p>Your 150 word caption.</p>
+        </figcaption>
+</figure>
+```
+- Repeat the above for each of your three images.
+- Adjust the file name and paths for your own images.
+- Add your captions when available.
+
+See the HTML in [Derren's image gallery CodePen](https://codepen.io/wilsondmmu/pen/mvVWVj) for reference.
+
+Read MDN articles for more information on the [`<figure>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) and [`<figcaption>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption).
+
+---
+
+## Task 4 - Introduction to media queries
+
+Get a basic overview of [How media queries work in your CSS]() from Derren's Video.
+
+### MDN Resources
+
+- [`min-width` demonstration](https://developer.mozilla.org/en-US/docs/Web/CSS/min-width)
+>The min-width CSS property sets the minimum width of an element. It prevents the used value of the width property from becoming smaller than the value specified for min-width.
+- [`max-width` demonstration](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
+>The max-width CSS property sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width.
+
+- [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+>Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).
+
+---
+
+## Task 5 - A responsive image gallery
+
+
+
+
+
+
+
+
 
 ---
 
