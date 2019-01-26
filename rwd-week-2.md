@@ -91,8 +91,8 @@ Write a good description that compliments and expands on your title.
 Again, there is a good MDN article on the [Meta Description element and SEO good practices](https://moz.com/learn/seo/meta-description).
 
 #### Tip
-Neither your title, meta description or your main heading should contain the words *hello* or *welcome*. Please!
 
+Neither your title, meta description or your main heading should contain the words *hello* or *welcome*. Please!
 
 ## Before you go further
 
@@ -101,6 +101,7 @@ Neither your title, meta description or your main heading should contain the wor
 ---
 
 ## Task 4 - The CSS re-set
+
 ### Making your CSS *sensible*.
 
 Our template includes `layout.css`. We have included a basic re-set (to remove some of the browsers default settings) and comments to guide your initial styling. 
@@ -212,6 +213,7 @@ Read the [MDN Web Fonts article](https://developer.mozilla.org/en-US/docs/Learn/
 - Identify a single font (or font pairing) on [Google Fonts](https://fonts.google.com/): it could be for your headings, for your *body copy*, or for both.
 
 ### Help in selecting your fonts
+
 - [Layouts designed with google fonts](https://femmebot.github.io/google-type/) 
 - [The best google fonts according to Typewolf](https://www.typewolf.com/google-fonts)
 
@@ -332,6 +334,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 ---
 
 ## Week 2 Checklist
+
 ### Are you up to date?
 
 Before you start Week 3 - Have you completed everything?

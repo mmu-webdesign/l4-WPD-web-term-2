@@ -428,6 +428,7 @@ If it doesn't, check that you have been putting this code within the media query
 }
 ```
 #### Your design
+
 Once the gallery is working you can make adjustments to best fit your design. This might include dimensions, colours, padding and margins.
 
 #### Your images
@@ -443,6 +444,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 ---
 
 ## Week 4 Checklist
+
 ### Are you up to date?
 
 - Task 1 reviews and explains the header.

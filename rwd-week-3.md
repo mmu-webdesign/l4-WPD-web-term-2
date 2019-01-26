@@ -15,9 +15,11 @@ Before you proceed use the check list found at the bottom of Week Two. Have you 
 Use the [CSS styles in this CodePen](https://codepen.io/wilsondmmu/pen/PJQYZG) to create the responsive column of content as illustrated in the lecture. Apply these styles by creating the class `.container-content`.
 
 Add the class and styles to `layout.css` under the comment: 
+
 ```
 /* main layout */
 ```
+
 ### Adjustments
 
 You might find it useful to **re-apply the red border to everything**. This will help you see what is happening as you make adjustments. The code is:
@@ -248,6 +250,7 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 ---
 
 ## Week 3 Checklist
+
 ### Are you up to date?
 
 Before you start Week 4 - Have you completed everything?
