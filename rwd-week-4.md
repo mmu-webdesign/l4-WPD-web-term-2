@@ -453,4 +453,8 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 - Task 6 has an introduction to media queries.
 - Task 7 applies both a media query and flexbox to create a responsive gallery.
 
+And finally:
 
+- Fix any problems before you continue.
+
+**End**

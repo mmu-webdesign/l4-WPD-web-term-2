@@ -256,3 +256,9 @@ Before you start Week 4 - Have you completed everything?
 - In Task 2 you have styled *the big header* by apply the supplied styles, making adjustments as directed.
 - Task 3 asked you to apply background colours. Undertake careful research to find the right palette that reflects the mood and feel you are trying to reflect in your portfolio site.
 - Task four asked you to style the footer, providing advice on approaches.
+
+And finally:
+
+- Fix any problems before you continue.
+
+**End**
