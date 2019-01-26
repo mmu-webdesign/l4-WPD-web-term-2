@@ -342,12 +342,90 @@ Resize your page back to a mobile size. Check your page. We can now add a little
 ```
 Save and review your page (mobile size). Make adjustments as best fits your design. **You should now have a gallery that works well on mobile**.
 
+Remove `.image-gallery {border:1px solid red;}`
+
+### Adding our breakpoint
+
+Add the media query.
+```
+@media screen and (min-width: 500px) {
+    .image-gallery .image-container {
+        border:1px solid red;
+    }
+}
+```
+Save and review your page. At mobile size there should be no *red border*. As you stretch the browser window, the *red border* will appear once you reach and pass `500px` width. **We now know our media query is working**.
+
+### Adding flexbox to the gallery
+
+To make *flex* item we target the parent. In the gallery we apply flex to `class="image-container"` so that the child elements (the three `figure`'s) become flex items.
+
+Replace the red border with `display: flex;`
+
+```
+@media screen and (min-width: 500px) {
+    .image-gallery .image-container {
+        display: flex;
+    }
+}
+```
+Save and view your page. As soon as you reach the 500px width our `flex` items (our images and captions) line up next to each other. Whilst it looks a bit rubbish (500px is too small) this is fantastic news. One line of code - `display:flex` has enabled this. In the past, this was only achieved by fudges and hacks in CSS.
+
+Adjust the `min-width` at which our media query kicks in - `@media screen and (min-width: 750px)` will work. You might want to adjust this a little later.
+
+We are next going to target each of our `<figure>`'s. Add this within the media query:
+
+```
+.image-gallery .an-image {
+    flex: 33%;
+    padding: 20px;
+    background: white;
+}
+```
+
+- `flex: 33%;` ensures that each of our `<figure>`'s takes up a third of the space. With three images of the same size we won't see much difference.
+- `padding: 20px;` gives each of our `<figure>`'s some padding all around.
+- and finally `background: white;` applies a background to each `<figure>`.
+
+Save and view. Once we expand past our `min-width` our three `<figure>`'s now sit nicely side by side. The only remaining issue is that our background colour (white) looks like one big block. We can remedy this with a a little clever CSS.
+
+The final touch is to add a left margin to any of your `<figure>`'s (with their class of `.an-image`) that come after another `<figure>`. 
+
+To do this we add the following to your media query:
+```
+.image-gallery .an-image+.an-image {
+     margin-left: 20px;
+}
+```
+In our example this means this style affects the 2nd and 3rd `<figure>`. 
+
+For this we use the Adjacent sibling combinator. 
+
+>The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element. See [MDN Adjacent sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator).
 
 
+Save and reload. Your gallery should look something like Derren's CodePen - [Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
 
+If it doesn't, check that you have been putting this code within the media query. The full media quwery should look something like this:
 
+```
+@media screen and (min-width: 750px) {
 
-Using the CSS from Derren's CodePen - [Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
+    .image-gallery .image-container {
+        display: flex;
+    }
+    .image-gallery .an-image {
+        flex: 33%;
+        padding: 20px;
+        background: white;
+    }
+    .image-gallery .an-image+.an-image {
+        margin-left: 20px;
+    }
+
+}
+```
+Once it is working you can make adjustments to best fit your design.
 
 ---
 
@@ -359,4 +437,6 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ## Week 4 Checklist
 ### Are you up to date?
+
+- Task 1 - 
 
