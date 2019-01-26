@@ -252,6 +252,16 @@ The code you need for each of your images is as follows:
 - Adjust the file name and paths for your own images.
 - Add your captions when available.
 
+### How big should my gallery images be?
+
+You gallery images need to be *as wide as the largest size they need to be*. **What does that mean?** On this project it means the width of your images will be dictated by the largest size you are going to display them at. As we implement our gallery using `flexbox` (see below) you will have three images across the screen (at desktop size). This will be your images at their largest. Once this is implemented, you can adjust the actual size of your images to fit.
+
+For example, if the image is never displayed wider than 800px, resize the actual image to 800px width.
+
+#### Image optimisation
+
+Once you have your images at the correct dimensions you should optimise each image to improve download speeds. **And don't forget** the `alt` text for each image. 
+
 See the HTML in [Derren's image gallery CodePen](https://codepen.io/wilsondmmu/pen/mvVWVj) for reference.
 
 Read MDN articles for more information on the [`<figure>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) and [`<figcaption>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption).
@@ -278,7 +288,9 @@ For more information.
 
 ## Task 7 - A responsive image gallery
 
+Using the CSS from Derren's CodePen - [Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
 
+We are going to 
 
 
 
