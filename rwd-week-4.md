@@ -306,7 +306,7 @@ Save and view your page (mobile size). The whole gallery should be within a red 
 
 If you now stretch out your browser window to desktop size you will see that your gallery, because it (like all the other sections) wraps the content with `<div class="container-content">` has a `max-width` that you have already defined.
 
-As we want our gally to make more use of the screen space we should make the gallery section wider. Add the follwoing:
+As we want our gallery to make more use of the screen space we should make the gallery section wider. Add the following:
 
 ```
 .image-gallery .container-content {
