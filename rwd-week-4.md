@@ -288,16 +288,66 @@ For more information.
 
 ## Task 7 - A responsive image gallery
 
+With adjustment of margins and padding (more to come below) and the use of `max-width: 100%;` in the images, our gallery will happily work in a single column on mobile.
+
+We are now going to make adjustments with media queries and the use of flexbox in our CSS to ensure our gallery displays well at larger screen sizes.
+
+Add following CSS to `layout.css` at this point:
+
+```
+/* image gallery media queries and size overrides */
+```
+Start by adding the usual red border but only to the gallery section so you can see the area we are dealing with.
+
+```
+.image-gallery {border:1px solid red;}
+```
+Save and view your page (mobile size). The whole gallery should be within a red border.
+
+If you now stretch out your browser window to desktop size you will see that your gallery, because it (like all the other sections) wraps the content with `<div class="container-content">` has a `max-width` that you have already defined.
+
+As we want our gally to make more use of the screen space we should make the gallery section wider. Add the follwoing:
+
+```
+.image-gallery .container-content {
+    max-width: 1200px;
+}
+```
+Save and review your page. At desktop size the gallery now uses more space across the page than the rest of your content. We've chosen a `max-width` of `1200px` as it will later give us room to display our gallery in three boxes across the page. You can adjust this as best fits your design later.
+
+Use the following to centre the section header.
+
+```
+.image-gallery h2 {
+    text-align: center;
+}
+```
+Save and view.
+
+By default our `<figure>`'s have margins all around. We can target and remove these by applying `margin: 0;` to all the `figure`'s with a class of `.an-image`. 
+
+```
+.image-gallery .an-image {
+    margin: 0;
+}
+```
+Save and view.
+
+Resize your page back to a mobile size. Check your page. We can now add a little padding to our captions. Adding a little padding on the top of the caption to push the text away from the image above. Zero padding on the right, 50px on the bottom (to create space before the next image), and zero on the left.
+
+```
+.image-gallery .image-caption {
+    padding: 8px 0 50px 0;
+}
+```
+Save and review your page (mobile size). Make adjustments as best fits your design. **You should now have a gallery that works well on mobile**.
+
+
+
+
+
+
 Using the CSS from Derren's CodePen - [Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
-
-We are going to 
-
-
-
-
-
-
-
 
 ---
 
