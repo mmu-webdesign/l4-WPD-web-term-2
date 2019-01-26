@@ -406,7 +406,7 @@ For this we use the Adjacent sibling combinator.
 
 Save and reload. Your gallery should look something like Derren's CodePen - [Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
 
-If it doesn't, check that you have been putting this code within the media query. The full media quwery should look something like this:
+If it doesn't, check that you have been putting this code within the media query. The full media query should look something like this:
 
 ```
 @media screen and (min-width: 750px) {
@@ -438,5 +438,12 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 ## Week 4 Checklist
 ### Are you up to date?
 
-- Task 1 - 
+- Task 1 reviews and explains the header.
+- Task 2 adds the hero image and introduces `background-size`.
+- Task 3 adds `Background blend mode` as an option to make your hero a better background for your header and tag line.
+- Task 4 focusses on the heading and tagline. Adjusting them for improved readability.
+- Task 5 improves the semantics of your gallery with `figure` &amp; `figcaption`.
+- Task 6 has an introduction to media queries.
+- Task 7 applies both a media query and flexbox to create a responsive gallery.
+
 
