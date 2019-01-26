@@ -252,6 +252,8 @@ The code you need for each of your images is as follows:
 - Adjust the file name and paths for your own images.
 - Add your captions when available.
 
+**Don't have your images yet?** Continue to use Usplash -  `<img src="https://unsplash.it/600">`
+
 ### How big should my gallery images be?
 
 You gallery images need to be *as wide as the largest size they need to be*. **What does that mean?** On this project it means the width of your images will be dictated by the largest size you are going to display them at. As we implement our gallery using `flexbox` (see below) you will have three images across the screen (at desktop size). This will be your images at their largest. Once this is implemented, you can adjust the actual dimensions of your images to fit.
@@ -425,7 +427,12 @@ If it doesn't, check that you have been putting this code within the media query
 
 }
 ```
-Once it is working you can make adjustments to best fit your design.
+#### Your design
+Once the gallery is working you can make adjustments to best fit your design. This might include dimensions, colours, padding and margins.
+
+#### Your images
+
+Experiment with your image sizes. Work out the largest image dimensions for your gallery on desktop. Edit and optimise your original images.
 
 ---
 
