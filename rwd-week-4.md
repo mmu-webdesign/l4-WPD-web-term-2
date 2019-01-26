@@ -134,7 +134,7 @@ You can also try out a number of the *blend modes*. Some work better than others
 
 ---
 
-## Task 3 - The `header-content`
+## Task 4 - The `header-content`
 
 One problem of adding a background image to our header is that the text (our heading and tagline) often gets lost. 
 There are a number of clever ways to get around this issue. The first is to simply make the text colour white (or black if the image is pale). The other is to adjust the size of your heading and tagline.
@@ -208,7 +208,7 @@ You can apply either of these techniques to your tagline paragraph as well. Adju
 
 ---
 
-## Task 4 - Using `figure` &amp; `figcaption`
+## Task 5 - Using `figure` &amp; `figcaption`
 
 
 You already have the following structure for your image gallery.
@@ -258,13 +258,13 @@ Read MDN articles for more information on the [`<figure>` element](https://devel
 
 ---
 
-## Task 4 - Introduction to media queries
-
-![media queries in CSS demonstration](https://github.com/mmu-webdesign/responsive-web-tutorial/raw/master/media/how-media-queries-work-in-your-CSS.png  "Logo Title Text 1")
+## Task 6 - Introduction to media queries
 
 Get a basic overview of [How media queries work in your CSS](https://www.youtube.com/watch?v=1Zaz51J4Sv0) from Derren's Video.
 
 ### MDN Resources
+
+For more information.
 
 - [`min-width` demonstration](https://developer.mozilla.org/en-US/docs/Web/CSS/min-width)
 >The min-width CSS property sets the minimum width of an element. It prevents the used value of the width property from becoming smaller than the value specified for min-width.
@@ -276,7 +276,8 @@ Get a basic overview of [How media queries work in your CSS](https://www.youtube
 
 ---
 
-## Task 5 - A responsive image gallery
+## Task 7 - A responsive image gallery
+
 
 
 
