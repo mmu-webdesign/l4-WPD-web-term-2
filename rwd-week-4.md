@@ -437,6 +437,10 @@ Experiment with your image sizes. Work out the largest image dimensions for your
 
 ---
 
+[Video - Implementing your gallery withflexbox and media queries](https://youtu.be/w76iCw6f_g0). Demonstration from Derren on the whole process.
+
+---
+
 ## Testing
 
 At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). **Fix any problems**.
