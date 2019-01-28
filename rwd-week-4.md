@@ -2,7 +2,7 @@
 
 ## Adding your media
 
-## Task 1 - Edit `page-header`
+## Task 1 - Review `page-header`
 
 In the previous class we provided the CSS for the large page header. You may have adjusted this already, especially the background colour.
 
