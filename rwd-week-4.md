@@ -20,22 +20,19 @@ Let's break this down, improve the code and then add our hero image.
 .page-header {
   background: green;
 ```
-Lets define this clearer. Whilst `background` can be used as the shorthand, as we are only defining one value (the colour) let's do this properly. Change to `background-color`.
+Lets define this clearer. Whilst `background` can be used as the shorthand, as we are only defining one value (the colour) let's do this properly. 
+
+Edit your CSS - Change to `background-color`.
 ```
 background-color: #ADD YOUR COLOUR;
 ```
 
-Next we create a flexbox by applying `display-flex`. 
-```
-display:flex;
-```
- This creates a flexbox. We are applying it to `.page-header` therefore flex is applied to the child. In this case the `<div>` named `.header-content` is the child and becomes a flexbox. In this example we are then using the flex properties to centre our title and tag line. *More about this later*.
+Next in our CSS is `display-flex`. 
 
-We then use the viewport height to create a larger header. 
+This creates a flexbox. We are applying it to `.page-header` therefore flex is applied to the child. In this case the `<div>` named `.header-content` is the child and becomes a flexbox. In this example we are then using the flex properties to centre our title and tag line. *More about this later*.
 
-```
-height: 90vh;
-```
+We are then using the viewport height (`height: 90vh`) to create a larger header. 
+
 At `90vh` our header is using 90% of the height of the browser window on the device we are viewing the page. The problem with `90vh` is that on most devices it fills to the bottom of the browser window. It's always good to show something of the rest of the page to your user. 
 
 **Experiment to see that works for you. Start with:**
@@ -45,25 +42,22 @@ min-height: 40vh;
 ```
  **Note** - we've changed to `min-height` to future-proof our CSS - if you use height it'll get cut off if the content gets longer than its container. That situation will probably never happen, but better safe than sorry.
 
-Finally we are applying the following to our flexbox.
+Finally we have applied `align-items: center` and `justify-content: center` to our flexbox.
 
-```
-  align-items: center;
-  justify-content: center;
- ```
+
 Both of these are sub-properties of flexbox. **Understand** that they are being applied to the flexbox (and the things inside it) - in our case the `.header-content` is the flexbox and therefore the `<h1>` and `<p>` tags that are being influenced by these properties and values. These properties place our header and tag line smack in the middle of our box.
 
 **Note** - In the past it has been very difficult to simply centre items on a page with CSS. These flex properties suddenly make it a lot easier.
 
 If you want to know more about what is going on read the following articles on CSS Tricks.
 
-- `align-items`
+#### `align-items`
 
->It defines the default behaviour for how flex items are laid out along the cross axis on the current line. You can think of it as the justify-content version for the cross-axis (perpendicular to the main-axis). [`align-items` property on CSS Tricks](https://css-tricks.com/almanac/properties/a/align-items/).
+>It defines the default behaviour for how flex items are laid out along the cross axis on the current line. You can think of it as the justify-content version for the cross-axis (perpendicular to the main-axis). [Article - `align-items` property on CSS Tricks](https://css-tricks.com/almanac/properties/a/align-items/).
 
-- `justify-content`
+#### `justify-content`
 
->It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line. [`justify-content` property on CSS Tricks](https://css-tricks.com/almanac/properties/j/justify-content/).
+>It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line. [Article - `justify-content` property on CSS Tricks](https://css-tricks.com/almanac/properties/j/justify-content/).
 
 ---
 
