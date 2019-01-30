@@ -79,6 +79,14 @@ And finally our form's final `input type` has the value of `submit`.
 ```
 >`<input>` elements of type submit are rendered as buttons. When the click event occurs (typically because the user clicked the button), the user agent attempts to submit the form to the server. [MDN `<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit)
 
+### Additional information
+
+Read [Creating Accessible Forms by WebAIM](https://webaim.org/techniques/forms/controls) for a better understanding of the accessibility issues of HTML forms.
+
+Read [MDN's Forms module for more information on all the form elements and attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms).
+
+>This module provides a series of articles that will help you master HTML forms. HTML forms are a very powerful tool for interacting with users; however, for historical and technical reasons, it's not always obvious how to use them to their full potential. 
+
 ---
 
 ## Task - Styling the form
