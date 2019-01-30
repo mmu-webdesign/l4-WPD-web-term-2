@@ -27,7 +27,7 @@ There are two approaches to apply these styles.
 
 **OR** 
 
-start **by copying &amp; pasting the CSS** from [Derren's Responsive Menu CodePen](https://codepen.io/wilsondmmu/pen/KXRLoW) into `layout.css` and then follow this guide.
+...**by copying &amp; pasting the CSS** from [Derren's Responsive Menu CodePen](https://codepen.io/wilsondmmu/pen/KXRLoW) into `layout.css` and then follow this guide as you read through your CSS.
 
 Either way, add the menu CSS under this comment:
 ```
@@ -36,8 +36,135 @@ Either way, add the menu CSS under this comment:
 
 ### Reviewing the navigation styles
 
+Add the following comment - a reminder that we are starting by styling mobile first.
+
+```
+/* small screen code */
+```
+### Applying styles to the `<ul>`
+
+```
+.page-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+```
+
+Let's look at this from bottom up. Both
+`margin: 0;` and `padding: 0;` *zero out* the margins on our list. You should have this already in `layout.css` as part of the initial CSS re-set so you can **delete these styles**.
+
+Then `list-style-type: none;` removes the bullets from our list.
+
+Adding `border-top: 1px solid #ddd;` and `border-right: 1px solid #ddd;` is part of a *clever plan* add borders to to each of the menu buttons we are creating.  
+
+And then we add `display: flex;` which now means the child items of `<ul>` which are of course all the `<li>` elements. Now `flex` will by default put each of these in a row. 
+
+And finally by adding `flex-wrap: wrap;` it ensures our *flexible* menu will wrap onto the next line when our screen size is too small to fit all four of our links.
+
+### Applying styles to the `<li>`
+
+Add the following next:
+
+```
+.page-nav li {
+  flex: 1 1 50%;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+```
+
+Again, from the bottom, adding `border-bottom: 1px solid #ddd;` and `border-left: 1px solid #ddd;` complete the clever trick that creates a neat border to our buttons. This trick gets around the problem caused if we just add a border to the `<li>` itself. Any time the boxes touch we would have a border double in size.
+Next we apply `flex: 1 1 50%;` to determine who this **flexbox** reacts. This style uses the shorthand for `flex-grow`, `flex-shrink` and `flex-basis` combined.
+
+>The `flex-grow` CSS property sets how much of the available space in the flex container should be assigned to that item (the flex grow factor). If all sibling items have the same flex grow factor, then all items will receive the same share of available space, otherwise it is distributed according to the ratio defined by the different flex grow factors. [MDN `flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow).
+
+In this case `flex-grow` is set to 1, therefore the remaining space in the container will be distributed equally to all children. 
+
+Next is the value for `flex-shrink`. 
+
+>The `flex-shrink` CSS property sets the flex shrink factor of a flex item. If the size of flex items is larger than the flex container, items shrink to fit according to flex-shrink. [MDN `flex-shrink`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink).
+
+The final value is `flex-basis`. 
+
+>The `flex-basis` CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with `box-sizing`. [MDN `flex-basis`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis).
+
+Our value of **50%** ensures that we only get two of our buttons per line. This is perfect for mobile. We will change this later as the screen size grows using a *media query*.
+
+Finally, we have applied `display: flex;` to `<li>` which means their children, `<a>` will now also become `flexboxes`.
+
+### Applying styles to the `<a>`
+
+Add the following:
+
+```
+.page-nav a {
+  padding: 15px 10px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  transition: all 0.2s ease;
+}
+```
+We start by adding `padding: 15px 10px;` to the `anchor` elements. Again we apply `display: flex;` so we can continue to control the way everything displays. 
+
+Then applying `text-decoration: none;` removes the lines from under our links.
+
+As with our `header` content apply use both `align-items: center;` and `justify-content: center;` to get our text into the centre of our button.
+
+Next `flex: 1 1 auto;` applies values for `flex-grow`, `flex-shrink` and `flex-basis`. This time the `flex-basis` is set at `auto` to *automatically* space the items (in this case the `<a>`) out based on the `flex-grow` value (in this case `1` there each `<a>` gets the same space).
+
+The last line `transition: all 0.2s ease;` is a simple transition which applies the `hover` we apply in the next style rule.
+
+### Add a `hover` effect
+
+Add the following:
+
+```
+.page-nav a:hover {
+  background: #eee;
+  color: #000;
+}
+```
+A simple `hover` effect applying both background and foreground (the font) colours.
+
+### Colours
+
+You can apply a background colour for your buttons via `.page-nav li`. You will also need to adjust all `border`s and select a subtle contrasting colour for the `hover` effect.
+
+### Media query for a responsive menu
+
+In it's current state our menu looks fine at mobile display sizes. We should have a neat block of four buttons, 2 rows of 2.
+
+As our screen sized widens we reach a **breakpoint** where this layout doesn't look right. We've gone for min-width: 760px but you may want to adjust this to match your design.
+
+**Add the media query:**
 
 
+```
+@media screen and (min-width: 760px) {
+  .page-nav ul {
+    flex-wrap: nowrap;
+  }
+  .page-nav li {
+    flex: 1 1 25%;
+  }
+}
+```
+Our media query simply uses the cascade to over ride `flex-wrap: wrap` with `flex-wrap: nowrap`. Our menu (when the screen size goes past `760px`) now stretches acorss the page in a single row.
+
+The final style rule of `flex: 1 1 25%` applied to each `<li>` element ensures (although it will do this by default) that the `flex-basis` applies an equal **25%** to each button.
+
+### Customise
+
+Test the menu at a variety of screen sizes. Adjust colours, borders and the breakpoint to best fit your design.
 
 ---
 Video - [Creating a menu with flexbox and media queries](https://youtu.be/PpE_GB2nLsk).
