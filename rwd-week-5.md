@@ -399,8 +399,22 @@ Read [Creating Accessible Forms by WebAIM](https://webaim.org/techniques/forms/c
 
 ## Task 5 - Room for improvement
 
-## Validate
+Derren write this.
+
+## Testing
+
+At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). **Fix any problems**.
 
 ## Week 5 - Checklist
+
+- Task 1 reviews the navigation HTML - make sure you understand this before applying the CSS.
+- Task 2 styles the navigation with Flexbox.
+- Task 3 reviews the form HTML elements and attributes.
+- Task 4 applies styles to the form.
+- Task 5 improvements.
+
+And finally:
+
+- Fix any problems before you continue.
 
 ### Are you up to date?
