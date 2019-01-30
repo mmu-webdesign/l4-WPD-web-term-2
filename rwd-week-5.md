@@ -73,13 +73,17 @@ Each of our `<input>` elements have different **types attributes**. These were i
 
 For information on all  [Form `<input>` types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) see MDN.
 
+### The `textarea` element
+
 Our next form element is a `textarea` rather than `input` element.
 ```
 <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
 ```
 >The HTML `<textarea>` element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form. [MDN `<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea).
 
-And finally our form's final `input type` has the value of `submit`. 
+### The `submit` type value
+
+Our form's final `input type` has the value of `submit`. 
 
 ```
 <input type="submit" value="send my message" /> 
