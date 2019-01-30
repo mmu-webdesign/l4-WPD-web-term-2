@@ -2,6 +2,48 @@
 
 ## Navigation with Flexbox
 
+A quick reminder of the HTML for our navigation.
+
+```
+<nav class="page-nav">
+     <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work Experience</a></li>
+        <li><a href="#images">Image Gallery</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</nav>
+```
+
+We have a simple unordered list, containing four list elements containing links to the four sections of our page.
+
+Everything is contained in the semantic `<nav>` element. This has a class of `page-nav`. Remember that on a larger project there will inevitably be more than one `nav`.
+
+### Applying the styles
+
+There are two approaches to apply these styles. 
+
+**Either** follow the guide below, **applying the styles piece by piece**...
+
+**OR** 
+
+start **by copying &amp; pasting the CSS** from [Derren's Responsive Menu CodePen](https://codepen.io/wilsondmmu/pen/KXRLoW) into `layout.css` and then follow this guide.
+
+Either way, add the menu CSS under this comment:
+```
+/* navigation (using flexbox) */
+```
+
+### Reviewing the navigation styles
+
+
+
+
+---
+Video - [Creating a menu with flexbox and media queries](https://youtu.be/PpE_GB2nLsk).
+
+---
+
 ## Task - Reviewing the form HTML
 
 Let's start by reviewing the HTML of your form:
