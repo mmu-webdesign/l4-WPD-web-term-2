@@ -111,7 +111,54 @@ Paste the code into `layout.css` under this comment:
 ```
 Let's now review what you've added and make a few amendedments.
 
+### Styling the form `label`
 
+In the CSS you have cut &amp: pasted from CodePen the first styles we address are for the `label` element.
+
+```
+form label {
+  display: block;
+  /* instead of inline */
+  padding-bottom: 0.2em;
+  padding-top: 1em;
+}
+```
+In the above we target all the `label`'s within our form. Adding `display: block` to change our `label` into a **block level element**, putting it on its own line. We then add a little padding - *adjust this to best fit your design*.
+
+### Styling `input` &amp; `textarea`
+
+Next we apply styles to our input boxes.
+
+```
+form input,
+form textarea {
+  padding: 0.4em 0.3em;
+```
+First we have added some padding - *adjust this to best fit your design*.
+
+Next we can adjust the font size for the text we type inside our form input boxes - *adjust this to best fit your design*.
+
+```
+  font-size: 1.5em;
+```
+Next Derren's code address the issue of inheritance. We've actually done this already as part of your CSS re-set. You can remove these two lines:
+```
+    /* these elements do not inherit the font-family from the body tag */
+  
+  font-family: arial, helvetica, sans-serif;
+```
+Next Derren styles the border - *adjust this to best fit your design*.
+```
+  /* lighter grey, less visually heavy */
+  border: 1px solid #bbb; 
+```
+And finally Derren implements both `min-width` &amp; `max-width` to ensure the works both on mobile and desktop. *Of course you can amend these to best fit your design but don't stray far from 90%*.
+```
+  /* make sure our fields aren't too wide or not wide enough */
+  min-width: 90%;
+  max-width: 90%;
+}
+```
 
 ## Room for improvement
 
