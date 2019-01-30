@@ -1,6 +1,6 @@
 # RWD Week Five
 
-## Navigation with Flexbox
+## Task 1 - Reviewing the navigation HTML
 
 A quick reminder of the HTML for our navigation.
 
@@ -19,7 +19,7 @@ We have a simple unordered list, containing four list elements containing links 
 
 Everything is contained in the semantic `<nav>` element. This has a class of `page-nav`. Remember that on a larger project there will inevitably be more than one `nav`.
 
-### Applying the styles
+### Task 2 - Styling the Navigation with Flexbox
 
 There are two approaches to apply these styles. 
 
@@ -44,7 +44,7 @@ Video - [Creating a menu with flexbox and media queries](https://youtu.be/PpE_GB
 
 ---
 
-## Task - Reviewing the form HTML
+## Task 3 - Reviewing the form HTML
 
 Let's start by reviewing the HTML of your form:
 
@@ -140,7 +140,7 @@ Read [MDN's Forms module for more information on all the form elements and attri
 
 ---
 
-## Task - Styling the form
+## Task 4 - Styling the form
 
 Start by copyiny the CSS in Derren's [CodePen - FORMS: styling less boring forms](https://codepen.io/wilsondmmu/pen/yMOjra).
 
@@ -270,8 +270,10 @@ Read [Creating Accessible Forms by WebAIM](https://webaim.org/techniques/forms/c
 
 [More information on styling forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms) from MDN.
 
-## Room for improvement
+## Task 5 - Room for improvement
 
 ## Validate
 
-## Checklist
+## Week 5 - Checklist
+
+### Are you up to date?
