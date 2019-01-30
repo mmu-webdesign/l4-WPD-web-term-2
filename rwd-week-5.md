@@ -216,6 +216,12 @@ form input[type="submit"]:hover {
 
 **Customise the form to compliment your design**. Ensure it remains accessible. Ensure the labels stay in place (even if you change the actual text). Tab order - test by tabbing through your form - does it move in a logical order, from box to box to submit?
 
+---
+
+**Video** - [Styling form fields - a full demonstration of the above CSS](https://youtu.be/G0K-k-vdvQQ).
+
+---
+
 ### Additional information
 
 Read [Creating Accessible Forms by WebAIM](https://webaim.org/techniques/forms/controls) for a better understanding of the accessibility issues of HTML forms.
