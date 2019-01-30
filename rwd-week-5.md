@@ -92,8 +92,6 @@ Our form's final `input type` has the value of `submit`.
 
 ### Additional information
 
-Read [Creating Accessible Forms by WebAIM](https://webaim.org/techniques/forms/controls) for a better understanding of the accessibility issues of HTML forms.
-
 Read [MDN's Forms module for more information on all the form elements and attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms).
 
 >This module provides a series of articles that will help you master HTML forms. HTML forms are a very powerful tool for interacting with users; however, for historical and technical reasons, it's not always obvious how to use them to their full potential. 
@@ -152,13 +150,77 @@ Next Derren styles the border - *adjust this to best fit your design*.
   /* lighter grey, less visually heavy */
   border: 1px solid #bbb; 
 ```
-And finally Derren implements both `min-width` &amp; `max-width` to ensure the works both on mobile and desktop. *Of course you can amend these to best fit your design but don't stray far from 90%*.
+You could also round/smooth the corners of each input box. **Insert the following at this point** and *adjust amount to best fit your design*.
+
 ```
-  /* make sure our fields aren't too wide or not wide enough */
+border-radius: 0.2em;
+```
+
+And finally Derren implements both `min-width` &amp; `max-width` to ensure the works both on mobile and desktop and makes better use of the space available.
+
+ *Of course you can amend these to best fit your design but don't stray far from 90%*.
+```
   min-width: 90%;
   max-width: 90%;
 }
 ```
+### Styling `submit` - the button
+
+Our selector uses an `attribute` selector to taget `submit` (otherwise we would be apply these styles to all `input` elements).
+
+```
+form input[type="submit"] {
+```
+>The CSS attribute selector matches elements based on the presence or value of a given attribute. [MDN Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors). 
+
+A nifty method of targeting your CSS at specific elements, with specific attributes.
+
+Next we apply a `min-width` of zero to our button. Without this our button will stretch to fill the space available like the rest of the form `input` fields.
+```  
+min-width:0;
+```
+Then we have a variety of styles for our button. **You must adjust these to best it your design**.
+
+```
+  background-color: #d30;
+  border: 0;
+  border-radius: 0.2em;
+  padding: 13px 30px;
+  margin-top: 10px;
+  /* top and bottom, left and right */
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+```
+
+And finally we implement a less jarring transition from initial colour to hover colour (applied in the next style rule).
+
+```
+  transition: background-color 0.2s ease;
+}
+```
+Again, adjust the speed of transition.
+
+>The transition-delay CSS property specifies the duration to wait before starting a property's transition effect when its value changes. [MDN transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay).
+
+### Adding a `hover` to the `submit` button
+
+Finally we make a subtle change of colour for the hover sytate of our button.
+```
+form input[type="submit"]:hover {
+  background-color: #c30;
+}
+```
+*Adjust the colour to compliment your button colour*. You don't have to change the colour too much for hover states - just make it a little bit lighter or darker.
+
+**Customise the form to compliment your design**. Ensure it remains accessible. Ensure the labels stay in place (even if you change the actual text). Tab order - test by tabbing through your form - does it move in a logical order, from box to box to submit?
+
+### Additional information
+
+Read [Creating Accessible Forms by WebAIM](https://webaim.org/techniques/forms/controls) for a better understanding of the accessibility issues of HTML forms.
+
+[More information on styling forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms) from MDN.
 
 ## Room for improvement
 
