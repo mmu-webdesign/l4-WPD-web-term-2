@@ -55,14 +55,14 @@ Read [Eric Bailey's article Don’t Use The Placeholder Attribute](https://www.s
 Each of our `<input>` elements have different **types attributes**. These were introduced in **HTML5** and are what, on your phone, changes to the relevant keyboard for phone numbers or email addresses. 
 
 - `<input id="contact-name" type="text" name="contact-name" />`
-- Further information - **text:** [A single-line text field. Line-breaks are automatically removed from the input value. MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
+- **text:** [A single-line text field. Line-breaks are automatically removed from the input value. MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
 
 - `<input id="contact-email" type="email" name="contact-email" />`
 
-- Further information - **email:** [A field for editing an e-mail address. MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
+- **email:** [A field for editing an e-mail address. MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
 
 - `<input id="contact-phone" type="tel" name="contact-phone" />`
-- Further information - **tel:** [A control for entering a telephone number. MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel)
+- **tel:** [A control for entering a telephone number. MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel)
 
 For information on all  [Form `<input>` types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) see MDN.
 
