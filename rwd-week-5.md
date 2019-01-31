@@ -399,11 +399,31 @@ Read [Creating Accessible Forms by WebAIM](https://webaim.org/techniques/forms/c
 
 ## Task 5 - Room for improvement
 
-Derren write this.
+**Congratulations!** You’ve worked through all the steps to produce a responsive web page.
+
+What happens now?
+
+At this point you need to take stock and review what you’ve done.
+
+In terms of the design, scroll up and down your entire site a few times, and imagine you have never seen it before. If you visited this site for the first time, would you know what it was about? Is the site consistent? Does it communicate something about this person? Do the images work well with your overall colour scheme?
+
+Check the metadata in your HTML page: would it help someone find you if they googled your name? Location? Occupation? Hobbies?
+
+Although we will be adding more javascript code to the HTML later, your CSS should be nearly complete. Is it readable, and logically ordered? Have you commented your code so that another developer could understand what you've done and why? (You don’t have to comment every single line, but commenting helps to separate sections and describe complex code) Are your breakpoints consistent?
+
+Test and validate your work and fix any errors. Test your site in as many devices as you can find, using tools like [prepros.io](https://prepros.io/) or the [responsive device mode in Chrome](https://developers.google.com/web/tools/chrome-devtools/device-mode/) or the similar [responsive device viewer in Firefox](https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode).
+
+At this point you should be critical about your work: is it as good as you can make it? How well does it measure up to other websites you use on a daily basis? What are the differences between what you’ve done and what professional websites look like? 
 
 ## Testing
 
 At the end of this session [validate your HTML](https://validator.w3.org/#validate_by_upload) and [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_upload). **Fix any problems**.
+
+### A note about browsers
+
+If you check in enough browsers (e.g. really old versions of Internet Explorer) you will notice some issues with the layout, as older browsers either don’t support some of the code we’ve used or interpret it incorrectly. **Do not worry about this**. Thanks to the hard work of many web developers over the last decade the latest versions of all web browsers actually do a pretty good job of supporting the modern techniques we are using. 
+
+We will be viewing your site in the latest version of Chrome, Firefox or mobile Safari when we assess it, and will be able to distinguish between browser bugs – which we don’t expect you to try and fix – and mistakes in your code that should have been caught in your validation and checking – which we do expect you to have removed before you submit your work to us.
 
 ## Week 5 - Checklist
 
