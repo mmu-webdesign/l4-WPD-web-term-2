@@ -409,7 +409,7 @@ In terms of the design, scroll up and down your entire site a few times, and ima
 
 Check the metadata in your HTML page: would it help someone find you if they googled your name? Location? Occupation? Hobbies?
 
-Although we will be adding more javascript code to the HTML later, your CSS should be nearly complete. Is it readable, and logically ordered? Have you commented your code so that another developer could understand what you've done and why? (You don’t have to comment every single line, but commenting helps to separate sections and describe complex code) Are your breakpoints consistent?
+Your CSS should be nearly complete. Is it readable, and logically ordered? Have you commented your code so that another developer could understand what you've done and why? (You don’t have to comment every single line, but commenting helps to separate sections and describe complex code) Are your breakpoints consistent?
 
 Test and validate your work and fix any errors. Test your site in as many devices as you can find, using tools like [prepros.io](https://prepros.io/) or the [responsive device mode in Chrome](https://developers.google.com/web/tools/chrome-devtools/device-mode/) or the similar [responsive device viewer in Firefox](https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode).
 
