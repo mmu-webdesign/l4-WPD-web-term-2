@@ -80,7 +80,7 @@ Add the following next:
 ```
 
 Again, from the bottom, adding `border-bottom: 1px solid #ddd;` and `border-left: 1px solid #ddd;` complete the clever trick that creates a neat border to our buttons. This trick gets around the problem caused if we just add a border to the `<li>` itself. Any time the boxes touch we would have a border double in size.
-Next we apply `flex: 1 1 50%;` to determine who this **flexbox** reacts. This style uses the shorthand for `flex-grow`, `flex-shrink` and `flex-basis` combined.
+Next we apply `flex: 1 1 50%;` to determine how this **flexbox** reacts. This style uses the shorthand for `flex-grow`, `flex-shrink` and `flex-basis` combined.
 
 >The `flex-grow` CSS property sets how much of the available space in the flex container should be assigned to that item (the flex grow factor). If all sibling items have the same flex grow factor, then all items will receive the same share of available space, otherwise it is distributed according to the ratio defined by the different flex grow factors. [MDN `flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow).
 
