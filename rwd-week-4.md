@@ -402,6 +402,8 @@ For this we use the Adjacent sibling combinator.
 
 Save and reload. Your gallery should look something like Derren's CodePen - [Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
 
+**If you want more than three images, you will need to add `flex-wrap:wrap` and modify the code as in the codepen above.**
+
 If it doesn't, check that you have been putting this code within the media query. The full media query should look something like this:
 
 ```
