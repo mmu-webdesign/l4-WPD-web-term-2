@@ -1,5 +1,7 @@
 # RWD Week Six
 
+Tips, advice and resources for checking your work.
+
 ## Browser resources
 
 *   [The web developer toolbar for firefox and chrome](https://chrispederick.com/work/web-developer/)  
