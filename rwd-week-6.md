@@ -6,7 +6,7 @@ Tips, advice and resources for checking your work.
 
 * Have you added the responsive image CSS? It should look something like this:
 
-``` img { max-width: 100%; height: auto; ```
+``` img { max-width: 100%; height: auto; } ```
 
 * Have you added the border-box model code? You can [find the border-box model code on this website](https://www.paulirish.com/2012/box-sizing-border-box-ftw/) just after the sentence that says 'I have a recommendation for your CSS going forward...'
 
