@@ -1,6 +1,6 @@
 # How to add a video background to your header
 
-** These instructions are under constant revision and will change over the course of this week **
+**These instructions are under constant revision and will change over the course of this week**
 
 To do this, you will need
 
@@ -10,7 +10,11 @@ To do this, you will need
 
 ## An example
 
-Here is [an example of what we will create](http://55060509.webdevmmu.uk/apprentice-mosquito/). This is the code that we need to create it:
+Here is [an example of what we will create](http://55060509.webdevmmu.uk/apprentice-mosquito/). 
+
+There is also [an annotated codepen available](https://codepen.io/wilsondmmu/pen/YgxPJw)
+
+This is the code that we need to create it:
 
 ### HTML
 
