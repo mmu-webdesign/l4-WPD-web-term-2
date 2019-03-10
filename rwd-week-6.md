@@ -2,6 +2,25 @@
 
 Tips, advice and resources for checking your work.
 
+## Things to check when going through our instructions
+
+* Have you added the responsive image CSS? It should look something like this:
+
+``` img { max-width: 100%; height: auto; ```
+
+* Have you added the border-box model code? You can [find the border-box model code on this website](https://www.paulirish.com/2012/box-sizing-border-box-ftw/) just after the sentence that says 'I have a recommendation for your CSS going forward...'
+
+* Do you have a line in your CSS like this?
+
+``` div {max-width: 600px; margin: 0 auto; padding: 0 15px;} ```
+
+If so, **change it**: it should only be applying to `.container-content`, not all `div` elements
+
+* Have you added some padding back in to your `p` tags so that new paragraphs are separated from the ones preceding them? Something like `.about-me p {padding-bottom: 13px;}` would work - remember to do this for each section with a series of paragraphs
+
+* Have you added padding to your sections? The page can look cramped if you let the sections follow immediately after each other.
+
+
 ## Browser resources
 
 *   [The web developer toolbar for firefox and chrome](https://chrispederick.com/work/web-developer/)  
