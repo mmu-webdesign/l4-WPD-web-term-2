@@ -95,8 +95,27 @@ These are the parts of the code that do the work - if your site isn't working, h
     position:relative;
     }
     
-.page-header video {position:absolute; top:0; right:0; left:0; bottom:0;}
-.page-header .header-content {position:relative; z-index: 2;}
-.page-header .scrim {position:absolute; top:0; right:0; left:0; bottom:0; z-index: 1; background-color:rgba(0,0,0,0.6);}
+.page-header video {
+      position:absolute;
+      top:0; 
+      right:0; 
+      left:0; 
+      bottom:0;
+      }
+      
+.page-header .header-content {
+      position:relative; 
+      z-index: 2;
+      }
+      
+.page-header .scrim {
+      position:absolute; 
+      top:0; 
+      right:0; 
+      left:0; 
+      bottom:0; 
+      z-index: 1; 
+      background-color:rgba(0,0,0,0.6); /* or any other colour */
+      }
 ```
     
