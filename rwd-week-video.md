@@ -73,3 +73,30 @@ The really important parts of how this works is the `overflow:hidden` on the hea
 
 This code has been tested in Safari, Chrome and Firefox and seems to work OK. Please let the tutors know if you have issues.
 
+## Minimum code additions required
+
+These are the parts of the code that do the work - if your site isn't working, have a look at the code below and make sure you can find each line in your site's code.
+
+### HTML that must be in your header
+
+```
+<video autoplay loop muted poster="file.jpg">
+        <source src="file.mp4" type="video/mp4">
+        <source src="file.webm" type="video/webm">
+</video>
+<div class="scrim"></div>
+```
+
+### CSS that must be in your layout file
+
+```
+.page-header { 
+    overflow:hidden; 
+    position:relative;
+    }
+    
+.page-header video {position:absolute; top:0; right:0; left:0; bottom:0;}
+.page-header .header-content {position:relative; z-index: 2;}
+.page-header .scrim {position:absolute; top:0; right:0; left:0; bottom:0; z-index: 1; background-color:rgba(0,0,0,0.6);}
+```
+    
