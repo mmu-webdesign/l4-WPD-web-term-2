@@ -141,9 +141,9 @@ You can apply a background colour for your buttons via `.page-nav li`. You will 
 
 ### Media query for a responsive menu
 
-In it's current state our menu looks fine at mobile display sizes. We should have a neat block of four buttons, 2 rows of 2.
+In its current state our menu looks fine at mobile display sizes. We should have a neat block of four buttons, 2 rows of 2.
 
-As our screen sized widens we reach a **breakpoint** where this layout doesn't look right. We've gone for min-width: 760px but you may want to adjust this to match your design.
+As our screen size widens we reach a **breakpoint** where this layout doesn't look right. We've gone for min-width: 760px but you may want to adjust this to match your design.
 
 **Add the media query:**
 
@@ -158,7 +158,7 @@ As our screen sized widens we reach a **breakpoint** where this layout doesn't l
   }
 }
 ```
-Our media query simply uses the cascade to over ride `flex-wrap: wrap` with `flex-wrap: nowrap`. Our menu (when the screen size goes past `760px`) now stretches acorss the page in a single row.
+Our media query simply uses the cascade to override `flex-wrap: wrap` with `flex-wrap: nowrap`. Our menu (when the screen size goes past `760px`) now stretches acorss the page in a single row.
 
 The final style rule of `flex: 1 1 25%` applied to each `<li>` element ensures (although it will do this by default) that the `flex-basis` applies an equal **25%** to each button.
 
@@ -206,7 +206,7 @@ If we missed out the `<label>` element and these attributes,
     <input id="contact-name" type="text" name="contact-name" />
 </p>
 ```
-the screeen reader user would only *hear* the input form, and not the text describing it.
+the screen reader user would only *hear* the input form, and not the text describing it.
 
 It is also the same if you replace the label with *placeholder* text. 
 ```
@@ -269,7 +269,7 @@ Read [MDN's Forms module for more information on all the form elements and attri
 
 ## Task 4 - Styling the form
 
-Start by copyiny the CSS in Derren's [CodePen - FORMS: styling less boring forms](https://codepen.io/wilsondmmu/pen/yMOjra).
+Start by copying the CSS in Derren's [CodePen - FORMS: styling less boring forms](https://codepen.io/wilsondmmu/pen/yMOjra).
 
 Paste the code into `layout.css` under this comment:
 
@@ -280,7 +280,7 @@ Let's now review what you've added and make a few amendedments.
 
 ### Styling the form `label`
 
-In the CSS you have cut &amp: pasted from CodePen the first styles we address are for the `label` element.
+In the CSS you have cut & pasted from CodePen the first styles we address are for the `label` element.
 
 ```
 form label {
@@ -290,7 +290,7 @@ form label {
   padding-top: 1em;
 }
 ```
-In the above we target all the `label`'s within our form. Adding `display: block` to change our `label` into a **block level element**, putting it on its own line. We then add a little padding - *adjust this to best fit your design*.
+In the above we target all the `label`s within our form. Adding `display: block` to change our `label` into a **block level element**, putting it on its own line. We then add a little padding - *adjust this to best fit your design*.
 
 ### Styling `input` &amp; `textarea`
 
@@ -308,7 +308,7 @@ Next we can adjust the font size for the text we type inside our form input boxe
 ```
   font-size: 1.5em;
 ```
-Next Derren's code address the issue of inheritance. We've actually done this already as part of your CSS re-set. You can remove these two lines:
+Next Derren's code addresses the issue of inheritance. We've actually done this already as part of your CSS re-set. You can remove these two lines:
 ```
     /* these elements do not inherit the font-family from the body tag */
   
@@ -335,7 +335,7 @@ And finally Derren implements both `min-width` &amp; `max-width` to ensure the w
 ```
 ### Styling `submit` - the button
 
-Our selector uses an `attribute` selector to taget `submit` (otherwise we would be apply these styles to all `input` elements).
+Our selector uses an `attribute` selector to target `submit` (otherwise we would be apply these styles to all `input` elements).
 
 ```
 form input[type="submit"] {
@@ -375,15 +375,15 @@ Again, adjust the speed of transition.
 
 ### Adding a `hover` to the `submit` button
 
-Finally we make a subtle change of colour for the hover sytate of our button.
+Finally we make a subtle change of colour for the hover state of our button.
 ```
 form input[type="submit"]:hover {
   background-color: #c30;
 }
 ```
-*Adjust the colour to compliment your button colour*. You don't have to change the colour too much for hover states - just make it a little bit lighter or darker.
+*Adjust the colour to complement your button colour*. You don't have to change the colour too much for hover states - just make it a little bit lighter or darker.
 
-**Customise the form to compliment your design**. Ensure it remains accessible. Ensure the labels stay in place (even if you change the actual text). Tab order - test by tabbing through your form - does it move in a logical order, from box to box to submit?
+**Customise the form to complement your design**. Ensure it remains accessible. Ensure the labels stay in place (even if you change the actual text). Tab order - test by tabbing through your form - does it move in a logical order, from box to box to submit?
 
 ---
 
@@ -407,7 +407,7 @@ At this point you need to take stock and review what you’ve done.
 
 In terms of the design, scroll up and down your entire site a few times, and imagine you have never seen it before. If you visited this site for the first time, would you know what it was about? Is the site consistent? Does it communicate something about this person? Do the images work well with your overall colour scheme?
 
-Check the metadata in your HTML page: would it help someone find you if they googled your name? Location? Occupation? Hobbies?
+Check the metadata in your HTML page: would it help someone find you if they Googled your name? Location? Occupation? Hobbies?
 
 Your CSS should be nearly complete. Is it readable, and logically ordered? Have you commented your code so that another developer could understand what you've done and why? (You don’t have to comment every single line, but commenting helps to separate sections and describe complex code) Are your breakpoints consistent?
 
