@@ -74,7 +74,7 @@ Copy the relevant code into your stylesheet: the 'class names' should already 
   justify-content: center;
 }
 ```
-Swap out `background: green;` with a suitable colour from your pallete. This is merely a fallback colour as we will be adding your *hero* image as the background next. Make sure the colour you use has good contrast with your text. **Why?** If your hero image fails to load you want to be sure the text is legible.
+Swap out `background: green;` with a suitable colour from your palette. This is merely a fallback colour as we will be adding your *hero* image as the background next. Make sure the colour you use has good contrast with your text. **Why?** If your hero image fails to load you want to be sure the text is legible.
 
 Review the remaining styles used to centre our header content. As Phillip Walton says...
 
@@ -110,7 +110,7 @@ max-width: 500px;
 ```
 font-size: 1.35rem;
 ```
-- This font sizing is being replaced in the cascade. We have more specific styles for our heading and paragrpah (if you have a tag line).
+- This font sizing is being replaced in the cascade. We have more specific styles for our heading and paragraph (if you have a tag line).
 
 You might consider creating specific styles for the heading. For example:
 
@@ -121,7 +121,7 @@ You might consider creating specific styles for the heading. For example:
     line-height: 1;
 }
 ```
-This style targets the `<h1>` in the `<header>`. Adjust this style to work on mobile. A smaller value `line'height` is good if your header wraps on mobile and `margin-bottom` ensure a gap is retained between the heading and paragraph.  
+This style targets the `<h1>` in the `<header>`. Adjust this style to work on mobile. A smaller value `line-height` is good if your header wraps on mobile and `margin-bottom` ensure a gap is retained between the heading and paragraph.  
 
 The final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps a request to *download your cv (pdf)*.
 
@@ -153,7 +153,7 @@ Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM).
 
 ## Task 3 - Background colours
 
-Our portfolio design uses a single page to deliver a variety of content. Whereas in the past this may have done with a number of separate pages, this technique gives us slick *all in one* design solution.
+Our portfolio design uses a single page to deliver a variety of content. Whereas in the past this may have been done with a number of separate pages, this technique gives us slick *all in one* design solution.
 
 Commonly colour or images are used to define each section. This ensures that the user (as they travel down the page) feel and notice they are moving from one section to the next.
 
