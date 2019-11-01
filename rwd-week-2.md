@@ -7,7 +7,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 ## Task 1 - Getting started
 
 - Create a folder called `term_two_project` to contain this project. 
-- Get the template portfolio code from github.
+- Get the template portfolio code from GitHub.
 - **IMPORTANT** If you are doing IWD (Apprentice Intro to web) use the [l4-rwd-template code](https://github.com/mmu-webdesign/l4-rwd-template)
 - **IMPORTANT** If you are doing WPD (Web Page Development) use the [l4-rwd-template-components code](https://github.com/mmu-webdesign/l4-rwd-template-components)
 - Check you have the right template. Using the wrong template will get you out of sync later on in these instructions.
@@ -84,7 +84,7 @@ For advice on writing a good page title read [the Title Tag article on MDN](http
 
 As we have previously explained the meta description is usually displayed on the Google results page along with the URL of your site.
 
-Write a good description that compliments and expands on your title.
+Write a good description that complements and expands on your title.
 ```
 <meta name="description" content="Add your meta description here">
 ```
@@ -204,7 +204,7 @@ Web Fonts offers a much wider array of options beyond the basic web safe font fa
 
 There are some drawbacks. Adding Web Fonts to your page increases the overall download time and *weight* of the page. Fonts can be costly. Free doesn't always mean good. 
 
-We would you to select either a single Google Font for both your headings and text, or a pair of complimentary fonts (one for headings, one for the text). 
+We would you to select either a single Google Font for both your headings and text, or a pair of complementary fonts (one for headings, one for the text). 
 
 Read the [MDN Web Fonts article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) for much more detail if you would like a deeper understanding.
 
@@ -214,8 +214,8 @@ Read the [MDN Web Fonts article](https://developer.mozilla.org/en-US/docs/Learn/
 
 ### Help in selecting your fonts
 
-- [Layouts designed with google fonts](https://femmebot.github.io/google-type/) 
-- [The best google fonts according to Typewolf](https://www.typewolf.com/google-fonts)
+- [Layouts designed with Google fonts](https://femmebot.github.io/google-type/) 
+- [The best Google fonts according to Typewolf](https://www.typewolf.com/google-fonts)
 
 ### Apply your selected Google Font(s)
 
@@ -282,7 +282,7 @@ On our illustration of the layout we have alternate grey and white background co
 - Body text
 - Headings
 - Navigation (background)
-- Sections (background) - two complimentary/contrasting colours
+- Sections (background) - two complementary/contrasting colours
 - Footer (background)
 - Link colours (all states)
 
@@ -294,7 +294,7 @@ On our illustration of the layout we have alternate grey and white background co
 
 We will apply the colours next week.
 
-If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your pallete, including selecting primary and accent colours.
+If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your palette, including selecting primary and accent colours.
 
 ## Colour resources
 
