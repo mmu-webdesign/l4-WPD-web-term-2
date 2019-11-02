@@ -23,9 +23,9 @@ If so, **change it**: it should only be applying to `.container-content`, not al
 
 ## Browser resources
 
-*   [The web developer toolbar for firefox and chrome](https://chrispederick.com/work/web-developer/)  
+*   [The web developer toolbar for Firefox and Chrome](https://chrispederick.com/work/web-developer/)  
 
-*   [Introduction to the chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)  
+*   [Introduction to the Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)  
 
 *   [Firefox developer edition](https://www.mozilla.org/en-US/firefox/developer/)  
 
@@ -66,9 +66,9 @@ If so, **change it**: it should only be applying to `.container-content`, not al
 -   Run an audit using Dev Tools in Chrome.  
 -   Validation HTML & CSS
 -   Accessibility audit (see link below)
--   Usability - get friends and family to test you page.  
+-   Usability - get friends and family to test your page.  
 
--   Design - test you design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
+-   Design - test your design using the 5 second test for designs on colleagues, friends and family - [https://fivesecondtest.com/](https://fivesecondtest.com/) - see [https://www.nngroup.com/articles/testing-visual-design/](https://www.nngroup.com/articles/testing-visual-design/)
 -   Are all of your images optimised for the web?
 -   Colour contrast - have you made the right choices with your colours?
 -   SEO - have you written good metadata and content with SEO in mind? See [Shaun Anderson's SEO tutorial for some good advice](https://www.hobo-web.co.uk/seo-tutorial/#page-title-element).  
