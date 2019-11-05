@@ -247,7 +247,10 @@ h1, h2, h3 {
 font-family: Google font, web safe font, generic fallback;
 }
 ```
-- Add a font-size in rems. 1 rem will be 16px.
+- Add a font-size in rems.
+- Remember that 1rem equals the font size of the html element (which for most browsers has a default value of 16px).
+- Experiment with the values below, adjusting them to sizes that suit your design.
+- For more about the different ways of setting the font size - [CSS Tricks Font Sizes article](https://css-tricks.com/almanac/properties/f/font-size/).
 
 ```
 h1 {
