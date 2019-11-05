@@ -296,6 +296,10 @@ We will apply the colours next week.
 
 If you want to learn more [read Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/). This will help in selecting your palette, including selecting primary and accent colours.
 
+> **Video** - Derren selects the colour scheme for his demonstration site using his magic colour scheme try out machine.
+
+[Link to the Magic Colour Scheme Try Out Machine](https://55060509.webdevmmu.uk/colour-chooser/).
+
 ## Colour resources
 
 - [Coolors.co](https://coolors.co/) - a really good colour palette chooser.
