@@ -1,7 +1,9 @@
 # RWD - Week One
 
 ## Developing content for your portfolio
-We need you to start creating content for the 'responsive' portfolio web site you are about to develop over the coming weeks for assignment two.
+
+During the Spring Term you will be developing a 'responsive' portfolio web site for assignment two. The content for this site will be developed and assessed under the Digital Asset Creation unit. 
+The quality of any website is reflective on the owner. You are not only being judged on your coding, design, accessibility and usability (Web Page Development) but also on the quality of the text and media (Digital Asset Creation).
 
 [Heidi Cohen](https://twitter.com/heidicohen) describes content as:
 
@@ -9,22 +11,37 @@ We need you to start creating content for the 'responsive' portfolio web site yo
 
 Well written content and high quality media is essential for the success of your portfolio.
 
-- **About me** – engaging text to attract and inform the user. Mindful of Search Engine Optimisation (SEO), using relevant keywords and such. Tell the reader something about yourself. 150 words maximum. You may want to include links to your social media feeds in this section if you have them.
-- **Work experience** – details of your current and previous work experience. Include relevant links and media. 200 words maximum. **NOTE** - If you have no work experience change this section to **Interests** in relation to your course.
+The Digital Asset Creation assessment brief defines the content as follows:
 
-## Original images for the gallery
+* a Production Summary Report (700 word, +/- 10%)
+* a 4.5 minute audio documentary (900 word equivalence, +/- 10%) 
+* a 4.5 minute video documentary (900 word equivalence, +/- 10%)
+* a written narrative (500 words +/- 10%) 
+* and to present these along with 6 photographic images (from Element 2)
 
-- Take or create three original images to illustrate things important to you.
-- Usually these are photographs (jpeg format). 
-- If they are illustrations either gif, svg or png formats may be more relevant.
+This breaks down into the following sections of your portfolio:
+
+### Introduction
+* a written narrative (500 words +/- 10%) 
+
+### Video
+* a 4.5 minute video documentary (900 word equivalence, +/- 10%)
+* a Production Summary Report (700 word, +/- 10%)
+
+### Audio
+* a 4.5 minute audio documentary (900 word equivalence, +/- 10%) 
+
+### Photography gallery
+* 6 photographic images (from Element 2)
+
+You may want to include links to your social media feeds if you have them.
+
+
+## Images for the gallery
+
+- Using the six images from the first DAC assignment.
 - If they can all be the same orientation (landscape or portrait) it does make things simpler, but is not essential. 
 - The images can later be sized appropriately and optimized for the web when you know more about the layout you are creating.
-- **You will require a 4th original image for your 'big banner', often known as the 'hero' image**. This is going to be used at a much larger size. It needs to be high quality. It should be landscape. 
-- If you are struggling to create a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). 
+- **You will require a 7th original image for your 'big banner', often known as the 'hero' image**. This is going to be used at a much larger size. It needs to be high quality. It should be landscape. You may chose to use a short video instead.
 - Remember to keep the full size original images - always edit copies.
 
-## Notes
-
-**Try to have your text ready for Week Two and images for Week Three.**
-
-As the project proceeds students often decide to *upgrade* (improve) their text and images before the final submission. You don't have to stick with the content created in initial weeks.
