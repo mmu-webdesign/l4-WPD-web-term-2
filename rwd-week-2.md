@@ -153,76 +153,9 @@ Neither your title, meta description or your main heading should contain the wor
 
 ## Task 4 - The CSS re-set
 
-### Making your CSS *sensible*.
+### Box sizing
 
-Our template includes `layout.css`. We have included a basic re-set (to remove some of the browsers default settings) and comments to guide your initial styling. 
-
-The following is a breakdown of each of the re-set styles applied to `layout.css`. Please read through and ask questions if you don't understand something.
-
-
-```
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif; 
-```
-
-Update the font-family with a Google Font, web safe font and generic fall back.
-
-```
-    font-size: 100%; 
-```
-Remember that the default browser font size is 16px.
-```
-    line-height: 1 ; 
-```
-
-update to suit your type choices
-
-```
-    color: #000;  
-```
-    /* base text colour - update to suit your design */
-```
-}
-```
-
-Default element re-sets (headings, paragraphs and lists).
-```
-h1,
-h2,
-h3,
-p,
-ol,
-ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-}
-```
-The final re-set provided improves default font styles for forms. By default form input and text areas do not inherit the font-family (like all other elements) applied to the body.
-```
-input,
-textarea {
-    font-family: sans-serif;
-}
-```
-As with the body you will need to update the font-family with a Google Font, web safe font and generic fall back.
-
-Save any changes to `layout.css`.
-
----
-## Note
-
-We have found that the CSS re-set can be distracting at this stage. You may prefer to comment out all of the above re-sets (but this isn't easy). 
-
-Either way, don't re-apply margins etc with your own CSS. You page will look bad, but we will address this next week.
-
----
-
-## Task 5 - Two further CSS  re-sets
-
-We would like you to now add two more essential CSS re-sets to `layout.css`.
+We would like you to add two essential CSS re-sets to `layout.css`.
 
 ```
 /* box sizing */
@@ -231,7 +164,11 @@ Find the above comment in `layout.css` and [add the border box model CSS code fr
 
 You will remember that by default browsers define a box size as `width or height + padding + border` = actual width or height. Applying `box-sizing: border-box;` means the width or height includes any padding and/or border. This tends to make life easier - you want a 200px wide box, that's what you now get. For a more detailed explanation see [Box Sizing explained on CSS Tricks](https://css-tricks.com/box-sizing/).
 
-At the moment this won't make any difference to you page. This comes later. Now add our final re-set.
+At the moment this won't make any difference to you page. This comes later. 
+
+### Flexible images
+
+Look for this comment in `layout.css`.
 
 ```
 /* flexible content images code */
@@ -240,24 +177,29 @@ Looking at `index.html` in your browser you will have noticed that the images we
 
 To fix this problem add this [flexible image CSS code from Derren's CodePen](https://codepen.io/wilsondmmu/pen/ZvPBgv) to `layout.css`. 
 
-Save the changes to `layout.css` and reload `index.html` in your browser. You will now see that the dummy images we have provided size themselves to the browser window. Whilst this is not true *responsive images* - that would serve differnt size images to different size screens, it does provide a simple solution.
+Save the changes to `layout.css` and reload `index.html` in your browser. You will now see that the dummy images we have provided size themselves to the browser window. Whilst this does not deliver true *responsive images* - that would serve different size images to different size screens, it does provide a simple solution.
 
-Remember as you further develop your CSS to add comments as you go to your code *about* what you've added. The syntax for CSS comments: 
+Remember to add comments as you further develop your CSS to ensure developers (and tutors) understand your workings. The syntax for CSS comments: 
 
  ```
  /* your comment */
  ```
+
 ---
 
-## Task 6 - Selecting & adding Google Fonts
+## Task 5 - Selecting and adding Google Fonts
 
-Web Fonts offers a much wider array of options beyond the basic web safe font families. It is now possible create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
+Web Fonts offer a much wider array of options beyond the basic web safe font families. It is now possible to create or buy Web Fonts to enhance the design of your site. Google Fonts provides a free and easy to use option. 
 
-There are some drawbacks. Adding Web Fonts to your page increases the overall download time and *weight* of the page. Fonts can be costly. Free doesn't always mean good. 
+There are some drawbacks. 
 
-We would you to select either a single Google Font for both your headings and text, or a pair of complementary fonts (one for headings, one for the text). 
+- Adding Web Fonts to your page increases the overall download time and *weight* of the page. 
+- Fonts can be costly. 
+- Free doesn't always mean good. 
 
-Read the [MDN Web Fonts article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) for much more detail if you would like a deeper understanding.
+We would like you to select either a single Google Font for both your headings and text, or a pair of complementary fonts (one for headings, one for the text). 
+
+Read the [MDN Web Fonts article for much more detail](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) if you would like a deeper understanding of what web fonts are, and how they are implemented. Please note that by using Google Fonts we are not asking you to download the fonts you are using, as described in the article.
 
 ### Selecting and adding your Google Font(s)
 
@@ -265,7 +207,7 @@ Read the [MDN Web Fonts article](https://developer.mozilla.org/en-US/docs/Learn/
 
 ### Help in selecting your fonts
 
-- [Layouts designed with Google fonts](https://femmebot.github.io/google-type/) 
+- [Layouts designed with Google Fonts](https://femmebot.github.io/google-type/) 
 - [The best Google fonts according to Typewolf](https://www.typewolf.com/google-fonts)
 
 ### Apply your selected Google Font(s)
@@ -274,7 +216,7 @@ Once you have chosen your font(s), they need to be added to your HTML and CSS.
 
 - Add the Google Font code for your *body copy* to the `<head>` of your `index.html` file, **before the link to** `layout.css`. Repeat this if you have selected a second font.
 - Add the font-family CSS rule from Google Fonts to your body rule in `layout.css`.
-- By default Google provides a family of the font you have selected and a generic fallback. Insert between these [a suitable web safe font](https://codepen.io/wilsondmmu/pen/ZaJwOy).
+- By default Google provides the family of the font you have selected and a generic fallback. Insert between these [a suitable web safe font](https://codepen.io/wilsondmmu/pen/ZaJwOy).
 - Base font (body) should read - Google font, web safe font, fallback.
 
 Save `layout.css` and view the changes to `index.html` in a browser.
@@ -290,6 +232,10 @@ Save `layout.css` and view the changes to `index.html` in a browser.
 /* element styling (e.g. standard p, h1, h2, a, etc) */
 ```
 Find the above comment in `layout.css` and add styles to headings and paragraphs.
+
+> **Remember** that at the moment all of these styles are for your mobile design. If the defaults are working, don't adjust for the sake of it.
+
+- Once you have applied a Google font to the body element, all text will inherit this style (except for the form - more later). Don't reapply the same font to headings or paragraphs in your CSS. 
 
 - If you have selected a second Google Font for headings you will need to apply this (usually to all headings).
 
@@ -319,28 +265,38 @@ p {
 ```
 Experiment to see what works best for your chosen fonts. Are the paragraphs legible? Are the headings suitably big enough?
 
+> **Remember** we are still mobile size. 
 
-- Next adjust the line-height in your body rule. Adjust to improve the legibility of your text.
 
-- Save `layout.css` and check it's working by viewing `index.html` in your browser. Does it look right? **Adjust it until it does**.
+- Next adjust the line-height in your body rule. Adjust to improve the legibility of your text. 
+
+[Read the MDN article on Line Height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) to learn why it is better to use `number` values instead of `length` values  and why a minimum of 1.5 is good for accessibility. 
+
+- Save `layout.css` and check it's working by viewing `index.html` in your mobile size browser. Does it look right? Is it easy to read? 
+
+- Adjust your CSS it until you are satisfied. Ask tutors and friends to take a look.
+
 - Style your header `<h1>` and section `<h2>` headings by changing one or two things about them: font-weight, font-size, color, text-transform: uppercase, letter-spacing etc.
 
 As the project develops you will adjust and enhance these settings. You may spot a *better* font. You will improve your writing and you will undoubtedly add more sophisticated styles. 
 
+> **Remember** that you are always aiming for lean, efficient coding. Don't just keep adding for the sake of it. Make sure (especially in CSS) that you aren't repeating rules for styles already applied.
+
 ---
 
-## Task 7 - Selecting a colour scheme
+## Task 6 - Selecting a colour scheme
 
-On our illustration of the layout we have alternate grey and white background colours for each section, plus a black background for both the navigation and footer. We would like you to select an appropriate colour scheme. This would include colours for:
+On our [illustration of the layout (pdf)](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf) we have alternate grey and white background colours for each section, plus a black background for both the navigation and footer. We would like you to select an appropriate colour scheme for these contrasting areas. This would include colours for:
 
 - Body text
 - Headings
 - Navigation (background)
+- Navigation (text colour)
 - Sections (background) - two complementary/contrasting colours
 - Footer (background)
 - Link colours (all states)
 
-**Research a colour scheme** - try [coolors.co](https://coolors.co/). 
+[Research a colour scheme - try coolors.co](https://coolors.co/). 
 
 **Choose one primary colour and use tints and shades of that colour for the backgrounds. You may also want to select an accent colour.**
 
@@ -352,36 +308,25 @@ If you want to learn more [read Building Your Color Palette](https://refactoring
 
 > **Video** - Derren selects the colour scheme for his demonstration site using his magic colour scheme try out machine.
 
-[Link to the Magic Colour Scheme Try Out Machine](https://55060509.webdevmmu.uk/colour-chooser/).
+[Link to the Magic Colour Scheme Try Out Machine](https://55060509.webdevmmu.uk/colour-chooser/colour-chooser/acw2.html).
 
-## Colour resources
+
+### Colour resources
 
 - [Coolors.co](https://coolors.co/) - a really good colour palette chooser.
 - [Adobe colour wheel](https://color.adobe.com/create/color-wheel/) - you may also want to try out this colour tool which helps you come up with colour palettes for your site.
 - [CSS for Backgrounds](http://cssreference.io/backgrounds/) - a reference site for all the ways we can control backgrounds in CSS.
-- [WebAIM Colour Contrast Checker](https://webaim.org/resources/contrastchecker/) and [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/).
 
----
+## Colour accessibility
 
-## Task 8 - The Style Guide
+You must ensure that you maintain a good contrast between background and foreground colours. You can use a variety of contrast checking tools to ensure that the colours your choose conform to the WCAG (Web Content Accessibility Guidelines) standards and provide sufficient contrast. Read [MDN's article on Colour Contrast](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast).
 
-In your pages folder you will find `style-guide.html`. This is a standalone style guide for your site. 
+- [WebAIM Colour Contrast Checker](https://webaim.org/resources/contrastchecker/) 
+- [WebAIM Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/)
+- Lea Verou's [Contrast Ratio checker](https://contrast-ratio.com/).
 
-Edd Sowden writing for [GOV.UK](https://gdstechnology.blog.gov.uk/2014/12/11/govuk-living-style-guide/) says...
 
->When trying to develop a site with a consistent look and feel it’s common to [develop a style guide](https://24ways.org/2011/front-end-style-guides/) with patterns which can be reused across the site. This lets designers easily reuse standard patterns and lets developers know how to make things look.
-
-Edit `style-guide.html` to:
-
-- Add the hex codes for your chosen colours to the swatches.
-- Add your Google Font(s) to the page.
-
-See prompts and comments on the page to guide you.
-
-Save `style-guide.html` and view in the browser. Test and review your font and colour choices.
-
----
-**Video** - [Using coolors.co for your colour scheme and apply colours and Google fonts to your styleguide](https://www.youtube.com/watch?v=c5EGMwk8SR0).
+> BBC Gel (Global experience language) has a video that is worth watching as it explains how the accessibility of products we design and develop affect disabled people's lives in a variety of ways. [Video - It's our passion, joy, and responsibility to build a great BBC for everyone](https://www.bbc.co.uk/gel/articles/bbc-for-everyone).
 
 ---
 
@@ -398,17 +343,15 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 Before you start Week 3 - Have you completed everything?
 
 - Download the template files from GitHub
-- Define the site in Visual Studio Code and view the files (`index.html`, `layout.css` and `style-guide.html`)
+- Define the site in Visual Studio Code and view the files (`index.html`and `layout.css`)
 - Working mobile first - resize your browser
 - Review the structure - understand how the design is reflected in the semantic markup.
-- View the full (relevant) layout PDF.
-- Add your content (tag it up).
+- [View the full layout PDF](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf).
+- Add your content to `index.html` and tag it up.
 - Validate to check for errors.
-- Review the CSS re-sets we have provided - ask if you don't understand.
-- Add the box sizing and flexible image re-sets.
+- Add the box sizing and flexible image CSS re-sets.
 - Select and add your Google fonts.
 - Select a colour scheme ready for implementing next week.
-- Edit `style-guide.html` to add your colours and font(s).
 
 And finally:
 
@@ -416,3 +359,5 @@ And finally:
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
 
 **End**
+
+[Return to the Top](#contents)
