@@ -15,8 +15,10 @@ You are going to develop a single page portfolio. This one page introduces you t
 * [Checklist](#Week-2-Checklist)	
 
 ---
+## Task 1 - Getting started
 
-	- Download the template portfolio code from GitHub and extract to your computer.	
+- Download the template portfolio code from GitHub and extract to your computer.
+	
 > **Download** - [The WPD Template Portfolio Site](https://github.com/mmu-webdesign/l4-rwd-template-components)	
 
 ### Instructions	
