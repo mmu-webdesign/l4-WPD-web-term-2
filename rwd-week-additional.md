@@ -6,7 +6,7 @@ We have used a single page to introduce the concepts and techniques of mobile fi
 
 Some of our more *technical* students ask what more can they do.
 
-The usual response from many such students is to add technical complexity, usually via JavaScript. This is often not successful because these technical solutions are often implemented *for the sake of it*, and fail to enhance the user experience. In fact they often degrade the users experience and lose the student marks.
+The usual response from many such students is to add technical complexity. This is often not successful because these technical solutions are often implemented *for the sake of it*, and fail to enhance the user experience. In fact they often degrade the users experience and lose the student marks.
 
 ## Rule of thumb
 
@@ -140,11 +140,11 @@ A popular technique is to use a short, repeating, movie clip as the hero image. 
 
 Like the large hero image they can add drastically to the weight of the page.
 
->[To add a Video Header follow this additional tutorial created by Derren](https://github.com/mmu-webdesign/IWD-web-term2/blob/master/rwd-week-video.md). 
+>[To add a Video Header follow this additional tutorial created by Derren](https://github.com/mmu-webdesign/WPD-web-term-2/blob/master/rwd-week-video.md). 
 
 ## Original illustrations
 
-If you are an artist (or artistic) you might prefer to create some illustrations for the hero image and/or the gallery (instead of or as well as photographs).
+If you are an artist (or artistic) you might prefer to create some illustrations for the hero image instead your photograph.
 
 Any illustrations created must still be exported and optimised for the web.
 
