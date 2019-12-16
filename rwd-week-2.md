@@ -4,20 +4,33 @@
 
 You are going to develop a single page portfolio. This one page introduces you to the basics of RWD (responsive web design), mobile first web development and further elements of page layout, typography, web design and coding.
 
-## Task 1 - Getting started
+## Contents	
 
-- Create a folder called `term_two_project` to contain this project. 
-- Get the template portfolio code from GitHub.
-- **IMPORTANT** If you are doing IWD (Apprentice Intro to web) use the [l4-rwd-template code](https://github.com/mmu-webdesign/l4-rwd-template)
-- **IMPORTANT** If you are doing WPD (Web Page Development) use the [l4-rwd-template-components code](https://github.com/mmu-webdesign/l4-rwd-template-components)
-- Check you have the right template. Using the wrong template will get you out of sync later on in these instructions.
-- Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.
-- You only need the `portfolio` folder - move this into your `term_two_project` folder.
-- Using _Visual Studio Code_ - open folder to define on the `portfolio` folder. Open `index.html` and `layout.css`.
+* [Task 1 - Getting started](#Task-1---Getting-started)	
+* [Task 2 - Review of HTML template](#Task-2---Review-of-HTML-template)	
+* [Task 3 - Adding your content and metadata](#Task-3---Adding-your-content-and-metadata) 	
+* [Task 4 - The CSS re-set](#Task-4---The-CSS-re-set)	
+* [Task 5 - Selecting and adding Google Fonts](#Task-5---Selecting-and-adding-Google-Fonts)	
+* [Task 6 - Selecting a colour scheme](#Task-6---Selecting-a-colour-scheme)	
+* [Checklist](#Week-2-Checklist)	
 
 ---
 
-[VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewoing.](https://youtu.be/h5Tvh7dPPxs) 
+	- Download the template portfolio code from GitHub and extract to your computer.	
+> **Download** - [The WPD Template Portfolio Site](https://github.com/mmu-webdesign/l4-rwd-template-components)	
+
+### Instructions	
+
+- Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.	
+Extract the folder to a safe location on your computer.	
+- Rename the folder `portfolio`. 	
+- Delete the README.md file.	
+- Using _Visual Studio Code_ - open folder to define on the `portfolio` folder. Open `index.html` and `layout.css`.	
+> Where did you save the portfolio folder? Is it safe? Will it be backed up regularly? Will you lose all of your work if you accidentally delete the folder? Can you find it next week?	
+
+---	
+
+[VIDEO - Demonstration of downloading and extracting the files, defining the site in Visual Studio Code, testing and viewing in a browser.](https://youtu.be/h5Tvh7dPPxs) 
 
 ---
 
@@ -28,35 +41,71 @@ You are going to develop a single page portfolio. This one page introduces you t
 * { border:1px solid red; } 
  ```
 
+- Save `layout.css` and re-load `index.html` in the browser. Everything should get a red border. Yes? Then you can delete this line of CSS.	
 
-- Everything should get a red border. Yes? Then you can delete this line.
+### Your *root* folder	
+The `portfolio` folder is the root of your website. This will contain all the files and sub-folders of your portfolio site. Don't link to any files outside of this folder. Come submission, you will submit this folder and its contents.	
 
-### Working *mobile first*
-Keep your browser window small (mobile size - no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.
+### Working *mobile first*	
+>Keep your browser window small (mobile size - no more than half) - don't develop your site with your browser set to fill the screen - we are developing *mobile first*.	
+
+### MS Windows specific issues	
+
+**If you use a windows computer, read this:** 	
+>File extensions - .html .css .js .pdf	
+On Windows computers, you might have trouble seeing the file names, because Windows has an option called Hide extensions for known file types turned on by default. Generally you can turn this off by going to Windows Explorer, selecting the Folder options... option, unchecking the Hide extensions for known file types checkbox, then clicking OK. For more specific information covering your version of Windows, you can search on the web.	
+Also, for the moment **avoid using MicroSoft Edge** browser. Edge has security features that makes it hard to use *local files*, i.e. viewing/linking a HTML file on your own computer. 	
+**Avoid MS Explorer altogether!** Use Chrome or Firefox. You can test on other browsers later.
 
 ---
 
-## Task 2 - The structure - review of HTML template
+## Task 2 - Review of HTML template
 
-We will provide an overview of the semantic structure and how this relates to the visual design of the template in class.
+In class we will provide a review of the semantic structure and how this relates to the visual design of the template in class.
 
-### Download full PDF
+### Download the PDF
 
--  **Technical Solutions Apprentice students** - [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/apprentice-website-structure.pdf).
+>[Illustrated page layout & code structure](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/dmc-website-structure.pdf)
 
- - **Digital Media & Communications students** - [Page Layout & code structure explained](https://github.com/mmu-webdesign/responsive-web-tutorial/blob/master/design-templates/dmc-website-structure.pdf).
 
 ---
 
 ## Task 3 - Adding your content and metadata
 
+### Add your content
 
-**Add your content** (created over the last week) to the HTML file in the About and Work sections. 
+#### Introduction
 
-**Tag up your content**, remembering to use headings, paragraphs, links, and lists as appropriate. 
+Introduction - 500 words
 
-- **About me** – engaging text to attract and inform the user. 150 words maximum plus relevant links.
-- **Work experience** – details of your current and previous work experience or change this section to **Interests** in relation to your course. 200 words maximum.
+#### Video
+
+Production Summary - 700 words
+Use Lorum Ipsum at this stage. 
+
+#### Generate some dummy text
+
+Go to [The Dummy Text generator](https://www.blindtextgenerator.com/lorem-ipsum)
+
+Select:
+
+* Lorem ipsum
+* 500 words
+* 5 paragraphs
+* display `<p>` tags
+
+Cut &amp; paste into your introduction. Repeat with 700 words for the production summary.
+
+### Tag up your content	
+Apply html *tags* to your content. Remember to use headings, paragraphs, links, and lists as appropriate to structure your content.	
+
+### Coding tips	
+- Only one `<h1>`	
+- Headings are about levels of importance. Therefore if each sub-section is of equal importance, they will all be for example `<h2>`.	
+- Don't use `<br>` to create space - that's done later with CSS.	
+- Create space with `<p>`, don't have big blocks of text (a single paragraph).	
+- Use lists and tables if appropriate.	
+> **No CSS** - at this point do not apply any CSS. With your browser at mobile size, view your content as you apply the html. Your browser will apply its default styles. The page should display reasonably well with these styles. You will apply you own styling later.  
 
 ### Metadata
 
