@@ -18,7 +18,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 ## Task 1 - Getting started
 
 - Download the template portfolio code from GitHub and extract to your computer.
-	
+
 > **Download** - [The WPD Template Portfolio Site](https://github.com/mmu-webdesign/l4-rwd-template-components)	
 
 ### Instructions	
@@ -76,13 +76,9 @@ In class we will provide a review of the semantic structure and how this relates
 
 ### Add your content
 
-#### Introduction
+* **Introduction** - 500 words
+* **Video - production summary** - 700 words
 
-Introduction - 500 words
-
-#### Video
-
-Production Summary - 700 words
 Use Lorum Ipsum at this stage. 
 
 #### Generate some dummy text
