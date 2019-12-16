@@ -113,6 +113,8 @@ In the `<head>` of your page you have the three important elements of metadata:
 
 #### Meta viewport	
 
+** Note**: *read this section but don't write the meta data until you have your final page content*.
+
 ```	
 <meta name="viewport" content="width=device-width, initial-scale=1">	
 ```	
