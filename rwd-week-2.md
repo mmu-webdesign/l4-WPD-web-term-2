@@ -109,37 +109,37 @@ Apply html *tags* to your content. Remember to use headings, paragraphs, links, 
 
 ### Metadata
 
-In the `<head>` of your page you have the three important elements of metadata:
+In the `<head>` of your page you have the three important elements of metadata:	
 
-#### Meta viewport
-```
+#### Meta viewport	
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+```	
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+```	
+For a deeper understanding of the meta viewport tag read the MDN article - [Using the viewport meta tag to control layout on mobile browsers](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag).	
 
-```
-For a deeper understanding of the meta viewport tag read - [Using the viewport meta tag to control layout on mobile browsers(https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)].
+#### The `<title>` element	
 
-#### The `<title>` element
+`<title>` is not strictly a meta tag, but this is valuable metadata about your page/site. 	
+```	
+<title>NEVER forget to write a good page title</title>	
+```	
+Title - The homepage `<title>` should set a content for the whole site. It can be expanded upon in the meta description. This is easy if you are the BBC or Nike, or your name is fairly distinctive (Richard Eskins?). Otherwise this can be tough. Any sub-pages should start *function first*, for example `Contact - Richard Eskins`. To understand the importance of the title read the [the MOZ SEO Guide to the title tag](https://moz.com/learn/seo/title-tag).
 
-`<title>` is not strictly a meta tag, but this is valuable metadata about your page/site. 
-```
-<title>NEVER forget to write a good page title</title>
-```
-Write a title that clearly describes your page/site. As this is a personal portfolio it should probably contain your name. 
+**For this portfolio page** the title should reflect who the author is, and the subject of the content.
 
-For advice on writing a good page title read [the Title Tag article on MDN](https://moz.com/learn/seo/title-tag).
+#### The Meta Description	
 
-#### The Meta Description
+As we have previously explained the meta description is usually displayed on the Google results page along with the URL of your site.	
+Write a good description that complements and expands on your title.	
+```	
+<meta name="description" content="Add your meta description here">	
+```	
+On a homepage the description should reflect the site as a whole. Descriptions between 50–300 characters. For a deeper understanding see [the MOZ SEO Meta Description Guide](https://moz.com/learn/seo/meta-description).
 
-As we have previously explained the meta description is usually displayed on the Google results page along with the URL of your site.
+**For this portfolio page** this is a chance to provide more information about your chosen subject, the media and you.
 
-Write a good description that complements and expands on your title.
-```
-<meta name="description" content="Add your meta description here">
-```
-Again, there is a good MDN article on the [Meta Description element and SEO good practices](https://moz.com/learn/seo/meta-description).
-
-#### Tip
+#### A plea from us...	
 
 Neither your title, meta description or your main heading should contain the words *hello* or *welcome*. Please!
 
