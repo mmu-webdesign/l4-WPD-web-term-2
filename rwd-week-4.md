@@ -2,6 +2,19 @@
 
 ## Adding your media
 
+## Contents
+
+* [Task 1 - Review `page-header`](#Task-1---Review-page-header)
+* [Task 2 - Adding our *hero* image](#Task-2---adding-our-hero-image)
+* [Task 3 - Background blend mode](#Task-3---Background-blend-mode) 
+* [Task 4 - The `header-content`](#Task-4---The-header-content)
+* [Task 5 - Using `figure` and `figcaption`](#Task-5---Using-figure-and-figcaption)
+* [Task 6 - Introduction to media queries](#Task-6---introduction-to-media-queries)
+* [Task 7 - A responsive image gallery](#Task-7---A-responsive-image-gallery)
+* [Checklist](#Week-4-Checklist)
+
+---
+
 ## Task 1 - Review `page-header`
 
 In the previous class we provided the CSS for the large page header. You may have adjusted this already, especially the background colour.
@@ -47,7 +60,7 @@ Finally we have applied `align-items: center` and `justify-content: center` to o
 
 Both of these are sub-properties of flexbox. **Understand** that they are being applied to the flexbox (and the things inside it) - in our case the `.header-content` is the flexbox and therefore the `<h1>` and `<p>` tags that are being influenced by these properties and values. These properties place our header and tag line smack in the middle of our box.
 
-**Note** - In the past it has been very difficult to simply centre items on a page with CSS. These flex properties suddenly make it a lot easier.
+In the past it has been very difficult to simply centre items on a page with CSS. These flex properties suddenly make it a lot easier.
 
 If you want to know more about what is going on read the following articles on CSS Tricks.
 
@@ -65,7 +78,7 @@ If you want to know more about what is going on read the following articles on C
 
 You need a large image added to your site in an images or media folder. The image needs to be high quality, but that does not mean just use the 3Mb (or larger) file from your camera.
 - Resize your image to 3000 pixels wide (this ensures high quality on the best screen). The height should remain relative.
-- Optimize your image for the web. At these dimensions it may still be hundreds of kbs.
+- Optimize your image for the web. At these dimensions it may still be hundreds of kbs. If it is 1mb or more it is probably too big and can be further optimised.
 
 You can return to this and adjust size and optimisation later.
 
@@ -75,7 +88,11 @@ Insert your image to the class `.page-header `.
 background-image: url(../images/my-hero.jpg);
 ```
 
+> **Image path** - the path above drops out of the css folder (`../`) which takes you back to the root. It then moves up into the `images` folder to find the hero image. There are other ways of writing paths - use this one - it keeps everything relative to the root of your site and will work when you hand it over for marking. 
+
 Obviously use the name of your file. Save and test.
+
+
 
 Apply for safety...
 
@@ -101,13 +118,19 @@ Perhaps start with `center`.
 ```
 background-position:center; 
 ```
+How you position your hero image will depend on the image you have chosen and the positioning of your heading and tag line. Experiment with a few images if you can.
 
 ### Additional notes
 
-- If you are struggling to create a high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). 
-- You can [resize the big header image](http://www.simpleimageresizer.com/) and [compress the image](https://tinyjpg.com/) without necessarily needing Photoshop or [Figma](https://www.figma.com).
-- Remember to keep the full size original image.
+> Before you start - Remember to keep the full size original image. Edit and optimise a copy.
+
+- Squoosh is an excellent online image optimisation tool. [Visit squoosh.app](https://squoosh.app) to resize and compress your images.
+- There are some more online tools to both [resize the big header image](http://www.simpleimageresizer.com/) and [compress the image](https://tinyjpg.com/) without necessarily needing Photoshop or [Figma](https://www.figma.com).
 - *Alt text* - background images do not have (or need) alt text. However, that means you should not *hide* anything in the image you need your user to read.
+
+If you haven't yet sorted an original high quality hero image (you really should try) - you can download and use [a free hero image from Unsplash](https://unsplash.com/search/photos/hero-image). 
+
+For the final submission we expect your own, original images for this assignment.
 
 ---
 
@@ -122,16 +145,22 @@ Add `background-blend-mode` to the class `.page-header`.
 ```
 background-blend-mode: multiply;
 ```
-Now adjust your page header `background-color` to get a blend that works for both your hero image and your design.
+Now adjust your page header `background-color` to get a blend that works for both your hero image, your heading and tagline, and your design.
 
 You can also try out a number of the *blend modes*. Some work better than others. This [CodePen from CCS Tricks illustrates the differences](https://codepen.io/team/css-tricks/full/GgavOP). Read the full [background-blend-mode article](https://css-tricks.com/almanac/properties/b/background-blend-mode/) for more detail.
+
+Have a play with the options. Ultimately you can leave out the blend if it doesn't work for you.
 
 ---
 
 ## Task 4 - The `header-content`
 
 One problem of adding a background image to our header is that the text (our heading and tagline) often gets lost. 
-There are a number of clever ways to get around this issue. The first is to simply make the text colour white (or black if the image is pale). The other is to adjust the size of your heading and tagline.
+There are a number of clever ways to get around this issue. The first is to simply make the text colour white (or black if the image is pale). This is so obvious but many fail to implement this simple solution.
+
+The other simple method is to adjust the size of your heading and tagline.
+
+> Once you've mastered media queries you could for example make your header text much bigger on desktop sizes.
 
 You already have the following CSS fo your `.header-content`.
 
@@ -145,7 +174,7 @@ You already have the following CSS fo your `.header-content`.
 }
 ```
 - Adjust `max-width` as fits your design.
-- `font-size: 1.35rem;` can be removed. It's already being trumped in the cascade as he have `font-size` defined for `<h1>` and `<p>` already in our CSS. We can target these particlar items in a minute.
+- `font-size: 1.35rem;` should already have been removed as it's  being trumped in the cascade as we have `font-size` defined for `<h1>` and `<p>` already in our CSS. We can target these particular items in a minute.
 - Change `color` if required. You can also remove it and later specify different colours for the heading and paragraph if needed.
 - `text-align: center;` centres our content. **Note** that if your *tag line* is more than a line or two long that you should consider applying a more specific style (see below) to left align for better readability.
 - Apply `padding` as fits your design. 
@@ -166,7 +195,7 @@ You can target your heading and tagline with more specific styles.
 }
 
 ```
-You could adjust things like `font-size`, `color`, `padding-bottom`, `line-height` (if your heading wraps on mobile and there is a big gap between the words) and others that enhance your design. 
+You could adjust things like `font-size`, `color`, `padding-bottom` and `line-height` (if your heading wraps on mobile and there is a big gap between the words) and others that enhance your design. 
 
 ### Adding the `text-shadow` property
 
@@ -200,9 +229,14 @@ You can apply either of these techniques to your tagline paragraph as well. Adju
 
 **CodePen** - View Derren's CodePen - [Tuning your background to suit your site](https://codepen.io/wilsondmmu/pen/ZwEvLo) for a demonstration of both `text-shadow` and `background-blend-mode`.
 
+**Articles** - As usual, CSS tricks has a number of articles that show you how to take this further:
+
+- [Design Considerations: Text on Images](https://css-tricks.com/design-considerations-text-images/)
+- [Methods for Contrasting Text Against Backgrounds](https://css-tricks.com/methods-contrasting-text-backgrounds/)
+
 ---
 
-## Task 5 - Using `figure` &amp; `figcaption`
+## Task 5 - Using `figure` and `figcaption`
 
 
 You already have the following structure for your image gallery.
@@ -329,7 +363,7 @@ For more information.
 
 With adjustment of margins and padding (more to come below) and the use of `max-width: 100%;` in the images, our gallery will happily work in a single column on mobile.
 
-We are now going to make adjustments with media queries and the use of flexbox in our CSS to ensure our gallery displays well at larger screen sizes.
+We are now going to make adjustments with media queries and the use of flexbox in our CSS to ensure our gallery also displays well at larger screen sizes.
 
 Add following CSS to `layout.css` at this point:
 
@@ -353,6 +387,8 @@ As we want our gallery to make more use of the screen space we should make the g
 }
 ```
 Save and review your page. At desktop size the gallery now uses more space across the page than the rest of your content. We've chosen a `max-width` of `1200px` as it will later give us room to display our gallery in three boxes across the page. You can adjust this as best fits your design later.
+
+>**Note** - Quite often we find students end up with very small images and/or a small gallery. MAKE USE OF THE SPACE AVAILABLE. 
 
 Use the following to centre the section header.
 
@@ -397,22 +433,49 @@ Save and review your page. At mobile size there should be no *red border*. As yo
 
 ### Adding flexbox to the gallery
 
-To make *flex* item we target the parent. In the gallery we apply flex to `class="image-container"` so that the child elements (the three `figure`'s) become flex items.
+To make a *flex* item we target the parent. In the gallery we apply flex to `class="image-container"` so that the child elements (the three `figure`'s) become flex items.
 
 Replace the red border with `display: flex;`
 
 ```
 @media screen and (min-width: 500px) {
-    .image-gallery .image-container {
+    
+.image-gallery .image-container {
         display: flex;
     }
+
 }
 ```
-Save and view your page. As soon as you reach the 500px width our `flex` items (our images and captions) line up next to each other. Whilst it looks a bit rubbish (500px is too small) this is fantastic news. One line of code - `display:flex` has enabled this. In the past, this was only achieved by fudges and hacks in CSS.
+Save and view your page. As soon as you reach the 500px width our `flex` items (our images and captions) line up next to each other. Whilst it looks a bit rubbish (500px is too small) this is fantastic news. 
+
+>One line of code - `display:flex` has enabled this. In the past, this was only achieved by fudges and hacks in CSS.
 
 Adjust the `min-width` at which our media query kicks in - `@media screen and (min-width: 750px)` will work. You might want to adjust this a little later.
 
-We are next going to target each of our `<figure>`s. Add this within the media query:
+---
+
+> Which bit is the media query?
+
+This is the actual media query.
+
+`@media screen and (min-width: 500px) {`
+    
+
+`}`
+
+>These are the styles we are applying with this media query.
+
+`.image-gallery .image-container {
+        display: flex;
+    }`
+
+---
+
+### Add another style to the media query
+
+We are next going to target each of our `<figure>`s (with a class of `an-image`). 
+
+Add this within the media query:
 
 ```
 .image-gallery .an-image {
@@ -426,7 +489,14 @@ We are next going to target each of our `<figure>`s. Add this within the media q
 - `padding: 20px;` gives each of our `<figure>`s some padding all around.
 - and finally `background: white;` applies a background to each `<figure>`.
 
-Save and view. Once we expand past our `min-width` our three `<figure>`s now sit nicely side by side. The only remaining issue is that our background colour (white) looks like one big block. We can remedy this with a little clever CSS.
+*The padding and colour can be adjusted later to best fit your design as your work progresses*.
+
+>Save and view. 
+
+Once we expand past our `min-width` our three `<figure>`s now sit nicely side by side. *If they don't, rewind to see what has gone wrong*.
+
+
+The only remaining issue is that our background colour (white) looks like one big block. We can remedy this with a little clever CSS.
 
 The final touch is to add a left margin to any of your `<figure>`s (with their class of `.an-image`) that come after another `<figure>`. 
 
@@ -443,7 +513,7 @@ For this we use the Adjacent sibling combinator.
 >The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element. See [MDN Adjacent sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator).
 
 
-Save and reload. Your gallery should look something like Derren's CodePen - [Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
+Save and reload. Your gallery should look something like [Derren's CodePen - Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
 
 **If you want more than three images, you will need to add `flex-wrap:wrap` and modify the code as in the codepen above.**
 
@@ -466,13 +536,13 @@ If it doesn't, check that you have been putting this code within the media query
 
 }
 ```
-#### Your design
+### Your design
 
-Once the gallery is working you can make adjustments to best fit your design. This might include dimensions, colours, padding and margins.
+Once the gallery is working you can make adjustments to best fit your design. This might include dimensions, colours, padding and margins. *Remember, start mobile first*. 
 
-#### Your images
+### Your images
 
-Experiment with your image sizes. Work out the largest image dimensions for your gallery on desktop. Edit and optimise your original images.
+Experiment with your image sizes. Work out the largest image dimensions for your gallery on desktop and mobile. Edit and optimise your original images.
 
 ---
 
@@ -490,16 +560,18 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 ### Are you up to date?
 
-- Task 1 reviews and explains the header.
-- Task 2 adds the hero image and introduces `background-size`.
-- Task 3 adds `Background blend mode` as an option to make your hero a better background for your header and tag line.
-- Task 4 focusses on the heading and tagline. Adjusting them for improved readability.
-- Task 5 improves the semantics of your gallery with `figure` &amp; `figcaption`.
-- Task 6 has an introduction to media queries.
-- Task 7 applies both a media query and flexbox to create a responsive gallery.
+- Task 1 reviewed and explained the header.
+- We added the hero image and introduced `background-size`.
+- Task 3 added `Background blend mode` as an option to make your hero a better background for your header and tag line.
+- Task 4 focussed on the heading and tagline. Adjusting them for improved readability.
+- Task 5 improved the semantics of your gallery with `figure` &amp; `figcaption`.
+- Task 6 provided an introduction to media queries.
+- The final task used a media query and flexbox to create a responsive gallery - 1 column to 3 columns.
 
 And finally:
 
 - Fix any problems before you continue.
 
 **End**
+
+[Return to the Top](#contents)
