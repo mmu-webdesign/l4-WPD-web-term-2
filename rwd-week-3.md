@@ -3,16 +3,26 @@
 ## Working with layout
 
 ### Before you start - Are you up to date?
-Before you proceed use the check list found at the bottom of Week Two. Have you completed everything?
+Before you proceed, use the check list found at the bottom of Week Two. Have you completed everything?
 
 - Fix any problems before you continue.
 - Keep your browser window small - don't use it at full screen yet. We are still *mobile first*.
+
+## Contents
+
+* [Task 1 - Adding a responsive column](#Task-1---Adding-a-responsive-column)
+* [Task 2 - Add the 'big header'](#Task-2---Add-the-big-header)
+* [Task 3 - Background colours](#Task-3---Background-colours) 
+* [Task 4 - Styling the footer](#Task-4---Styling-the-footer)
+* [Checklist](#Week-3-Checklist)
 
 ---
 
 ## Task 1 - Adding a responsive column
 
 Use the [CSS styles in this CodePen](https://codepen.io/wilsondmmu/pen/PJQYZG) to create the responsive column of content as illustrated in the lecture. Apply these styles by creating the class `.container-content`.
+
+> What we are attempting to create is a column of content that works well on mobile, and when at desktop sizes, does not become so wide that it creates an uncomfortable reading length.
 
 Add the class and styles to `layout.css` under the comment: 
 
@@ -41,7 +51,7 @@ Adjust the padding to best fit your font size and layout.
 
 #### Width
 
-Adjust the **width** with your browser window at a normal desktop size.
+> Adjust the **width** with your browser window at a normal desktop size.
 ```
 max-width: 600px;
 ```
@@ -54,7 +64,11 @@ Drop this paragraph at the top of your *About me* section. *Does it fit or does 
 
 There's more information about why we do this and how it works at this [codepen on font sizing and column widths](https://codepen.io/wilsondmmu/pen/PJdGyE).
 
-Finally, check your page at mobile size. Is your font size for text and headings, or your line height causing any issues? Does your content work in this narrow column? **Note** that we will sort out the header and footer soon.
+>Read this [short article on line length by Matthew Butterick](https://practicaltypography.com/line-length.html).
+
+Finally, check your page at mobile size. Is your font size for text and headings, or your line height causing any issues? Does your content work in this narrow column? Adjust padding or margins as required. **Note** that we will sort out the header and footer soon.
+
+> If your column of content at desktop size looks narrow increase the font size of your paragraph text. Experiment to create a good balance, always checking both mobile and desktop.
 
 You can comment out `* { border:1px solid red; } ` if applied (but it is handy for the next section).
 
@@ -62,9 +76,12 @@ You can comment out `* { border:1px solid red; } ` if applied (but it is handy f
 
 ## Task 2 - Add the 'big header'
 
-[This is the starting code you'll need](https://codepen.io/wilsondmmu/pen/PJReqy).
+>[This is the CSS code you'll need](https://codepen.io/wilsondmmu/pen/PJReqy).
 
-Copy the relevant code into your stylesheet: the 'class names' should already suit the template. Place under the `/* page header */` comment.
+Copy the relevant code into your stylesheet: the 'class names' should already suit the template. Place under the comment:
+
+`/* page header */` 
+
 ```
 .page-header {
   background: green;
@@ -74,7 +91,9 @@ Copy the relevant code into your stylesheet: the 'class names' should already 
   justify-content: center;
 }
 ```
-Swap out `background: green;` with a suitable colour from your palette. This is merely a fallback colour as we will be adding your *hero* image as the background next. Make sure the colour you use has good contrast with your text. **Why?** If your hero image fails to load you want to be sure the text is legible.
+Swap out `background: green;` with a suitable colour from your palette. This is merely a fallback colour as we will be adding your *hero* image as the background next. 
+
+Make sure the colour you use has good contrast with your header text. **Why?** If your hero image fails to load you want to be sure the text is legible.
 
 Review the remaining styles used to centre our header content. As Phillip Walton says...
 
@@ -89,6 +108,8 @@ What should be simple, has been tricky, until the arrival of Flexbox. [We make u
     justify-content: center;
 ```
 We have added `height: 90vh;` to have a height that is independent of the content within it - the content inside this flexbox parent is then centered vertically and horizontally (that's what `align-items` and `justify-content` are doing). As it's `vh` it's always relative to the size of the viewport.
+
+> **Extra** - The [CSS tricks article 'Fun with Viewport Units'](https://css-tricks.com/fun-viewport-units/) provides more information about viewport units.
 
 Next we have styles applied to our container:
 ```
@@ -112,7 +133,7 @@ font-size: 1.35rem;
 ```
 - This font sizing is being replaced in the cascade. We have more specific styles for our heading and paragraph (if you have a tag line).
 
-You might consider creating specific styles for the heading. For example:
+You should remove `font-size: 1.35rem` and might consider creating specific styles for the heading. For example:
 
 ```
 .header-content h1 {
@@ -123,7 +144,7 @@ You might consider creating specific styles for the heading. For example:
 ```
 This style targets the `<h1>` in the `<header>`. Adjust this style to work on mobile. A smaller value `line-height` is good if your header wraps on mobile and `margin-bottom` ensure a gap is retained between the heading and paragraph.  
 
-The final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps a request to *download your cv (pdf)*.
+The final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
 
 ```
 .header-content a {
@@ -139,15 +160,15 @@ The final section of code provides a very neat solution for creating a button ou
     font-size: 1rem;
 }
 ```
-If you chose to add a *call to action* this way, edit the above as required. If you don't, you can remove this block of code.
+If you chose to add a *call to action* this way, edit the above as required. If you don't, **you can remove this block of code**.
 
 ---
 
 Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM).
 
----
 
 **Note** - You should have a suitable 'hero' image to add using the CSS background declaration next week.
+
 
 ---
 
@@ -159,7 +180,7 @@ Commonly colour or images are used to define each section. This ensures that the
 
 [See how Apple use backgrounds to define sections on the current Mac page](https://www.apple.com/uk/mac/)  using subtle colours and (often) strong media.
 
-Use your colour scheme to provide contrast bewteen your `<section>`s.
+Use your colour scheme to provide contrast between your `<section>`s.
 
 ```
 /* background colours for sections */
@@ -184,6 +205,8 @@ Target the specific section classes.
 ```
 Test the colour contrast of your foreground (text) and background colours using [Lea Verou's Contrast Ratio checker](https://contrast-ratio.com). 
 
+> **Note** - this does not mean every section needs to be a different colour. Subtle shades work well. A good tip for students is to think - 'have I ever seen a web page with colours like this before'. If the answer is no, you may need some advice regarding your choice of colours! 
+
 ---
 
 ## Task 4 - Styling the footer
@@ -195,7 +218,8 @@ You are free to style the `<footer>` as you wish. Apply your styles to `layout.c
 ```
 A few notes:
 
-Copying and amending previously used `<header>` styles is a great starting point. It centres our footer content, we can add some height for effect (**NOT `90vh`!**), and we can apply a background colour. Just remember to apply it to the **footer element** not the `.page-header` class.
+Copying and amending previously used `<header>` styles is a great starting point. 
+
 ```
 .page-header {
   background: green;
@@ -205,9 +229,12 @@ Copying and amending previously used `<header>` styles is a great starting point
   justify-content: center;
 }
 ```
+
+It centres our footer content, we can add some height for effect (**NOT `90vh`!**), and we can apply a background colour. Just remember to apply it to `.page-footer` not the `.page-header` class.
+
 If we use a background colour (especially a dark one) then we need to adjust the text colour to ensure good contrast. 
 
-In the footer this also includes link text. When you adjust link colours, remember there are pseudo classes for the four states.
+In the footer this also includes link text. When you adjust link colours, remember there are pseudo classes for the five states. These styles should always be in the following order:
 
 ```
 a:link {
@@ -230,6 +257,9 @@ a:active {
 
 }
 ```
+
+> **Note** - Using the code above will apply styles to every link on the page including links in your menu, your text and the footer). 
+
 If these styles are going to be specific to the footer you will need to add the *element selector* to each rule. For example:
 
 ```
@@ -237,9 +267,10 @@ footer a:link {
 
 }
 ```
-[Further detail on styling links at MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links).
+We suggest you read through the example [styling some links at MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#Styling_some_links). This item provides a good example that you might want to use to get started.
 
 >"When styling links, it is important to understand how to make use of pseudo-classes to style link states effectively, and how to style links for use in common varied interface features such as navigation menus and tabs." 
+
 
 ---
 
@@ -255,13 +286,13 @@ At the end of this session [validate your HTML](https://validator.w3.org/#valida
 
 Before you start Week 4 - Have you completed everything?
 
-- Task 1 created a flexible column for the content of your `<section>`s. You have adjusted the `padding`, ``max-width`` and other elements to ensure your content looks good in a mobile viewport, but does not let the line length of your text fo beyond 65 characters.
-- In Task 2 you have styled *the big header* by apply the supplied styles, making adjustments as directed.
-- Task 3 asked you to apply background colours. Undertake careful research to find the right palette that reflects the mood and feel you are trying to reflect in your portfolio site.
-- Task four asked you to style the footer, providing advice on approaches.
+- You created a flexible column for the content of your `<section>`s. You have adjusted the `padding`, ``max-width`` and other elements to ensure your content looks good in a mobile viewport, but does not let the line length of your text go beyond (around) 65 characters.
+- You should have styled *the big header* by apply the supplied styles, making adjustments as directed.
+- We asked you to apply background colours. Undertake careful research to find the right palette that reflects the mood and feel you are trying to reflect in your portfolio site.
+- And finally Task 4 asked you to style the footer, providing advice on approaches.
 
-And finally:
-
-- Fix any problems before you continue.
+> Test everything at mobile and desktop widths. Fix any problems before you continue.
 
 **End**
+
+[Return to the Top](#contents)
