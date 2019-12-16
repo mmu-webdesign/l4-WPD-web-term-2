@@ -150,7 +150,7 @@ You should use and maintain the folder structure provided. If all of your files 
 -   Step by step implementation of the required CSS including flexbox for layout.
 -   Efficient (read minimal) CSS.
 -   Credit any lines of non-original CSS.
--   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page. [See more under additional](https://github.com/mmu-webdesign/IWD-web-term2/blob/master/rwd-week-additional.md). 
+-   Additional elements may include extended layout (for example putting your about section (text/media) into columns or rows with flexbox or floats. Placement of social media icons, perhaps a home-made icon and such to enhance your page. [See more under additional](https://github.com/mmu-webdesign/WPD-web-term-2/blob/master/rwd-week-additional.md). 
 
 ## Things to do 
 
