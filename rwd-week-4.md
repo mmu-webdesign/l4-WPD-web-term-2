@@ -221,14 +221,18 @@ Inside the `image-container` you currently have  **three** `<div class="an-image
 
 ```
 <div class="an-image">
-    <img src="https://unsplash.it/600">
-        <div class="image-caption">
-             <p>A caption for your first image.</p>
-        </div>
+    <img src="https://unsplash.it/600">     
+    <div class="image-caption">
+        <p>A caption for your first image.</p>
+    </div>
 </div>
 ```
 
-We would like you to remove these divs and replace them with two semantic elements. The `figure` and `figcaption` elements. Whilst `class="an-image` gives us a hook to style, the actual `div` has no semantic meaning. Using both `figure` and `figcaption` provides some meaning to these elements of the page. 
+We would like you to remove these divs and replace them with two semantic elements. 
+
+The `figure` and `figcaption` elements. 
+
+Whilst `class="an-image` gives us a hook to style, the actual `div` has no semantic meaning. Using both `figure` and `figcaption` provides some meaning to these elements of the page. 
 
 >The HTML `<figure>` element represents self-contained content, frequently with a caption (`<figcaption>`), and is typically referenced as a single unit.
 
@@ -244,15 +248,55 @@ The code you need for each of your images is as follows:
 ```
 - Repeat the above for each of your three images.
 - Adjust the file name and paths for your own images.
+
+### Figure
+Using `<figure>` provides a semantic structure for what is described as *self contained content*.
+
+```
+<figure class="an-image">
+
+</figure>
+```
+
+
+
+### Figcaption
+MDN describes `<figcaption>` as 'a caption or legend describing the rest of the contents of its parent `<figure>` element'.
+
+```
+<figcaption class="image-caption">
+
+<p>Your 150 word caption.</p>
+
+</figcaption>
+
+```
+
+
+
 - Add your captions when available.
+
+Read MDN articles for more information on the [`<figure>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) and [`<figcaption>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption).
+
+---
+
+## Your gallery images
+
+> Your own images should be fully optimised ready for the web, and sat in the images folder. Optimised means cropped, resized and compressed as best fits you and your users needs.
 
 **Don't have your images yet?** Continue to use Usplash -  `<img src="https://unsplash.it/600">`
 
 ### How big should my gallery images be?
 
-You gallery images need to be *as wide as the largest size they need to be*. **What does that mean?** On this project it means the width of your images will be dictated by the largest size you are going to display them at. As we implement our gallery using `flexbox` (see below) you will have three images across the screen (at desktop size). This will be your images at their largest. Once this is implemented, you can adjust the actual dimensions of your images to fit.
+You gallery images need to be *as wide as the largest size they need to be*. 
 
-For example, if the image is never displayed wider than 800px, resize the actual image to 800px width.
+**What does that mean?** 
+
+On this project it means the width of your images will be dictated by the largest size you are going to display them at. 
+
+As we implement our gallery using `flexbox` (see below) you will have three images across the screen (at desktop size) and in a single column on mobile. 
+
+For some, the images may be largest on desktop sizes, but for many it will be on mobile. For example, if the image is never displayed wider than 800px, resize the actual image to 800px width.
 
 #### Image optimisation
 
@@ -260,7 +304,6 @@ Once you have your images at the correct dimensions you should optimise each ima
 
 See the HTML in [Derren's image gallery CodePen](https://codepen.io/wilsondmmu/pen/mvVWVj) for reference.
 
-Read MDN articles for more information on the [`<figure>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) and [`<figcaption>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption).
 
 ---
 
