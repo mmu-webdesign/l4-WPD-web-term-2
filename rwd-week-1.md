@@ -67,11 +67,13 @@ You can create your mood board any way that suits, PhotoShop, PowerPoint or even
 Your 6 images need to be optimised for the web. At this stage you may be unsure of the final size required for your images. To get things started follow these instructions. You can repeat to the size you need later if needed.
 
 * Make copies of your six images
-* Put the six originals in a safe location.
-* Make all image 800px wide
+* Put the six originals in a safe location
+* Make all six copies 800px wide
 * Run each image through the *Save for the web* process in PhotoShop
 
 **Remember**, *you are looking for a balance between quality and file size. Save as, when you have reached that balance*. 
+
+For further optimisation you can also [run files through Tiny jpg online](https://tinyjpg.com/).
 
 We'd expect these images to be below 40kb if possible but don't wreck them. Talk to tutors if your images need to be more.
 
@@ -79,9 +81,11 @@ You now have 6 images ready for the image gallery that you are creating over the
 
 ## Task 3 - Hero image
 
-You need to either identify on of your original images for the *hero* image or create a new one.
+You need to either identify one of your original images for the *hero* image or create a new one.
 
 If you have a relevant image (you can always change it later as the project develops), follow these steps:
+
+* You will require an image that is 3000 pixels or wider. If smaller, you will end up stretching and distorting the image.
 
 * Create a copy of your orginal - always work on a copy.
 
@@ -95,6 +99,6 @@ Over the coming weeks are going to develop your portfolio site to showcase your 
 
 Your six photographs are now ready, and you may have selected a hero image. This is only the start, you will be free to make adjustments over the coming weeks.
 
-**Note**: the images have already been assessed in Assignment One of DAC. In Assignment Two of Web Page Development we will be marking the image implementation (including optimisation), not the images themselves. They are not part of the DAC assignment two marking either.
+**Note**: the images have already been assessed in Assignment One of DAC. In Assignment Two of Web Page Development we will be marking the image implementation (including optimisation), not the images themselves. They are not part of the DAC Assignment Two marking either.
 
 
