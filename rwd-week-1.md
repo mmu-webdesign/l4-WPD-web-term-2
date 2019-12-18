@@ -95,7 +95,7 @@ If you have a relevant image (you can always change it later as the project deve
 
 ## Coming weeks
 
-Over the coming weeks are going to develop your portfolio site to showcase your text and media from Digital Asset Creation (DAC).
+Over the coming weeks you are going to develop your portfolio site to showcase your text and media from Digital Asset Creation (DAC).
 
 Your six photographs are now ready, and you may have selected a hero image. This is only the start, you will be free to make adjustments over the coming weeks.
 
