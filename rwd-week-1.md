@@ -59,7 +59,13 @@ The influences may be digital or physical.
 >&ldquo;Mood boards are visually stunning collections of ideas, full of textures and images that communicate the vision of a designer at the start of a project.&rdquo;
 
 Read the article [20 pro tips for creating inspirational mood boards](https://www.creativebloq.com/graphic-design/mood-boards-812470) before starting.
-    
+
+### Inspiration
+
+Here's a massive list of portfolio sites for inspiration. These sites will be more complex than what we are asking you to create but you can look for inspiration in colour, typography and writing styles and content.
+
+### Creating your Mood board
+
 You can create your mood board any way that suits, PhotoShop, PowerPoint or even a physical item.
 
 ## Task 2 - Optimise your images
