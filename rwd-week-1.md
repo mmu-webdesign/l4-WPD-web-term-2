@@ -62,7 +62,7 @@ Read the article [20 pro tips for creating inspirational mood boards](https://ww
 
 ### Inspiration
 
-Here's a massive list of portfolio sites for inspiration. These sites will be more complex than what we are asking you to create but you can look for inspiration in colour, typography and writing styles and content.
+Here's [a massive list of portfolio sites for inspiration](https://github.com/wilsonderren/website-inspiration). These sites will be more complex than what we are asking you to create but you can look for inspiration in colour, typography and writing styles and content.
 
 ### Creating your Mood board
 
