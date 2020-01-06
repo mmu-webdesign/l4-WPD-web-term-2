@@ -26,7 +26,7 @@ This breaks down into the following sections of your portfolio:
 
 ### Video
 * a 4.5 minute video documentary (900 word equivalence, +/- 10%)
-* a Production Summary Report (700 word, +/- 10%)
+* a Production Summary Report (700 word, +/- 10%) - MSWord document submitted to DAC Moodle.
 
 ### Audio
 * a 4.5 minute audio documentary (900 word equivalence, +/- 10%) 
