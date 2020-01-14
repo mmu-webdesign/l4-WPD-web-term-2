@@ -41,7 +41,7 @@ All of these elements expand beyond the taught unit. Always talk to tutors to ge
 * [More flexbox](#More-flexbox)
 * [Flexbox without flexbox](#Flexbox-without-flexbox)
 * [CSS selectors](#CSS-selectors)
-* [Form styling](#Form-styling)
+* [Contact Form](#Contact-Form)
 * [Footer styling](#Footer-styling)
 * [Styled tables](#Styled-tables)
 * [Video hero](#Video-hero)
@@ -116,15 +116,15 @@ We are getting into the area of supporting older browsers. You don't have to do 
 
 You can improve your CSS and make it much more efficient with careful use of selectors.  
 
-Learn more aboput selectors:
+Learn more about selectors:
 
 - [CSS Diner game to learn CSS selectors](http://flukeout.github.io/)
 - [CSS selectors at MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 - [CSS selectors at CSS tricks](https://css-tricks.com/how-css-selectors-work/)
 
-## Form styling
+## Contact Form 
 
-Further form styling beyond what has already been implemented in the tutorial. Make it look cool, inviting and easy to use (whilst keeping it accessible).
+If you would like to add a contact form to your page talk to tuturs as we have both code and tutorial instructions for styling a form.
 
 
 ## Footer styling
