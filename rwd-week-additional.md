@@ -33,6 +33,7 @@ All of these elements expand beyond the taught unit. Always talk to tutors to ge
 
 * [Additional HTML elements](#Additional-HTML-elements)
 * [Enhanced media query](#Enhanced-media-query)
+* [CSS Dark Mode ](#CSS-Dark-Mode)
 * [CSS Blends ](#CSS-Blends)
 * [CSS Transitions and animation](#CSS-Transitions-and-animation)
 * [CSS Grid](#CSS-Grid) 
@@ -62,6 +63,10 @@ Additional CSS can be used to style these elements in an attractive, professiona
 Once you have implemented the media queries as required, you could consider making further adjustments. An example might be that your main heading uses a different font size on larger screen sizes. It might be the same for your picture headings and captions. Margins might change. Always think about usability. *Am I enhancing the users experience*? In this example, am I make it more legible at these different screen sizes?
 
 Don't go overboard - changing the colour scheme from mobile to desktop. Things like this are usually pointless.
+
+## CSS Dark Mode
+
+Now most computer operating systems support dark mode, some browsers have been updated so they can tell your site that the computer is set to dark mode. You can use a CSS rule similar to a media query that can modify your CSS to reflect the user's interface choices. See [CSS tricks](https://css-tricks.com/dark-modes-with-css/) or [Andy Clarke’s blog post](https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode) for more information (**NB:** not all web browsers currently support this, so check you are testing this in a compatible browser)
 
 ## CSS Blends 
 
