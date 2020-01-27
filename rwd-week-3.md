@@ -144,8 +144,27 @@ You should remove `font-size: 1.35rem` and might consider creating specific styl
 ```
 This style targets the `<h1>` in the `<header>`. Adjust this style to work on mobile. A smaller value `line-height` is good if your header wraps on mobile and `margin-bottom` ensure a gap is retained between the heading and paragraph.  
 
-The final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
+### Optional
 
+This final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
+
+For example, after your heading and tag line:
+
+```
+        <div class="header-content">
+            <h1>Site title</h1>
+            <p>Site subtitle - tag line</p>
+```
+Add...
+```
+            <p><a href="#video">Watch my video</a></p>
+```
+
+```
+        </div>
+```
+
+Now add this css to the `/* page header */`
 ```
 .header-content a {
     display: inline-block;
@@ -162,9 +181,10 @@ The final section of code provides a very neat solution for creating a button ou
 ```
 If you chose to add a *call to action* this way, edit the above as required. If you don't, **you can remove this block of code**.
 
+
 ---
 
-Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM).
+Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM). The video links to a contact form. You could link to any of your media sections.
 
 
 **Note** - You should have a suitable 'hero' image to add using the CSS background declaration next week.
