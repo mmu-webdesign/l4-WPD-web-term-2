@@ -51,7 +51,8 @@ Adjust the padding to best fit your font size and layout.
 
 #### Width
 
-> Adjust the **width** with your browser window at a normal desktop size.
+**NOTE - BEFORE YOU START:** Adjust the **width** of your browser window to a normal desktop width rather than mobile size.
+
 ```
 max-width: 600px;
 ```
