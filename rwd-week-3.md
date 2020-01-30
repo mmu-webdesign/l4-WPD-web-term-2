@@ -208,21 +208,26 @@ Use your colour scheme to provide contrast between your `<section>`s.
 ```
 Target the specific section classes. 
 ```
-.about-me {
-    background-color: #;
+.intro {
+    background-color: [ add your colour ];
 }
 
-.work-experience {
-    background-color: #;
+.sound {
+    background-color: [ add your colour ];
 }
 
 .image-gallery {
-    background-color: #;
+    background-color: [ add your colour ];
 }
 
-.contact-me {
-    background-color: #;
+.video {
+    background-color: [ add your colour ];
 }
+
+.page-footer {
+   background-color: [ add your colour ]; 
+}
+
 ```
 Test the colour contrast of your foreground (text) and background colours using [Lea Verou's Contrast Ratio checker](https://contrast-ratio.com). 
 
