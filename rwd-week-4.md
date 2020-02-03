@@ -384,6 +384,7 @@ As we want our gallery to make more use of the screen space we should make the g
 ```
 .image-gallery .container-content {
     max-width: 1200px;
+    margin: 0 auto;
 }
 ```
 Save and review your page. At desktop size the gallery now uses more space across the page than the rest of your content. We've chosen a `max-width` of `1200px` as it will later give us room to display our gallery in three boxes across the page. You can adjust this as best fits your design later.
