@@ -132,6 +132,10 @@ If you haven't yet sorted an original high quality hero image (you really should
 
 For the final submission we expect your own, original images for this assignment.
 
+### Colour palette using your hero image
+
+You may still be deciding on your colour palette. [Using Adobe Color](https://color.adobe.com/create) you can select the `Extract from an image` option, upload your hero image; and this will provide you with a palette based on the image colours. Then try the various Color Mood options.
+
 ---
 
 ## Task 3 - Background blend mode
