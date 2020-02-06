@@ -33,6 +33,7 @@ This breaks down into the following sections of your portfolio:
 
 ### Photography gallery
 * 6 photographic images (from Element 2)
+* 6 captions (using your text for each image from Element 2)
 
 You may want to include links to your social media feeds if you have them.
 

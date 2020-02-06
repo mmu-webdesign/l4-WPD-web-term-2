@@ -76,8 +76,8 @@ In class we will provide a review of the semantic structure and how this relates
 
 ### Add your content
 
-* **Introduction** - 500 words
-* **Video - production summary** - 700 words
+* **Introduction** - 500 words (DAC assignment 3)
+* **Images - captions** - 50 words (DAC assignment 2)
 
 Use Lorum Ipsum at this stage. 
 
