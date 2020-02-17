@@ -95,6 +95,14 @@ Add the following next:
 Again, from the bottom, adding `border-bottom: 1px solid #ddd;` and `border-left: 1px solid #ddd;` complete the clever trick that creates a neat border to our buttons. This trick gets around the problem caused if we just add a border to the `<li>` itself. Any time the boxes touch we would have a border double in size.
 Next we apply `flex: 1 1 50%;` to determine how this **flexbox** reacts. This style uses the shorthand for `flex-grow`, `flex-shrink` and `flex-basis` combined.
 
+These styles could have also been written in long-hand CSS as follows:
+
+```
+flex-grow: 1; /* allow to grow */
+flex-shrink: 1; /* allow to shrink */
+flex-basis: 50%; /* could be any unit */
+```
+
 >The `flex-grow` CSS property sets how much of the available space in the flex container should be assigned to that item (the flex grow factor). If all sibling items have the same flex grow factor, then all items will receive the same share of available space, otherwise it is distributed according to the ratio defined by the different flex grow factors. [MDN `flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow).
 
 In this case `flex-grow` is set to 1, therefore the remaining space in the container will be distributed equally to all children. 
@@ -164,6 +172,12 @@ Remember they must be in the order `:link — :visited — :hover — :active`.
 In its current state our menu looks fine at mobile display sizes. We should have a neat block of four buttons, 2 rows of 2.
 
 As our screen size widens we reach a **breakpoint** where this layout doesn't look right. We've gone for min-width: 760px but you may want to adjust this to match your design.
+
+Add the following comment - a reminder that we are now styling for larger sizes.
+
+```
+/* larger screen code */
+```
 
 **Add the media query:**
 
