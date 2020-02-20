@@ -440,7 +440,7 @@ Save and review your page. At mobile size there should be no *red border*. As yo
 
 To make a *flex* item we target the parent. In the gallery we apply flex to `class="image-container"` so that the child elements (the three `figure`'s) become flex items.
 
-Replace the red border with `display: flex;`
+Replace the red border with `display: flex;` and `flex-wrap:wrap;` as below:
 
 ```
 @media screen and (min-width: 500px) {
@@ -475,6 +475,7 @@ This is the actual media query.
 
 `.image-gallery .image-container {
         display: flex;
+        flex-wrap: wrap;
     }`
 
 ---
@@ -505,21 +506,6 @@ Add this within the media query:
 Once we expand past our `min-width` our three `<figure>`s now sit nicely side by side. *If they don't, rewind to see what has gone wrong*.
 
 
-The only remaining issue is that our background colour (white) looks like one big block. We can remedy this with a little clever CSS.
-
-The final touch is to add a left margin to any of your `<figure>`s (with their class of `.an-image`) that come after another `<figure>`. 
-
-To do this we add the following to your media query:
-```
-.image-gallery .an-image+.an-image {
-     margin-left: 20px;
-}
-```
-In our example this means this style affects the 2nd and 3rd `<figure>`. 
-
-For this we use the Adjacent sibling combinator. 
-
->The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element. See [MDN Adjacent sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator).
 
 
 Save and reload. Your gallery should look something like [Derren's CodePen - Breakpoints and media queries](https://codepen.io/wilsondmmu/pen/mvVWVj).
@@ -533,16 +519,15 @@ If it doesn't, check that you have been putting this code within the media query
 
     .image-gallery .image-container {
         display: flex;
+        flex-wrap: wrap;
     }
     .image-gallery .an-image {
-        flex: 33%;
+        flex: 31.3333%;
+        margin: 10px 1%;
         padding: 20px;
         background: white;
     }
-    .image-gallery .an-image+.an-image {
-        margin-left: 20px;
-    }
-
+    
 }
 ```
 ### Your design
