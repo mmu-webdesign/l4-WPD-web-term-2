@@ -447,6 +447,7 @@ Replace the red border with `display: flex;`
     
 .image-gallery .image-container {
         display: flex;
+        flex-wrap:wrap;
     }
 
 }
@@ -454,6 +455,8 @@ Replace the red border with `display: flex;`
 Save and view your page. As soon as you reach the 500px width our `flex` items (our images and captions) line up next to each other. Whilst it looks a bit rubbish (500px is too small) this is fantastic news. 
 
 >One line of code - `display:flex` has enabled this. In the past, this was only achieved by fudges and hacks in CSS.
+
+Related to the `display:flex` is the `flex-wrap:wrap` instruction, which tells the browser to not try and put all of our content on one line, but allow it to go onto a second (or more, depending on the amount of content) line. [Read more about this at the CSS tricks reference page for flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 Adjust the `min-width` at which our media query kicks in - `@media screen and (min-width: 750px)` will work. You might want to adjust this a little later.
 
@@ -484,14 +487,15 @@ Add this within the media query:
 
 ```
 .image-gallery .an-image {
-    flex: 33%;
+    flex: 1 1 31.333333333%;
+    /* allow flex boxes to grow and shrink, but start at 31% of the width of their container */
+    margin: 10px 1%;
     padding: 20px;
     background: white;
 }
 ```
 
-- `flex: 33%;` ensures that each of our `<figure>`s takes up a third of the space. With three images of the same size we won't see much difference.
-- `padding: 20px;` gives each of our `<figure>`s some padding all around.
+- `flex: 31%;` ensures that each of our `<figure>`s takes up a third of the space with some space left over to separate the images with some white space.
 - and finally `background: white;` applies a background to each `<figure>`.
 
 *The padding and colour can be adjusted later to best fit your design as your work progresses*.
