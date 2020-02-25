@@ -48,6 +48,8 @@ All of these elements expand beyond the taught unit. Always talk to tutors to ge
 * [Original illustrations](#Original-illustrations)
 * [Personal logo](#Personal-logo)
 * [JavaScript](#javascript)
+* [Responsive images](#responsive-images)
+* [Sticky navigation](#sticky-navigation)
 * [Anything else?](#Anything-else?)
 
 ## Additional HTML elements
@@ -165,6 +167,29 @@ Further to the above, branding your page with a personal logo is another option 
 ## JavaScript
 
 If you do think you can enhance the user experience of this simple page with additional JavaScript (beyond the required elements), please discuss with tutors before going ahead.
+
+## Responsive images
+
+You may realise that this is a bit of a hack. 
+
+```
+img {
+    max-width: 100%;
+    height: auto;
+  }
+```
+
+What we really want is a situation where (for example) for a small screen the browser downloads and uses a 'smaller' image and for say a desktop, the browser downloads a larger image. 
+
+If you want to investigate ways to accomplish this start by reading about the `<picture>` - [Picture element on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture). And investigate the `srcset` attribute to see how this offers the browser a variety of image sizes and resolutions. See the [MDN article on Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images). 
+
+This article from CSS Tricks provides more insight - [Responsive Images: If you’re just changing resolutions, use srcset](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/).
+
+## Sticky navigation
+
+Some of you may want a 'sticky nav', a navigation bar (on desktop) that stays at the top of your screen, as the rest of the page scrolls. Derren's CodePen CodePen Home
+[Fixed div at particular screen sizes](https://codepen.io/wilsondmmu/pen/VwLPpBr) offers one solution. Another is to use the `Position: sticky;` element and attribute. See Daryll Jann's [CodePen, Position sticky](https://codepen.io/darylljann/pen/PpjwPM). Do be wary of using either Absolute, Relative, Fixed Positioning. It can be a sink hole to oblivion on a responsive design!
+
 
 ## Anything else?
 
