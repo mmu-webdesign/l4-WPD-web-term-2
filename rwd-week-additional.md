@@ -50,6 +50,7 @@ All of these elements expand beyond the taught unit. Always talk to tutors to ge
 * [JavaScript](#javascript)
 * [Responsive images](#responsive-images)
 * [Sticky navigation](#sticky-navigation)
+* [Video element](#video-element)
 * [Anything else?](#Anything-else?)
 
 ## Additional HTML elements
@@ -190,6 +191,17 @@ This article from CSS Tricks provides more insight - [Responsive Images: If youâ
 Some of you may want a 'sticky nav', a navigation bar (on desktop) that stays at the top of your screen, as the rest of the page scrolls. Derren's CodePen CodePen Home
 [Fixed div at particular screen sizes](https://codepen.io/wilsondmmu/pen/VwLPpBr) offers one solution. Another is to use the `Position: sticky;` element and attribute. See Daryll Jann's [CodePen, Position sticky](https://codepen.io/darylljann/pen/PpjwPM). Do be wary of using either Absolute, Relative, Fixed Positioning. It can be a sink hole to oblivion on a responsive design!
 
+## Video element
+
+If you want to add an original video (you will need the file) to your gallery instead of an image you can still use the `figure` and `figcaption` elements, but replace your `img` element with the `video` element.
+
+You will need to have at least an `.mp4` version of your video and preferably a `.webm` version.
+
+Read about [the `<video>` HTML element on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) for the correct syntax and attributes.
+
+Use a tool like [Miro Video Convertor](http://www.mirovideoconverter.com/) to create these file types.
+
+Remember to keep any video short. When you submit this assignment your project folder can't be more than 100mb. It should be MUCH smaller! 
 
 ## Anything else?
 
