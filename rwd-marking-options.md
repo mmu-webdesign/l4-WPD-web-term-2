@@ -6,14 +6,14 @@ All descriptions go from worst (0%) to best (85–100%).
 
 We are looking for a page title and meta description. Marked by reading your HTML code.
 
-* Little or no attempt to create relevant metadata for titles or meta descriptions. You haven't edited the code supplied to add these.
-* Limited or flawed attempt to develop relevant metadata for titles or meta descriptions. You have started editing the code, but you haven't completed it.
-* Partial attempt to fulfil the required metadata for titles and meta descriptions. You have edited the code, but the metadata is not relevant.
-* Satisfactory attempt to fulfil the required metadata for titles and meta descriptions. There are likely to be multiple errors. You have edited the code, but the metadata is not completely relevant.
-* Coherent and careful delivery of the required metadata. There may be some errors. You have edited, relevant metadata but there are still some mistakes.
-* Thorough and precise delivery of the required metadata. There may be minor errors. You have edited, relevant metadata that is useful for SEO.
-* Meticulous work that fulfils the required metadata and shows sophistication. You have edited, relevant metadata that is useful for SEO and reads well.
-* Professional standard work that fulfils the required metadata and shows creativity. You have edited, relevant metadata that is useful for SEO, reads well and has personality.
+* **0–19** Little or no attempt to create relevant metadata for titles or meta descriptions. You haven't edited the code supplied to add these.
+* **20–34** Limited or flawed attempt to develop relevant metadata for titles or meta descriptions. You have started editing the code, but you haven't completed it.
+* **34–39** Partial attempt to fulfil the required metadata for titles and meta descriptions. You have edited the code, but the metadata is not relevant.
+* **40–49 (Pass mark)** Satisfactory attempt to fulfil the required metadata for titles and meta descriptions. There are likely to be multiple errors. You have edited the code, but the metadata is not completely relevant.
+* **50–59** Coherent and careful delivery of the required metadata. There may be some errors. You have edited, relevant metadata but there are still some mistakes.
+* **60–69** Thorough and precise delivery of the required metadata. There may be minor errors. You have edited, relevant metadata that is useful for SEO.
+* **70–85** Meticulous work that fulfils the required metadata and shows sophistication. You have edited, relevant metadata that is useful for SEO and reads well.
+* **86–100** Professional standard work that fulfils the required metadata and shows creativity. You have edited, relevant metadata that is useful for SEO, reads well and has personality.
     
 ## Quality of HTML
 
@@ -27,7 +27,7 @@ Does your page validate? We are looking at semantics, use of relevant elements, 
 * Coherent and careful delivery of code that reflects best practices. There may be some errors. The code has been written carefully and validates.
 * Thorough and precise delivery of code that reflects best practices. There may be minor errors. The code has been written carefully and has extra tags added.
 * Meticulous coding work that fulfils the required standards and shows sophistication. You have clearly practiced and are starting to gain a very good understanding of semantic HTML.
-* Professional standard work that meets the required standards and shows creativity. Your code is written to a professional standard."
+* Professional standard work that meets the required standards and shows creativity. Your code is written to a professional standard.
 
 
 ## Use of CSS 
@@ -42,7 +42,7 @@ We are looking for efficiency, consistency, organisation, use of shorthand, clas
 * Coherent and careful delivery of a relevant stylesheet for this site. There may be some errors. You have written a valid stylesheet but it could be better organised.
 * Thorough and precise delivery of a relevant stylesheet for this site. There may be minor errors. You have written a valid, organised stylesheet.
 * Meticulous work creating a stylesheet that shows sophistication. You have written a valid, organised stylesheet and added interesting code.
-* Professional standard work that has produced a stylesheet that shows creativity and best practices. You have written a professional standard stylesheet with cutting-edge code."
+* Professional standard work that has produced a stylesheet that shows creativity and best practices. You have written a professional standard stylesheet with cutting-edge code.
 
 
 ## Mobile first responsive design
@@ -56,7 +56,7 @@ We are looking for your implementation of responsive elements including the menu
 * Coherent and careful delivery of a responsive design. There may be some errors. Your site is mostly responsive but there is CSS missing in some areas.
 * Thorough and precise delivery of a responsive design. There may be minor errors. Your site is completely responsive.
 * Meticulous work that creates a responsive design and shows sophistication. Your site is responsive and works well at all screen sizes.
-* Professional standard work that creates a responsive design and shows creativity. Your site is responsive and has added thought to create an industry-standard site."
+* Professional standard work that creates a responsive design and shows creativity. Your site is responsive and has added thought to create an industry-standard site.
 
 
 ## Design
@@ -71,7 +71,7 @@ This includes your layout, use of space, typography and colour relevant to the t
 * Coherent and careful delivery of the required relevant visual design for this site. Mostly your colour scheme, typography and use of space is convincing, but there are places where the overall effect is spoiled.
 * Thorough and precise delivery of the required relevant visual design for this site. Overall this is a very good design.
 * Meticulous work that fulfils the required design elements and shows sophistication. This is a very good design that feels considered and is well linked to your content.
-* Professional standard work that fulfils the required design elements and shows creativity. This is an excellent design that looks and feels professional."
+* Professional standard work that fulfils the required design elements and shows creativity. This is an excellent design that looks and feels professional.
 
 
 
@@ -87,7 +87,7 @@ Do you have working, responsive embedded audio?
 * not used
 * not used
 * Code is in place and audio piece plays in a responsive player.
-* Code is in place and audio piece plays in a responsive player. You have added further code or modified it successfully to fit your website."
+* Code is in place and audio piece plays in a responsive player. You have added further code or modified it successfully to fit your website.
 
 
 ## Embedded video
@@ -102,7 +102,7 @@ Do you have working, responsive embedded video?
 * not used
 * not used
 * Code is in place and video plays in a responsive player.
-* Code is in place and video plays in a responsive player. You have added further code or modified it successfully to fit your website."
+* Code is in place and video plays in a responsive player. You have added further code or modified it successfully to fit your website.
 
 
 ## Image gallery
@@ -117,7 +117,7 @@ Are your images added with CSS flexbox? What is the image quality, art direction
 * Your images are present and you have added them to your web page. However their file size is very large and your alt text is missing.
 * Your images are present and you have added them to your web page. You have optimised your images, completed the required CSS and your alt text is acceptable.
 * Your images are present and you have added them to your web page. You have optimised your images, the layout works as required, and your alt text provides an equivalent experience for users who cannot see them.
-* Your images are present and you have added them to your web page. You have optimised your images, the layout works as required, and your alt text provides an equivalent experience for users who cannot see them. The overall effect is professional."
+* Your images are present and you have added them to your web page. You have optimised your images, the layout works as required, and your alt text provides an equivalent experience for users who cannot see them. The overall effect is professional.
 
 
 ## Accessibility and Usability
@@ -125,14 +125,14 @@ Are your images added with CSS flexbox? What is the image quality, art direction
 Including alternative text for all relevant images, we are trying to see if you've made any design or coding decisions that affect accessibility and usability.
 
 
-* Little or no attempt to create a usable and accessible website, or errors that make the site almost totally unusable and inaccessible.
-* Limited or flawed attempt to create a usable and accessible website with unacceptable errors: you have very poor colour contrast, poor or missing alt text, or your site is unusable at one or more screen sizes.
-* Partial attempt to create a usable and accessible website with unacceptable errors: you have very poor colour contrast, poor or missing alt text, or your site is unusable at one or more screen sizes.
-* Satisfactory attempt to create a usable and accessible website: you may still have very poor colour contrast, poor or missing alt text, or your site is unusable at one or more screen sizes.
-* Coherent and careful delivery of a usable and accessible website. : you may have some poor colour contrast, poor or missing alt text, or your site is displaying incorrectly at one or more screen sizes.
-* Thorough and precise delivery of a usable and accessible website: you have good colour contrast, your alt text is in place, and your site works well for touchscreen or standard computer displays.
-* Meticulous work that fulfils the required usability and accessibility elements: you have good colour contrast, your alt text is in place, and your site works well for touchscreen or standard computer displays. You have gone beyond what is required and added useful extra code or design elements.
-* Meticulous work that fulfils the required usability and accessibility elements: you have good colour contrast, your alt text is in place, and your site works well for touchscreen or standard computer displays. You have gone beyond what is required and added useful extra code or design elements to create a professional website."
+* **0–19** Little or no attempt to create a usable and accessible website, or errors that make the site almost totally unusable and inaccessible.
+* **20–34** Limited or flawed attempt to create a usable and accessible website with unacceptable errors: you have very poor colour contrast, poor or missing alt text, or your site is unusable at one or more screen sizes.
+* **35–39** Partial attempt to create a usable and accessible website with unacceptable errors: you have very poor colour contrast, poor or missing alt text, or your site is unusable at one or more screen sizes.
+* **40–49 (Pass mark)** Satisfactory attempt to create a usable and accessible website: you may still have very poor colour contrast, poor or missing alt text, or your site is unusable at one or more screen sizes.
+* **50–59** Coherent and careful delivery of a usable and accessible website. : you may have some poor colour contrast, poor or missing alt text, or your site is displaying incorrectly at one or more screen sizes.
+* **60–69** Thorough and precise delivery of a usable and accessible website: you have good colour contrast, your alt text is in place, and your site works well for touchscreen or standard computer displays.
+* **70–85** Meticulous work that fulfils the required usability and accessibility elements: you have good colour contrast, your alt text is in place, and your site works well for touchscreen or standard computer displays. You have gone beyond what is required and added useful extra code or design elements.
+* **85–100** Meticulous work that fulfils the required usability and accessibility elements: you have good colour contrast, your alt text is in place, and your site works well for touchscreen or standard computer displays. You have gone beyond what is required and added useful extra code or design elements to create a professional website.
 
 
 ## File names and folder structure
@@ -147,4 +147,4 @@ Have you worked cleanly and efficiently? Are things labelled correctly so you ca
 * Files and folders are mostly organised. File names are sometimes confusing. Don't use uppercase letters for file names or file extensions, and remove spaces from file names.
 * Files and folders are mostly organised. File names are mostly named systematically. Don't use uppercase letters for file names or file extensions, and remove spaces from file names.
 * Files and folders are organised and file names are systematic.
-* Files and folders are organised and named to a professional standard."
+* Files and folders are organised and named to a professional standard.
