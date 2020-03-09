@@ -9,7 +9,7 @@ Header – including your theme title and the navigation elements provided. The 
 Followed by (in any order)…
 
 ## Text content
-Introduction to your theme created in DAC – for example historical background, quotations, interviews, links to external resources – that adds to your overall theme. Between150-200 words maximum. 
+Introduction to your theme created in DAC – for example historical background, quotations, interviews, links to external resources – that adds to your overall theme. (500 words +/- 10%) 
 
 ## Audio content
 Your audio piece created in DAC, hosted on Soundcloud and embedded in your site responsively. Duration should be no more than 4 minutes, and the audio must not autoplay.
