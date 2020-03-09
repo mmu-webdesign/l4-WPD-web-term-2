@@ -17,7 +17,7 @@ The Digital Asset Creation assessment brief defines the content as follows:
 * a 4.5 minute audio documentary (900 word equivalence, +/- 10%) 
 * a 4.5 minute video documentary (900 word equivalence, +/- 10%)
 * a written narrative (500 words +/- 10%) 
-* and to present these along with 6 photographic images (from Element 2)
+* and to present these along with 6 photographic images (from Assignment 2)
 
 This breaks down into the following sections of your portfolio:
 
@@ -32,8 +32,8 @@ This breaks down into the following sections of your portfolio:
 * a 4.5 minute audio documentary (900 word equivalence, +/- 10%) 
 
 ### Photography gallery
-* 6 photographic images (from Element 2)
-* 6 captions (using your text for each image from Element 2)
+* 6 photographic images (from Assignment 2)
+* 6 captions (using your text for each image from Assignment 2)
 
 You may want to include links to your social media feeds if you have them.
 

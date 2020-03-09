@@ -18,7 +18,7 @@ Your audio piece created in DAC, hosted on Soundcloud and embedded in your site 
 Your video created in DAC, hosted on YouTube, embed and responsive. Duration should be no more than 4 minutes, and the video must not autoplay.
 
 ## Photographic content
-Insert the six original images created in DAC. All images should be sized appropriately, optimized and art directed for the web. Add a 50 words (maximum) caption to accompany each image. Link to a larger version of each image. Details of image sizes will be provided in class.
+Insert the six original images created in DAC Assessment Two. All images should be sized appropriately, optimized and art directed for the web. Add a caption to accompany each image using your descriptions from Assessment Two.
 
 Finishing with…
 
