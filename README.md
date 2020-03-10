@@ -9,13 +9,13 @@ Header – including your theme title and the navigation elements provided. The 
 Followed by (in any order)…
 
 ## Text content
-Introduction to your theme created in DAC – for example historical background, quotations, interviews, links to external resources – that adds to your overall theme. (500 words +/- 10%) 
+Introduction to your theme created in DAC. See DAC brief for details. 
 
 ## Audio content
-Your audio piece created in DAC, hosted on Soundcloud and embedded in your site responsively. Duration should be no more than 4 minutes, and the audio must not autoplay.
+Your audio piece created in DAC, embedded in your site responsively. See DAC brief for details. 
 
 ## Video content
-Your video created in DAC, hosted on YouTube, embed and responsive. Duration should be no more than 4 minutes, and the video must not autoplay.
+Your video created in DAC, embed and responsive. The video must not autoplay. See DAC brief for details. 
 
 ## Photographic content
 Insert the six original images created in DAC Assessment Two. All images should be sized appropriately, optimized and art directed for the web. Add a caption to accompany each image using your descriptions from Assessment Two.
