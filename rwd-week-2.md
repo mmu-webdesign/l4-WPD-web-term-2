@@ -215,7 +215,7 @@ Once you have chosen your font(s), they need to be added to your HTML and CSS.
 - Add the Google Font code for your *body copy* to the `<head>` of your `index.html` file, **before the link to** `layout.css`. Repeat this if you have selected a second font.
 - Add the font-family CSS rule from Google Fonts to your body rule in `layout.css`.
 - By default Google provides the family of the font you have selected and a generic fallback. Insert between these [a suitable web safe font](https://codepen.io/wilsondmmu/pen/ZaJwOy).
-- Base font (body) should read - Google font, web safe font, fallback.
+- Base font (body) should read - `font-family: your google font, web safe font, your final fallback`.
 
 Save `layout.css` and view the changes to `index.html` in a browser.
 
