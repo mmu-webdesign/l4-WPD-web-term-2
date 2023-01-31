@@ -2,7 +2,7 @@
 
 ## Developing content for your portfolio
 
-During the Spring Term you will be developing a 'responsive' portfolio web site for assignment two. The content for this site will be developed and assessed under the Digital Asset Creation unit. 
+During the Spring Term you will be developing a 'responsive' portfolio web site for the assignment. The content for this site will be developed and assessed under the Digital Asset Creation unit. 
 The quality of any website is reflective on the owner. You are not only being judged on your coding, design, accessibility and usability (Web Page Development) but also on the quality of the text and media (Digital Asset Creation).
 
 [Heidi Cohen](https://twitter.com/heidicohen) describes content as:
@@ -11,29 +11,24 @@ The quality of any website is reflective on the owner. You are not only being ju
 
 Well written content and high quality media is essential for the success of your portfolio.
 
-The Digital Asset Creation assessment brief defines the content as follows:
+In the 2 Digital Asset Creation assessments you have / will have created the following content:
 
-* a Production Summary Report (700 word, +/- 10%)
-* a 4.5 minute audio documentary (900 word equivalence, +/- 10%) 
-* a 4.5 minute video documentary (900 word equivalence, +/- 10%)
-* a written narrative (500 words +/- 10%) 
-* and to present these along with 6 photographic images (from Assignment 2)
+* a Production Summary Report 
+* a 4.5 minute audio documentary
+* a written narrative
+* 6 photographic images
 
-This breaks down into the following sections of your portfolio:
+For the Web Page Development assessment you will be using your DAC content as follows:
 
 ### Introduction
 * a written narrative (500 words +/- 10%) 
 
-### Video
-* a 4.5 minute video documentary (900 word equivalence, +/- 10%)
-* a Production Summary Report (700 word, +/- 10%) - MSWord document submitted to DAC Moodle.
-
 ### Audio
-* a 4.5 minute audio documentary (900 word equivalence, +/- 10%) 
+* a 4.5 minute audio documentary
 
 ### Photography gallery
-* 6 photographic images (from Assignment 2)
-* 6 captions (using your text for each image from Assignment 2)
+* 6 photographic images (from Assessment)
+* 6 captions (using your text for each image from Assessment)
 
 You may want to include links to your social media feeds if you have them.
 
