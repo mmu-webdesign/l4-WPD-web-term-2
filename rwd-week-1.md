@@ -38,7 +38,7 @@ You may want to include links to your social media feeds if you have them.
 - Using the six images from the first DAC assignment.
 - If they can all be the same orientation (landscape or portrait) it does make things simpler, but is not essential. 
 - The images can later be sized appropriately and optimized for the web when you know more about the layout you are creating.
-- **You will require a 7th original image for your 'big banner', often known as the 'hero' image**. This is going to be used at a much larger size. It needs to be high quality. It should be landscape. You may chose to use a short video instead.
+- **You will require a 7th original image for your 'big banner', often known as the 'hero' image**. (This can be one of your 6 images or a different image). This is going to be used at a much larger size. It needs to be high quality. It should be landscape. You may chose to use a short video instead.
 - Remember to keep the full size original images - always edit copies.
 
 ## Task 1 - Mood board
