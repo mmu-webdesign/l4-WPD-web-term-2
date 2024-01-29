@@ -48,7 +48,7 @@ To kick off the design process create a mood board to collate influences and ide
 * Colours 
 * Typography
 
-Following the worksheet included under week 1's Moodle entry, use websites and social media for your inspiration but also you will need to take accounts of your 6 photographs (if these are available). Sample some of the colours from these various sources, looking for a theme. Also start to think about a 'hero' image. Do you already have a suitable image? Do you need to create one?
+Following the worksheet included under week 1's Moodle entry, use websites and social media for your inspiration, but you will also need to take accounts of your 6 photographs (if these are available). Sample some of the colours from these various sources, looking for a theme. Also start to think about a 'hero' image. Do you already have a suitable image? Do you need to create one?
 
 The influences may be digital or physical.
 
