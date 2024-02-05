@@ -200,8 +200,9 @@ We would like you to select either a single Google Font for both your headings a
 Read the [MDN Web Fonts article for much more detail](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) if you would like a deeper understanding of what web fonts are, and how they are implemented. Please note that by using Google Fonts we are not asking you to download the fonts you are using, as described in the article.
 
 ### Selecting and adding your Google Font(s)
+**Before you do this, please make sure you have completed the mood board in your Design report document discussed in week 1.**
 
-- Identify a single font (or font pairing) on [Google Fonts](https://fonts.google.com/): it could be for your headings, for your *body copy*, or for both.
+- Identify a single font (or font pairing) based on the font you chose in your mood board on [Google Fonts](https://fonts.google.com/): it could be for your headings, for your *body copy*, or for both.
 
 ### Help in selecting your fonts
 
@@ -294,9 +295,11 @@ On our [illustration of the layout (pdf)](design-templates/dmc-website-structure
 - Footer (background)
 - Link colours (all states)
 
+**Before you do this, please make sure you have completed the mood board in your Design report document discussed in week 1.**
+
 [Research a colour scheme - try coolors.co](https://coolors.co/). 
 
-**Choose one primary colour and use tints and shades of that colour for the backgrounds. You may also want to select an accent colour.**
+**Choose one primary colour and use tints and shades of that colour for the backgrounds, based on the colours you chose in your mood board. You may also want to select an accent colour.**
 
 **Colour contrast** - check that that each colour/tint has a strong contrast with your text colour. Test each section colour by using [Lea Verou's Contrast ratio checker](http://contrast-ratio.com/). You are looking for a AAA (green) pass for each section. 
 
