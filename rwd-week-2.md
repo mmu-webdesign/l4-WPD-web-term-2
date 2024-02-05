@@ -23,7 +23,7 @@ You are going to develop a single page portfolio. This one page introduces you t
 
 ### Instructions	
 
-- Select the green _Clone or download_ button, select _Download ZIP_. Locate the ZIP file and extract the contents.	
+- Select the green _Code button, select _Download ZIP_. Locate the ZIP file and extract the contents.	
 Extract the folder to a safe location on your computer.	
 - Rename the folder `portfolio`. 	
 - Delete the README.md file.	
