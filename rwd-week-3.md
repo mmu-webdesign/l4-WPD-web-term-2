@@ -147,7 +147,7 @@ This style targets the `<h1>` in the `<header>`. Adjust this style to work on mo
 
 ### Optional
 
-This final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your form - *contact me* or perhaps to your *about me* section.
+This final section of code provides a very neat solution for creating a button out of the `<a>` element. **Why?** You may want to add a *call to action*. This may be a direct link to your *about me* section or your audio.
 
 For example, after your heading and tag line:
 
