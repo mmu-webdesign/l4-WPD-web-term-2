@@ -158,7 +158,7 @@ For example, after your heading and tag line:
 ```
 Add...
 ```
-            <p><a href="#video">Watch my video</a></p>
+            <p><a href="#sound">Listen to my audio</a></p>
 ```
 
 ```
