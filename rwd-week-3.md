@@ -185,7 +185,7 @@ If you chose to add a *call to action* this way, edit the above as required. If 
 
 ---
 
-Video - [Call to action button demonstration](https://youtu.be/s1iEaJGeNdM). The video links to a contact form. You could link to any of your media sections.
+[Call to action button demonstration](https://youtu.be/s1iEaJGeNdM). The YouTube video links to a contact form. You could link to any of your sections.
 
 
 **Note** - You should have a suitable 'hero' image to add using the CSS background declaration next week.
